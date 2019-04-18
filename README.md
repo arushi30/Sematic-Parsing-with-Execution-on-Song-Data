@@ -1,3 +1,20 @@
+# SEMPRE for Song Data: A Modified Version of SEMPRE 2.4
+
+## To install
+
+        conda activate YOUR_ENVIRONMENT_NAME 
+        git clone https://github.com/brinaseidel/sempre.git
+        cd sempre
+        ./pull-dependencies core
+        ant core
+        ./pull-dependencies corenlp
+        ant corenlp
+        ant overnight
+
+
+# To run
+./run @mode=songs 
+
 # SEMPRE 2.4: Semantic Parsing with Execution
 
 ## What is semantic parsing?
