@@ -1,0 +1,10 @@
+(example
+  (utterance "artist whose song is blank space")
+  (targetFormula (string "(formula (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) by_artist_song (string =) (call edu.stanford.nlp.sempre.overnight.Songs.createSongEntity (string "blank space")))))"))
+  (targetValue  (list (name en.artist.taylor_swift)))
+)
+(example
+  (utterance "artist whose song is lucky")
+  (targetFormula (string "(formula (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) by_artist_song (string =) (call edu.stanford.nlp.sempre.overnight.Songs.createSongEntity (string lucky))))"))
+  (targetValue  (list (name en.artist.britney_spears)))
+)
