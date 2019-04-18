@@ -1,0 +1,4 @@
+by_artist_song	en.artist.taylor_swift	en.song.fearless
+by_artist_song	en.artist.taylor_swift	en.song.blank_space
+by_artist_song	en.artist.taylor_swift	en.song.love_story
+by_artist_song	en.artist.britney_spears	en.song.lucky
