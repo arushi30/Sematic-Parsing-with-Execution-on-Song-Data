@@ -38,7 +38,7 @@ public final class Songs {
     createWorld();
     if (!entities.contains(e)) throw new RuntimeException("DB doesn't contain entity " + e);
     if (!properties.contains(property)) throw new RuntimeException("DB doesn't contain property " + property);
-    System.out.println(Arrays.asList(database));
+    //System.out.println(Arrays.asList(database));
     List<Value> values = database.get(new Pair(e, property));
     if (values == null) return Collections.EMPTY_LIST;
     return values;
@@ -116,7 +116,6 @@ public final class Songs {
     if (value instanceof ListValue) {
       ListValue lv = (ListValue) value;
       Collections.sort(lv.values, new Value.ValueComparator());
-      System.out.println(lv.values);
       return (ListValue) value;
     }
     return new ListValue(singleton(value));
@@ -260,7 +259,6 @@ public final class Songs {
 
   public static List<Value> filter(List<Value> entities, String property, String compare, List<Value> refValues) {
     List<Value> newEntities = new ArrayList<>();
-    System.out.println("MADE IT INTO FILTER \n"); // method 1
 
 
     for (Value v : refValues)
@@ -269,7 +267,6 @@ public final class Songs {
     for (Value obj : entities) {
       if (!(obj instanceof NameValue)) continue;
       NameValue e = (NameValue) obj;
-      System.out.println("Made it to lookupDB\n"); // method 1
       List<Value> values = lookupDB(e, property);
       boolean match = false;
 
@@ -498,14 +495,12 @@ public final class Songs {
   // Convert any $PHRASE (eg string) into the format of NameValue with an id of an entity of type song
   public static NameValue createSongEntity(String phrase) {
     String clean_phrase = "en.song." + phrase.replace(' ','_').toLowerCase();
-    System.out.println(clean_phrase);
     return new NameValue(clean_phrase);
   }
 
   // Convert any $PHRASE (eg string) into the format of NameValue with an id of an entity of type song
   public static NameValue createArtistEntity(String phrase) {
     String clean_phrase = "en.artist." + phrase.replace(' ','_').toLowerCase();
-    System.out.println(clean_phrase);
     return new NameValue(clean_phrase);
   }
 }

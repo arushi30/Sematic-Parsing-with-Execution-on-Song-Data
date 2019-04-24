@@ -441,6 +441,19 @@ nil) })
 
 ############################################################
 
+def songFeatureDomains
+  [
+    #'match',
+    #'ppdb',
+    'skip-bigram',
+    'root',
+    #'alignment',
+    #'lexical',
+    #'root_lexical',
+    #'lf',
+    'simpleworld',
+  nil].compact
+end
 
 # Just start a simple interactive shell to try out SEMPRE commands
 addMode('simple', 'Simple shell', lambda { |e| l(
@@ -451,18 +464,93 @@ addMode('simple', 'Simple shell', lambda { |e| l(
   #o('Grammar.tags', 'parse', 'general'),
 nil) })
 
+# Ineractive mode to parse canonical utterances
 addMode('songs', 'Song shell', lambda { |e| l(
-  codalab, 'java', '-cp', 'libsempre/*:lib/*', '-ea', 'edu.stanford.nlp.sempre.Main',
+  header('core,overnight'),
+  'edu.stanford.nlp.sempre.Main',
+  figOpts,
   o('Main.interactive'),
   o('LanguageAnalyzer', 'corenlp.CoreNLPAnalyzer'),
   o('Grammar.inPaths', 'overnight/songs.grammar'),
-  o('Grammar.tags', 'parse', 'general'),
+  o('Grammar.tags', 'parse', 'generate', 'general'),
   o('FeatureExtractor.featureDomains', 'rule'),
 
 	# Add training examples 
-	o('Dataset.inPaths', 'train:song_data/song_train.examples'),
+	#o('Dataset.inPaths', 'train:song_data/song_train.examples'),
 	o('Learner.maxTrainIters', 2),
+
+  # Add floating parser
+  o('Builder.parser', 'FloatingParser'),
+  o('FloatingParser.executeAllDerivations', 'true'),
+  o('FloatingParser.maxDepth', 11),
+  o('Parser.beamSize', 20),
+  o('useAnchorsOnce', true),
+
+  # Features
+  o('PPDBModel.ppdbModelPath', lambda { |e| 'lib/data/overnight/regex-ppdb.txt' }),
+  o('FeatureExtractor.featureDomains', 'denotation'), # denotation features from general feature extractor
+  o('FeatureExtractor.featureComputers', 'overnight.OvernightFeatureComputer'), 
+  o('OvernightFeatureComputer.featureDomains', *songFeatureDomains),
+  #o('OvernightFeatureComputer.featureDomains', ''),
+  #o('initialization', 'paraphrase :: match,1', 'paraphrase :: size,-0.1', 'paraphrase :: ppdb,0.3',
+  #  'paraphrase :: skip-bigram,0.8', 'paraphrase :: skip-ppdb,0.2','denotation :: error,-1000'),
+  #o('coarsePrune'),
+  sel(2,
+    l(), # no reg
+    l(o('Params.l1Reg','lazy'),o('Params.l1RegCoeff',0)),
+    l(o('Params.l1Reg','lazy'),o('Params.l1RegCoeff',0.001)),
+  nil),
+
+  # Add paths to training data?
+  letDefault(:alignment, 1),
+  o('DerivationPruner.pruningComputers', ['overnight.OvernightDerivationPruningComputer']),
+  o('DerivationPruner.pruningStrategies', ['violateHardConstraints']),
+  o('Dataset.inPaths',
+    lambda { |e| 'train:lib/data/overnight/songs.paraphrases.train.examples' },
+    lambda { |e| 'test:lib/data/overnight/songs.paraphrases.test.examples' }),
 nil) })
+
+# Generate canonical utterances from song data 
+addMode('songs_gen', 'Generating song canonical utterances', lambda { |e| l(
+  header('core,overnight'),
+  'edu.stanford.nlp.sempre.overnight.GenerationMain',
+  figOpts,
+  o('JoinFn.typeInference', true),
+  o('JoinFn.specializedTypeCheck', false),
+  o('JavaExecutor.convertNumberValues', false),
+  o('JavaExecutor.printStackTrace', false),
+
+  # These domains are all based on SimpleWorld
+  o('Grammar.inPaths', 'overnight/songs.grammar'),
+  o('initialization', 'denotation :: error,-1000', 'denotation :: empty,-100', 'paraphrase :: size,+0.01', 'denotation :: value_in_formula,-100'),
+  o('FeatureExtractor.featureComputers','overnight.OvernightFeatureComputer'),
+  o('OvernightFeatureComputer.featureDomains', ''),
+  o('OvernightFeatureComputer.itemAnalysis',false),
+  letDefault(:gen, 1),
+  sel(:gen,
+    l( # For debugging the grammar
+      #o('FeatureExtractor.featureDomains', 'denotation'),
+      #o('Dataset.inPaths', lambda { |e| 'train:overnight/' + e[:domain] + '-unittest.examples'}),
+      #selo(:parse, 'Grammar.tags', 'generate', 'parse'),
+      #o('interactive'),
+    nil),
+    l( # For generating utterances
+      o('parser', 'FloatingParser'),
+      o('maxDepth', 30), o('beamSize', 10000),
+      o('derivationScoreNoise', 1),
+      o('Dataset.inPaths', 'train:overnight/null.examples'),
+      o('Derivation.showUtterance'),
+      o('FeatureExtractor.featureDomains', 'denotation'),
+      o('printAllPredictions'),
+      o('printPredictedUtterances'),
+      o('executeAllDerivations'),
+      o('Parser.pruneErrorValues', true),
+      o('Grammar.tags', 'generate'),
+    nil),
+  nil),
+  a('Grammar.tags', 'general'),
+nil) })
+
 
 addMode('simple-sparql', 'Simple shell for querying SPARQL', lambda { |e| l(
   codalab, 'java', '-Dmodules=core,freebase', '-cp', 'libsempre/*:lib/*', '-ea', 'edu.stanford.nlp.sempre.Main',

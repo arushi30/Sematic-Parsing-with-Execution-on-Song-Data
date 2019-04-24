@@ -22,14 +22,16 @@
 (def @filter edu.stanford.nlp.sempre.overnight.Songs.filter)
 
 (def @createWorld edu.stanford.nlp.sempre.overnight.Songs.createWorld)
+(def @aligner edu.stanford.nlp.sempre.Aligner.main)
+
 (def @createSongEntity edu.stanford.nlp.sempre.overnight.Songs.createSongEntity)
 (def @createArtistEntity edu.stanford.nlp.sempre.overnight.Songs.createArtistEntity)
 
 
 ############################################################
 
-# TEST
 (rule $ROOT (create_world) (ConstantFn (call @createWorld)))
+#(rule $ROOT (create_features) (ConstantFn (call @aligner (string[] aligner_input.txt temp.txt berkeley 2))))
 
 ##############################
 # Song-specific grammar
@@ -42,13 +44,16 @@
 (rule $RelNP (song) (ConstantFn by_artist_song))
 (rule $RelNP (artist) (ConstantFn !by_artist_song))
 
-(rule $EntityNP1 ($PHRASE) (lambda x (call @createSongEntity (var x))))
-(rule $EntityNP1 ($PHRASE) (lambda x (call @createArtistEntity (var x))))
+
+(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
+(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
+(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
+(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
 
 
 # NOT USED
-#(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
-#(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
+#(rule $EntityNP1 ($PHRASE) (lambda x (call @createSongEntity (var x))))
+#(rule $EntityNP1 ($PHRASE) (lambda x (call @createArtistEntity (var x))))
 
 ##############################
 # Base cases

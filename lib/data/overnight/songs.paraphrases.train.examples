@@ -1,0 +1,15 @@
+(example
+  (utterance "artist of song fearless and fearless")
+  (original "artist whose song is fearless and whose song is fearless")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) by_artist_song (string =) en.song.fearless) by_artist_song (string =) en.song.fearless))
+  )
+)
+(example
+  (utterance "song by artist who is not taylor swift")
+  (original "song whose artist is not taylor swift")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.song) (string !type)) !by_artist_song (string !=) en.artist.taylor_swift))
+
+  )
+)
