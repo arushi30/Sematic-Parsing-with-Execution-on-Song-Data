@@ -39,10 +39,10 @@
 
 (rule $RelNP (song) (ConstantFn by_artist_song))
 (rule $RelNP (artist) (ConstantFn !by_artist_song))
-(rule $RelNP (year) (ConstantFn song_year)
-(rule $RelNP (song) (ConstantFn !song_year)
-(rule $RelNP (genre) (ConstantFn artist_genre)
-(rule $RelNP (artist) (ConstantFn !artist_genre)
+(rule $RelNP (year) (ConstantFn song_year))
+(rule $RelNP (song) (ConstantFn !song_year))
+(rule $RelNP (genre) (ConstantFn artist_genre))
+(rule $RelNP (artist) (ConstantFn !artist_genre))
 
 (rule $EntityNP1 (buildings) (ConstantFn en.song.building))
 (rule $EntityNP2 (mystic revelation of rastafari) (ConstantFn en.song.mystic_revelation_of_rastafari))
@@ -52,7 +52,15 @@
 (rule $EntityNP1 (2004) (ConstantFn (date 2004 -1 -1)))
 (rule $EntityNP2 (2010) (ConstantFn (date 2010 -1 -1)))
 (rule $EntityNP1 (rock) (ConstantFn en.genre.rock))
-(rule $EntityNP2 (pop) (ConstantFn en.genre.pop))
+(rule $EntityNP1 (pop) (ConstantFn en.genre.pop))
+
+# OLD
+#(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
+#(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
+#(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
+#(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
+#(rule $EntityNP1 (2016) (ConstantFn (date 2016 -1 -1)))
+
 
 ##############################
 # Base cases
