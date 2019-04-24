@@ -24,14 +24,9 @@
 (def @createWorld edu.stanford.nlp.sempre.overnight.Songs.createWorld)
 (def @aligner edu.stanford.nlp.sempre.Aligner.main)
 
-(def @createSongEntity edu.stanford.nlp.sempre.overnight.Songs.createSongEntity)
-(def @createArtistEntity edu.stanford.nlp.sempre.overnight.Songs.createArtistEntity)
-
-
 ############################################################
 
 (rule $ROOT (create_world) (ConstantFn (call @createWorld)))
-#(rule $ROOT (create_features) (ConstantFn (call @aligner (string[] aligner_input.txt temp.txt berkeley 2))))
 
 ##############################
 # Song-specific grammar
@@ -40,20 +35,24 @@
 
 (rule $TypeNP (song) (ConstantFn en.song))
 (rule $TypeNP (artist) (ConstantFn en.artist))
+(rule $TypeNP (genre) (ConstantFn en.genre))
 
 (rule $RelNP (song) (ConstantFn by_artist_song))
 (rule $RelNP (artist) (ConstantFn !by_artist_song))
+(rule $RelNP (year) (ConstantFn song_year)
+(rule $RelNP (song) (ConstantFn !song_year)
+(rule $RelNP (genre) (ConstantFn artist_genre)
+(rule $RelNP (artist) (ConstantFn !artist_genre)
 
-
-(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
-(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
-(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
-(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
-
-
-# NOT USED
-#(rule $EntityNP1 ($PHRASE) (lambda x (call @createSongEntity (var x))))
-#(rule $EntityNP1 ($PHRASE) (lambda x (call @createArtistEntity (var x))))
+(rule $EntityNP1 (buildings) (ConstantFn en.song.building))
+(rule $EntityNP2 (mystic revelation of rastafari) (ConstantFn en.song.mystic_revelation_of_rastafari))
+(rule $EntityNP1 (tonex) (ConstantFn en.artist.tonex))
+(rule $EntityNP1 (galactic odyssey) (ConstantFn en.artist.galactic_odyssey))
+(rule $EntityNP2 (galactic odyssey) (ConstantFn en.artist.galactic_odyssey))
+(rule $EntityNP1 (2004) (ConstantFn (date 2004 -1 -1)))
+(rule $EntityNP2 (2010) (ConstantFn (date 2010 -1 -1)))
+(rule $EntityNP1 (rock) (ConstantFn en.genre.rock))
+(rule $EntityNP2 (pop) (ConstantFn en.genre.pop))
 
 ##############################
 # Base cases
