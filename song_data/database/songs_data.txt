@@ -1,0 +1,1065 @@
+by_artist_song	en.artist.andromeda	en.song.ameno
+song_year	en.song.ameno	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronica
+by_artist_song	en.artist.andromeda	en.song.plaza_del_trippy
+song_year	en.song.plaza_del_trippy	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronica
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(dj_ato_remix)
+song_year	en.song.scarborough_fair_(dj_ato_remix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronica
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(original_dance_tunes_mix)
+song_year	en.song.scarborough_fair_(original_dance_tunes_mix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronica
+by_artist_song	en.artist.andromeda	en.song.ameno
+song_year	en.song.ameno	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronic
+by_artist_song	en.artist.andromeda	en.song.plaza_del_trippy
+song_year	en.song.plaza_del_trippy	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronic
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(dj_ato_remix)
+song_year	en.song.scarborough_fair_(dj_ato_remix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronic
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(original_dance_tunes_mix)
+song_year	en.song.scarborough_fair_(original_dance_tunes_mix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.electronic
+by_artist_song	en.artist.andromeda	en.song.ameno
+song_year	en.song.ameno	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.progressive
+by_artist_song	en.artist.andromeda	en.song.plaza_del_trippy
+song_year	en.song.plaza_del_trippy	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.progressive
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(dj_ato_remix)
+song_year	en.song.scarborough_fair_(dj_ato_remix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.progressive
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(original_dance_tunes_mix)
+song_year	en.song.scarborough_fair_(original_dance_tunes_mix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.progressive
+by_artist_song	en.artist.andromeda	en.song.ameno
+song_year	en.song.ameno	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.ambient
+by_artist_song	en.artist.andromeda	en.song.plaza_del_trippy
+song_year	en.song.plaza_del_trippy	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.ambient
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(dj_ato_remix)
+song_year	en.song.scarborough_fair_(dj_ato_remix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.ambient
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(original_dance_tunes_mix)
+song_year	en.song.scarborough_fair_(original_dance_tunes_mix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.ambient
+by_artist_song	en.artist.andromeda	en.song.ameno
+song_year	en.song.ameno	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.psychedelic
+by_artist_song	en.artist.andromeda	en.song.plaza_del_trippy
+song_year	en.song.plaza_del_trippy	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.psychedelic
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(dj_ato_remix)
+song_year	en.song.scarborough_fair_(dj_ato_remix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.psychedelic
+by_artist_song	en.artist.andromeda	en.song.scarborough_fair_(original_dance_tunes_mix)
+song_year	en.song.scarborough_fair_(original_dance_tunes_mix)	(date 0 -1 -1)
+artist_genre	en.artist.andromeda	en.genre.psychedelic
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.dark_wave
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.dark_wave
+by_artist_song	en.artist.sleazy_romance	en.song.emily_scott
+song_year	en.song.emily_scott	(date 2008 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.dark_wave
+by_artist_song	en.artist.sleazy_romance	en.song.geldof
+song_year	en.song.geldof	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.dark_wave
+by_artist_song	en.artist.sleazy_romance	en.song.lipstick
+song_year	en.song.lipstick	(date 2006 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.dark_wave
+by_artist_song	en.artist.sleazy_romance	en.song.middleclass_love
+song_year	en.song.middleclass_love	(date 2006 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.dark_wave
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.shoegaze
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.shoegaze
+by_artist_song	en.artist.sleazy_romance	en.song.emily_scott
+song_year	en.song.emily_scott	(date 2008 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.shoegaze
+by_artist_song	en.artist.sleazy_romance	en.song.geldof
+song_year	en.song.geldof	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.shoegaze
+by_artist_song	en.artist.sleazy_romance	en.song.lipstick
+song_year	en.song.lipstick	(date 2006 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.shoegaze
+by_artist_song	en.artist.sleazy_romance	en.song.middleclass_love
+song_year	en.song.middleclass_love	(date 2006 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.shoegaze
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.pop_rock
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.pop_rock
+by_artist_song	en.artist.sleazy_romance	en.song.emily_scott
+song_year	en.song.emily_scott	(date 2008 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.pop_rock
+by_artist_song	en.artist.sleazy_romance	en.song.geldof
+song_year	en.song.geldof	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.pop_rock
+by_artist_song	en.artist.sleazy_romance	en.song.lipstick
+song_year	en.song.lipstick	(date 2006 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.pop_rock
+by_artist_song	en.artist.sleazy_romance	en.song.middleclass_love
+song_year	en.song.middleclass_love	(date 2006 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.pop_rock
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.emo
+by_artist_song	en.artist.sleazy_romance	en.song.be_with_my_bed
+song_year	en.song.be_with_my_bed	(date 2007 -1 -1)
+artist_genre	en.artist.sleazy_romance	en.genre.emo
+by_artist_song	en.artist.jonathan_martin	en.song.dont_let_me_miss_the_glory
+song_year	en.song.dont_let_me_miss_the_glory	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.acid_jazz
+by_artist_song	en.artist.jonathan_martin	en.song.enter_in
+song_year	en.song.enter_in	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.acid_jazz
+by_artist_song	en.artist.jonathan_martin	en.song.lead_you_to_the_cross
+song_year	en.song.lead_you_to_the_cross	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.acid_jazz
+by_artist_song	en.artist.jonathan_martin	en.song.let_your_mercy_come
+song_year	en.song.let_your_mercy_come	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.acid_jazz
+by_artist_song	en.artist.jonathan_martin	en.song.dont_let_me_miss_the_glory
+song_year	en.song.dont_let_me_miss_the_glory	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.jazz
+by_artist_song	en.artist.jonathan_martin	en.song.enter_in
+song_year	en.song.enter_in	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.jazz
+by_artist_song	en.artist.jonathan_martin	en.song.lead_you_to_the_cross
+song_year	en.song.lead_you_to_the_cross	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.jazz
+by_artist_song	en.artist.jonathan_martin	en.song.let_your_mercy_come
+song_year	en.song.let_your_mercy_come	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.jazz
+by_artist_song	en.artist.jonathan_martin	en.song.dont_let_me_miss_the_glory
+song_year	en.song.dont_let_me_miss_the_glory	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.ambient
+by_artist_song	en.artist.jonathan_martin	en.song.enter_in
+song_year	en.song.enter_in	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.ambient
+by_artist_song	en.artist.jonathan_martin	en.song.lead_you_to_the_cross
+song_year	en.song.lead_you_to_the_cross	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.ambient
+by_artist_song	en.artist.jonathan_martin	en.song.let_your_mercy_come
+song_year	en.song.let_your_mercy_come	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.ambient
+by_artist_song	en.artist.jonathan_martin	en.song.dont_let_me_miss_the_glory
+song_year	en.song.dont_let_me_miss_the_glory	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.psychedelic_rock
+by_artist_song	en.artist.jonathan_martin	en.song.enter_in
+song_year	en.song.enter_in	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.psychedelic_rock
+by_artist_song	en.artist.jonathan_martin	en.song.lead_you_to_the_cross
+song_year	en.song.lead_you_to_the_cross	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.psychedelic_rock
+by_artist_song	en.artist.jonathan_martin	en.song.let_your_mercy_come
+song_year	en.song.let_your_mercy_come	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.psychedelic_rock
+by_artist_song	en.artist.jonathan_martin	en.song.dont_let_me_miss_the_glory
+song_year	en.song.dont_let_me_miss_the_glory	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.violin
+by_artist_song	en.artist.jonathan_martin	en.song.enter_in
+song_year	en.song.enter_in	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.violin
+by_artist_song	en.artist.jonathan_martin	en.song.lead_you_to_the_cross
+song_year	en.song.lead_you_to_the_cross	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.violin
+by_artist_song	en.artist.jonathan_martin	en.song.let_your_mercy_come
+song_year	en.song.let_your_mercy_come	(date 0 -1 -1)
+artist_genre	en.artist.jonathan_martin	en.genre.violin
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.a_kind_of_love_in
+song_year	en.song.a_kind_of_love_in	(date 1967 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.a_word_about_colour
+song_year	en.song.a_word_about_colour	(date 0 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.all_blues
+song_year	en.song.all_blues	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.break_it_up
+song_year	en.song.break_it_up	(date 1967 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.ellis_island
+song_year	en.song.ellis_island	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.finally_found_you_out
+song_year	en.song.finally_found_you_out	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.i_got_life
+song_year	en.song.i_got_life	(date 1992 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.in_search_of_the_sun
+song_year	en.song.in_search_of_the_sun	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.indian_rope_man
+song_year	en.song.indian_rope_man	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.indian_rope_man
+song_year	en.song.indian_rope_man	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.let_the_sun_shine_in
+song_year	en.song.let_the_sun_shine_in	(date 0 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.light_my_fire
+song_year	en.song.light_my_fire	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.looking_in_the_eye_of_the_world
+song_year	en.song.looking_in_the_eye_of_the_world	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.road_to_cairo
+song_year	en.song.road_to_cairo	(date 2005 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.save_me
+song_year	en.song.save_me	(date 2008 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.save_the_country
+song_year	en.song.save_the_country	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.save_the_country
+song_year	en.song.save_the_country	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.season_of_the_witch
+song_year	en.song.season_of_the_witch	(date 1967 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.take_me_to_the_water_/_im_going_back_home
+song_year	en.song.take_me_to_the_water_/_im_going_back_home	(date 0 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.song.this_wheels_on_fire
+song_year	en.song.this_wheels_on_fire	(date 1968 -1 -1)
+artist_genre	en.artist.julie_driscoll__brian_auger_&_the_trinity	en.genre.blues-rock
+by_artist_song	en.artist.joseph_fire_crow	en.song.a_far_cry
+song_year	en.song.a_far_cry	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.as_people
+song_year	en.song.as_people	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.bobtail_horse
+song_year	en.song.bobtail_horse	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.by_my_own_hand
+song_year	en.song.by_my_own_hand	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.cheyenne_honor_song
+song_year	en.song.cheyenne_honor_song	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.cheyenne_man
+song_year	en.song.cheyenne_man	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.cheyenne_nation
+song_year	en.song.cheyenne_nation	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.cheyenne_nation
+song_year	en.song.cheyenne_nation	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.circle_dance
+song_year	en.song.circle_dance	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.circle_dance
+song_year	en.song.circle_dance	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.coming_home
+song_year	en.song.coming_home	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.creators_prayer
+song_year	en.song.creators_prayer	(date 1996 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.dont_look_back
+song_year	en.song.dont_look_back	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.eagle_boy
+song_year	en.song.eagle_boy	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.early_morning
+song_year	en.song.early_morning	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.first_flute_song
+song_year	en.song.first_flute_song	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.flight_of_dreams
+song_year	en.song.flight_of_dreams	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.horse_stealing_song
+song_year	en.song.horse_stealing_song	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.i_walk_with_you
+song_year	en.song.i_walk_with_you	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.joseph_fire_crow	en.song.intertribal_war_dance_song
+song_year	en.song.intertribal_war_dance_song	(date 0 -1 -1)
+artist_genre	en.artist.joseph_fire_crow	en.genre.world
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.gangster_rap
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.beat
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.rap
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.west_coast
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.classic
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.chill-out
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.heavy
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.dark
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.beats
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.slow
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.hardcore
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.underground
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.solo
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.pretty
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.gangsta
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.fresh
+by_artist_song	en.artist.fig_naytion	en.song.waste_not
+song_year	en.song.waste_not	(date 0 -1 -1)
+artist_genre	en.artist.fig_naytion	en.genre.hip_hop
+by_artist_song	en.artist.moonlyn	en.song.alone
+song_year	en.song.alone	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.go_away
+song_year	en.song.go_away	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.i_believe
+song_year	en.song.i_believe	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.i_burn_4_u
+song_year	en.song.i_burn_4_u	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.i_wanna_be_your_little_girl
+song_year	en.song.i_wanna_be_your_little_girl	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.ooh!
+song_year	en.song.ooh!	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.queen_of_pain
+song_year	en.song.queen_of_pain	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indietronica
+by_artist_song	en.artist.moonlyn	en.song.alone
+song_year	en.song.alone	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.go_away
+song_year	en.song.go_away	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.i_believe
+song_year	en.song.i_believe	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.i_burn_4_u
+song_year	en.song.i_burn_4_u	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.i_wanna_be_your_little_girl
+song_year	en.song.i_wanna_be_your_little_girl	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.ooh!
+song_year	en.song.ooh!	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.queen_of_pain
+song_year	en.song.queen_of_pain	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.pop_rock
+by_artist_song	en.artist.moonlyn	en.song.alone
+song_year	en.song.alone	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indie_pop
+by_artist_song	en.artist.moonlyn	en.song.go_away
+song_year	en.song.go_away	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indie_pop
+by_artist_song	en.artist.moonlyn	en.song.i_believe
+song_year	en.song.i_believe	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indie_pop
+by_artist_song	en.artist.moonlyn	en.song.i_burn_4_u
+song_year	en.song.i_burn_4_u	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indie_pop
+by_artist_song	en.artist.moonlyn	en.song.i_wanna_be_your_little_girl
+song_year	en.song.i_wanna_be_your_little_girl	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indie_pop
+by_artist_song	en.artist.moonlyn	en.song.ooh!
+song_year	en.song.ooh!	(date 0 -1 -1)
+artist_genre	en.artist.moonlyn	en.genre.indie_pop
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.don_giovanni
+song_year	en.song.don_giovanni	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.il_colore_del_vetro
+song_year	en.song.il_colore_del_vetro	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.il_pittore_del_mondo
+song_year	en.song.il_pittore_del_mondo	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.infezione
+song_year	en.song.infezione	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.laltra_meta_di_me_stesso
+song_year	en.song.laltra_meta_di_me_stesso	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.lastronauta
+song_year	en.song.lastronauta	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.lidiota
+song_year	en.song.lidiota	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.la_mia_fetta
+song_year	en.song.la_mia_fetta	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.lacrime_e_fango
+song_year	en.song.lacrime_e_fango	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.muscoli_di_carta
+song_year	en.song.muscoli_di_carta	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.non_sono_io__sono_gli_altri
+song_year	en.song.non_sono_io__sono_gli_altri	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.piume_di_cristallo
+song_year	en.song.piume_di_cristallo	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.sottile_ipocrisia
+song_year	en.song.sottile_ipocrisia	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.indie
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.don_giovanni
+song_year	en.song.don_giovanni	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.il_colore_del_vetro
+song_year	en.song.il_colore_del_vetro	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.il_pittore_del_mondo
+song_year	en.song.il_pittore_del_mondo	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.infezione
+song_year	en.song.infezione	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.laltra_meta_di_me_stesso
+song_year	en.song.laltra_meta_di_me_stesso	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.lastronauta
+song_year	en.song.lastronauta	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.il_disordine_delle_cose	en.song.lidiota
+song_year	en.song.lidiota	(date 2009 -1 -1)
+artist_genre	en.artist.il_disordine_delle_cose	en.genre.italian
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.country_rock
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.hardstyle
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.hard_house
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.blues
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.indie_rock
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.intelligent_dance_music
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.electronic
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.country
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.french
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.house
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.nederland
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.guitar_blues
+by_artist_song	en.artist.sixty69nine	en.song.music_in_my_dna
+song_year	en.song.music_in_my_dna	(date 0 -1 -1)
+artist_genre	en.artist.sixty69nine	en.genre.hip_hop
+by_artist_song	en.artist.delroy_wilson	en.song.adisabab
+song_year	en.song.adisabab	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.as_long_as_you_are_true
+song_year	en.song.as_long_as_you_are_true	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_baby_-_original
+song_year	en.song.baby_baby_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_here_i_am_-_original
+song_year	en.song.baby_here_i_am_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_i_need_your_loving
+song_year	en.song.baby_i_need_your_loving	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_you_got_what_it_takes_-_original
+song_year	en.song.baby_you_got_what_it_takes_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.call_on_me
+song_year	en.song.call_on_me	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.cant_you_see
+song_year	en.song.cant_you_see	(date 1966 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.close_to_me_(dub)
+song_year	en.song.close_to_me_(dub)	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.come_softly
+song_year	en.song.come_softly	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.conquer_me
+song_year	en.song.conquer_me	(date 2009 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.dancing_horns_(instrumental)
+song_year	en.song.dancing_horns_(instrumental)	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.dancing_mood
+song_year	en.song.dancing_mood	(date 1983 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.do_that_to_me_one_more_time
+song_year	en.song.do_that_to_me_one_more_time	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.find_yourself_another_girl
+song_year	en.song.find_yourself_another_girl	(date 2009 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.freedom_train_is_coming
+song_year	en.song.freedom_train_is_coming	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.get_ready
+song_year	en.song.get_ready	(date 2006 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.give_you_my_love
+song_year	en.song.give_you_my_love	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.half_way_up_the_stairs
+song_year	en.song.half_way_up_the_stairs	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.happy_times_again_-_original
+song_year	en.song.happy_times_again_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.adisabab
+song_year	en.song.adisabab	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.as_long_as_you_are_true
+song_year	en.song.as_long_as_you_are_true	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_baby_-_original
+song_year	en.song.baby_baby_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_here_i_am_-_original
+song_year	en.song.baby_here_i_am_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_i_need_your_loving
+song_year	en.song.baby_i_need_your_loving	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_you_got_what_it_takes_-_original
+song_year	en.song.baby_you_got_what_it_takes_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.call_on_me
+song_year	en.song.call_on_me	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.cant_you_see
+song_year	en.song.cant_you_see	(date 1966 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.close_to_me_(dub)
+song_year	en.song.close_to_me_(dub)	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.come_softly
+song_year	en.song.come_softly	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.conquer_me
+song_year	en.song.conquer_me	(date 2009 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.dancing_horns_(instrumental)
+song_year	en.song.dancing_horns_(instrumental)	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.dancing_mood
+song_year	en.song.dancing_mood	(date 1983 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.do_that_to_me_one_more_time
+song_year	en.song.do_that_to_me_one_more_time	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.find_yourself_another_girl
+song_year	en.song.find_yourself_another_girl	(date 2009 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.freedom_train_is_coming
+song_year	en.song.freedom_train_is_coming	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.get_ready
+song_year	en.song.get_ready	(date 2006 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.give_you_my_love
+song_year	en.song.give_you_my_love	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.half_way_up_the_stairs
+song_year	en.song.half_way_up_the_stairs	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.happy_times_again_-_original
+song_year	en.song.happy_times_again_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.adisabab
+song_year	en.song.adisabab	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.as_long_as_you_are_true
+song_year	en.song.as_long_as_you_are_true	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_baby_-_original
+song_year	en.song.baby_baby_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_here_i_am_-_original
+song_year	en.song.baby_here_i_am_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_i_need_your_loving
+song_year	en.song.baby_i_need_your_loving	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.baby_you_got_what_it_takes_-_original
+song_year	en.song.baby_you_got_what_it_takes_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.call_on_me
+song_year	en.song.call_on_me	(date 1999 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.cant_you_see
+song_year	en.song.cant_you_see	(date 1966 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.close_to_me_(dub)
+song_year	en.song.close_to_me_(dub)	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.come_softly
+song_year	en.song.come_softly	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.conquer_me
+song_year	en.song.conquer_me	(date 2009 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.dancing_horns_(instrumental)
+song_year	en.song.dancing_horns_(instrumental)	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.dancing_mood
+song_year	en.song.dancing_mood	(date 1983 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.do_that_to_me_one_more_time
+song_year	en.song.do_that_to_me_one_more_time	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.find_yourself_another_girl
+song_year	en.song.find_yourself_another_girl	(date 2009 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.freedom_train_is_coming
+song_year	en.song.freedom_train_is_coming	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.get_ready
+song_year	en.song.get_ready	(date 2006 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.give_you_my_love
+song_year	en.song.give_you_my_love	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.half_way_up_the_stairs
+song_year	en.song.half_way_up_the_stairs	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.delroy_wilson	en.song.happy_times_again_-_original
+song_year	en.song.happy_times_again_-_original	(date 0 -1 -1)
+artist_genre	en.artist.delroy_wilson	en.genre.rock_steady
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.europop
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.happy_hardcore
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.pop_rap
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.disco
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.hip_house
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.progressive_trance
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.hard_trance
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.eurodance
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.italian_disco
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.trance
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.hip_hop
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.electronic
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.downtempo
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.pop_rock
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.techno
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.dub
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.dance
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.house
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.germany
+by_artist_song	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.song.in_der_fremd_(o_hamat__du_teure_mein)
+song_year	en.song.in_der_fremd_(o_hamat__du_teure_mein)	(date 0 -1 -1)
+artist_genre	en.artist.mannerchor_koschatbund__ltg.:_edi_wasserfaller	en.genre.reggae
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.hard_trance
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.hard_trance
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.hard_house
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.hard_house
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.trance
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.trance
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.progressive_trance
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.progressive_trance
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.electronic
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.electronic
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.happy_hardcore
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.happy_hardcore
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.italian_disco
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.italian_disco
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.europop
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.europop
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.hardstyle
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.hardstyle
+by_artist_song	en.artist.dirt_devils	en.song.music_is_life
+song_year	en.song.music_is_life	(date 2003 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.techno
+by_artist_song	en.artist.dirt_devils	en.song.the_drill
+song_year	en.song.the_drill	(date 2001 -1 -1)
+artist_genre	en.artist.dirt_devils	en.genre.techno
+by_artist_song	en.artist.francis_magalona	en.song.ayoko_sa_dilim_(1997_digital_remaster)
+song_year	en.song.ayoko_sa_dilim_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.bahay_yugyugan_(1997_digital_remaster)
+song_year	en.song.bahay_yugyugan_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.cold_summer_nights
+song_year	en.song.cold_summer_nights	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.gotta_letcha_know_(1997_digital_remaster)
+song_year	en.song.gotta_letcha_know_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.halalan_(1997_digital_remaster)
+song_year	en.song.halalan_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.ito_ang_gusto_ko!_(1997_digital_remaster)
+song_year	en.song.ito_ang_gusto_ko!_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.man_from_manila_(1997_digital_remaster)
+song_year	en.song.man_from_manila_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.meron_akong_ano!_(1997_digital_remaster)
+song_year	en.song.meron_akong_ano!_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.mga_kababayan__(1997_digital_remaster)
+song_year	en.song.mga_kababayan__(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.mga_kababayan_(radio_edit)_(1997_digital_remaster)
+song_year	en.song.mga_kababayan_(radio_edit)_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.mga_praning_(1997_digital_remaster)
+song_year	en.song.mga_praning_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.my_only_one_(1997_digital_remaster)
+song_year	en.song.my_only_one_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.nilamon_ng_sistema_(1997_digital_remaster)
+song_year	en.song.nilamon_ng_sistema_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.tayoy_mga_pinoy_(1997_digital_remaster)
+song_year	en.song.tayoy_mga_pinoy_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.ubos_biyaya_(1997_digital_remaster)
+song_year	en.song.ubos_biyaya_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.pinoy_rock
+by_artist_song	en.artist.francis_magalona	en.song.ayoko_sa_dilim_(1997_digital_remaster)
+song_year	en.song.ayoko_sa_dilim_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.freestyle
+by_artist_song	en.artist.francis_magalona	en.song.bahay_yugyugan_(1997_digital_remaster)
+song_year	en.song.bahay_yugyugan_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.freestyle
+by_artist_song	en.artist.francis_magalona	en.song.cold_summer_nights
+song_year	en.song.cold_summer_nights	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.freestyle
+by_artist_song	en.artist.francis_magalona	en.song.gotta_letcha_know_(1997_digital_remaster)
+song_year	en.song.gotta_letcha_know_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.freestyle
+by_artist_song	en.artist.francis_magalona	en.song.halalan_(1997_digital_remaster)
+song_year	en.song.halalan_(1997_digital_remaster)	(date 0 -1 -1)
+artist_genre	en.artist.francis_magalona	en.genre.freestyle
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.chanson
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.freakbeat
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.europop
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.disco
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.pop_rock
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.classic_rock
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.rock
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.pop
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.french
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.60s
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.electronic
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.belgium
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.latin
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.funk_soul
+by_artist_song	en.artist.les_sunlights	en.song.maman_la_plus_belle_du_monde
+song_year	en.song.maman_la_plus_belle_du_monde	(date 2004 -1 -1)
+artist_genre	en.artist.les_sunlights	en.genre.alternative_rock
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.crumbs_from_the_table
+song_year	en.song.crumbs_from_the_table	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.daddy_sang_bass
+song_year	en.song.daddy_sang_bass	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.did_you_let_your_light_shine?
+song_year	en.song.did_you_let_your_light_shine?	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.god_will
+song_year	en.song.god_will	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.he_turned_the_water_into_wine
+song_year	en.song.he_turned_the_water_into_wine	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.his_love_takes_care_of_me
+song_year	en.song.his_love_takes_care_of_me	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.if_god_is_dead(whos_this_living_in_my_soul?)
+song_year	en.song.if_god_is_dead(whos_this_living_in_my_soul?)	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.now_lord__what_can_i_do_for_you?
+song_year	en.song.now_lord__what_can_i_do_for_you?	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.sunday_morning
+song_year	en.song.sunday_morning	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.way_up_on_the_mountain
+song_year	en.song.way_up_on_the_mountain	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.well_its_all_right
+song_year	en.song.well_its_all_right	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.whispering_hope
+song_year	en.song.whispering_hope	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.country_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.crumbs_from_the_table
+song_year	en.song.crumbs_from_the_table	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.daddy_sang_bass
+song_year	en.song.daddy_sang_bass	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.did_you_let_your_light_shine?
+song_year	en.song.did_you_let_your_light_shine?	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.god_will
+song_year	en.song.god_will	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.he_turned_the_water_into_wine
+song_year	en.song.he_turned_the_water_into_wine	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.his_love_takes_care_of_me
+song_year	en.song.his_love_takes_care_of_me	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.if_god_is_dead(whos_this_living_in_my_soul?)
+song_year	en.song.if_god_is_dead(whos_this_living_in_my_soul?)	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.nat_stuckey_&_connie_smith	en.song.now_lord__what_can_i_do_for_you?
+song_year	en.song.now_lord__what_can_i_do_for_you?	(date 0 -1 -1)
+artist_genre	en.artist.nat_stuckey_&_connie_smith	en.genre.religious_music
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.chill-out
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.neo_soul
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.downtempo
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.hip_hop
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.rock
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.beats
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.new_zealand
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.soul
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.wellington
+by_artist_song	en.artist.electric_wire_hustle	en.song.they_dont_want
+song_year	en.song.they_dont_want	(date 2009 -1 -1)
+artist_genre	en.artist.electric_wire_hustle	en.genre.future_soul
+by_artist_song	en.artist.voodoo_circle	en.song.angels_will_cry
+song_year	en.song.angels_will_cry	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.desperate_heart
+song_year	en.song.desperate_heart	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.dream_of_eden_(doogie/david_version)
+song_year	en.song.dream_of_eden_(doogie/david_version)	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.enter_my_world_of_darkness
+song_year	en.song.enter_my_world_of_darkness	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.heaven_can_wait
+song_year	en.song.heaven_can_wait	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.kingdom_of_the_blind
+song_year	en.song.kingdom_of_the_blind	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.man_and_machine
+song_year	en.song.man_and_machine	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.master_of_illusion
+song_year	en.song.master_of_illusion	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.spewing_lies
+song_year	en.song.spewing_lies	(date 2010 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.well_never_learn
+song_year	en.song.well_never_learn	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.white_lady_requiem
+song_year	en.song.white_lady_requiem	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.power_metal
+by_artist_song	en.artist.voodoo_circle	en.song.angels_will_cry
+song_year	en.song.angels_will_cry	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.desperate_heart
+song_year	en.song.desperate_heart	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.dream_of_eden_(doogie/david_version)
+song_year	en.song.dream_of_eden_(doogie/david_version)	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.enter_my_world_of_darkness
+song_year	en.song.enter_my_world_of_darkness	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.heaven_can_wait
+song_year	en.song.heaven_can_wait	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.kingdom_of_the_blind
+song_year	en.song.kingdom_of_the_blind	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.man_and_machine
+song_year	en.song.man_and_machine	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.master_of_illusion
+song_year	en.song.master_of_illusion	(date 0 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
+by_artist_song	en.artist.voodoo_circle	en.song.spewing_lies
+song_year	en.song.spewing_lies	(date 2010 -1 -1)
+artist_genre	en.artist.voodoo_circle	en.genre.hard_rock
