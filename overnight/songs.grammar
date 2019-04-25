@@ -44,15 +44,14 @@
 (rule $RelNP (genre) (ConstantFn artist_genre))
 (rule $RelNP (artist) (ConstantFn !artist_genre))
 
-(rule $EntityNP1 (buildings) (ConstantFn en.song.building))
-(rule $EntityNP2 (mystic revelation of rastafari) (ConstantFn en.song.mystic_revelation_of_rastafari))
-(rule $EntityNP1 (tonex) (ConstantFn en.artist.tonex))
-(rule $EntityNP1 (galactic odyssey) (ConstantFn en.artist.galactic_odyssey))
-(rule $EntityNP2 (galactic odyssey) (ConstantFn en.artist.galactic_odyssey))
-(rule $EntityNP1 (2004) (ConstantFn (date 2004 -1 -1)))
-(rule $EntityNP2 (2010) (ConstantFn (date 2010 -1 -1)))
-(rule $EntityNP1 (rock) (ConstantFn en.genre.rock))
-(rule $EntityNP1 (pop) (ConstantFn en.genre.pop))
+(rule $EntityNP1 (ameno) (ConstantFn en.song.ameno))
+(rule $EntityNP2 (middleclass love) (ConstantFn en.song.middleclass_love))
+(rule $EntityNP1 (andromeda) (ConstantFn en.artist.andromeda))
+(rule $EntityNP2 (sleazy romance) (ConstantFn en.artist.sleazy_romance))
+(rule $EntityNP1 (0) (ConstantFn (date 0 -1 -1)))
+(rule $EntityNP2 (2006) (ConstantFn (date 2006 -1 -1)))
+(rule $EntityNP1 (electronica) (ConstantFn en.genre.electronica))
+(rule $EntityNP1 (dark wave) (ConstantFn en.genre.dark_wave))
 
 # OLD
 #(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
@@ -216,25 +215,25 @@
   (rule $CP (that has less than $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string <)  (var num)))))) # Cl
   (rule $CP (that has more than $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string >)  (var num)))))) # Cg
   (rule $CP (that has at most   $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string <=) (var num)))))) # Cleq
-  (rule $CP (that has at least  $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string >=) (var num)))))) # Cgeq 
+  (rule $CP (that has at least  $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string >=) (var num)))))) # Cgeq
   # C2
   (rule $CP (that $VP/NP           $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string =)  (var num) (var np))))))) # Ceq
   (rule $CP (that $VP/NP less than $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string <)  (var num) (var np))))))) # Cl
   (rule $CP (that $VP/NP more than $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string >)  (var num) (var np))))))) # Cg
   (rule $CP (that $VP/NP at most   $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string <=) (var num) (var np))))))) # Cleq
-  (rule $CP (that $VP/NP at least  $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string >=) (var num) (var np))))))) # Cgeq 
+  (rule $CP (that $VP/NP at least  $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string >=) (var num) (var np))))))) # Cgeq
   # C3
   (rule $CP (that is $RelNP of           $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string =)  (var num) (var np))))))) # Ceq
   (rule $CP (that is $RelNP of less than $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <)  (var num) (var np))))))) # Cl
   (rule $CP (that is $RelNP of more than $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >)  (var num) (var np))))))) # Cg
   (rule $CP (that is $RelNP of at most   $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <=) (var num) (var np))))))) # Cleq
-  (rule $CP (that is $RelNP of at least  $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq 
+  (rule $CP (that is $RelNP of at least  $Num $NP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq
   # C4
   (rule $CP (that           $Num $NP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string =)  (var num) (var np))))))) # Ceq
   (rule $CP (that less than $Num $NP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <)  (var num) (var np))))))) # Cl
   (rule $CP (that more than $Num $NP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >)  (var num) (var np))))))) # Cg
   (rule $CP (that at most   $Num $NP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <=) (var num) (var np))))))) # Cleq
-  (rule $CP (that at least  $Num $NP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq 
+  (rule $CP (that at least  $Num $NP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq
 )
 (when (and generate general) # $CP => $CP1, $NP => $UnaryNP
   # S1
@@ -257,25 +256,25 @@
   (rule $CP1 (that has less than $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string <)  (var num)))))) # Cl
   (rule $CP1 (that has more than $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string >)  (var num)))))) # Cg
   (rule $CP1 (that has at most   $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string <=) (var num)))))) # Cleq
-  (rule $CP1 (that has at least  $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string >=) (var num)))))) # Cgeq 
+  (rule $CP1 (that has at least  $Num $RelNP) (lambda num (lambda r (lambda s (call @countComparative (var s) (var r) (string >=) (var num)))))) # Cgeq
   # C2
   (rule $CP1 (that $VP/NP           $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string =)  (var num) (var np))))))) # Ceq
   (rule $CP1 (that $VP/NP less than $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string <)  (var num) (var np))))))) # Cl
   (rule $CP1 (that $VP/NP more than $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string >)  (var num) (var np))))))) # Cg
   (rule $CP1 (that $VP/NP at most   $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string <=) (var num) (var np))))))) # Cleq
-  (rule $CP1 (that $VP/NP at least  $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string >=) (var num) (var np))))))) # Cgeq 
+  (rule $CP1 (that $VP/NP at least  $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (var r) (string >=) (var num) (var np))))))) # Cgeq
   # C3
   (rule $CP1 (that is $RelNP of           $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string =)  (var num) (var np))))))) # Ceq
   (rule $CP1 (that is $RelNP of less than $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <)  (var num) (var np))))))) # Cl
   (rule $CP1 (that is $RelNP of more than $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >)  (var num) (var np))))))) # Cg
   (rule $CP1 (that is $RelNP of at most   $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <=) (var num) (var np))))))) # Cleq
-  (rule $CP1 (that is $RelNP of at least  $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq 
+  (rule $CP1 (that is $RelNP of at least  $Num $UnaryNP) (lambda r (lambda num (lambda np (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq
   # C4
   (rule $CP1 (that           $Num $UnaryNP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string =)  (var num) (var np))))))) # Ceq
   (rule $CP1 (that less than $Num $UnaryNP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <)  (var num) (var np))))))) # Cl
   (rule $CP1 (that more than $Num $UnaryNP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >)  (var num) (var np))))))) # Cg
   (rule $CP1 (that at most   $Num $UnaryNP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string <=) (var num) (var np))))))) # Cleq
-  (rule $CP1 (that at least  $Num $UnaryNP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq 
+  (rule $CP1 (that at least  $Num $UnaryNP $VP/NP) (lambda num (lambda np (lambda r (lambda s (call @countComparative (var s) (call @reverse (var r)) (string >=) (var num) (var np))))))) # Cgeq
 )
 
 # Regex
@@ -303,7 +302,7 @@
   # G3
   (rule $NPCP ($NP $CP) (JoinFn backward betaReduce))
   (rule $NPCP ($NPCP and $CP) (JoinFn backward betaReduce))
-  (rule $NP ($NPCP) (IdentityFn)) 
+  (rule $NP ($NPCP) (IdentityFn))
 )
 (when (and generate general)
   # G3
@@ -311,9 +310,9 @@
   (rule $NP1 ($UnaryNP $CP0) (JoinFn backward betaReduce))
   (rule $NP1 ($UnaryNP $CP1) (JoinFn backward betaReduce))
   (rule $NPCP1 ($UnaryNP $CP00) (JoinFn backward betaReduce))
-  (rule $NP1 ($NPCP1 and $CP00) (JoinFn backward betaReduce)) 
+  (rule $NP1 ($NPCP1 and $CP00) (JoinFn backward betaReduce))
 )
-(when geo880 
+(when geo880
   (rule $NP2 ($NP0 $CP00) (JoinFn backward betaReduce))
   (rule $NP2 ($NP0 $CP0) (JoinFn backward betaReduce))
   (rule $NP2 ($NP0 $CP1) (JoinFn backward betaReduce))
