@@ -37,12 +37,15 @@
 (rule $TypeNP (artist) (ConstantFn en.artist))
 (rule $TypeNP (genre) (ConstantFn en.genre))
 
-(rule $RelNP (song) (ConstantFn by_artist_song))
-(rule $RelNP (artist) (ConstantFn !by_artist_song))
-(rule $RelNP (year) (ConstantFn song_year))
-(rule $RelNP (song) (ConstantFn !song_year))
-(rule $RelNP (genre) (ConstantFn artist_genre))
-(rule $RelNP (artist) (ConstantFn !artist_genre))
+(rule $RelNP (song) (ConstantFn (string by_artist_song)))
+(rule $RelNP (artist) (ConstantFn (string !by_artist_song)))
+(rule $RelNP (year) (ConstantFn (string song_year)))
+(rule $RelNP (song) (ConstantFn (string !song_year)))
+(rule $RelNP (genre) (ConstantFn (string artist_genre)))
+(rule $RelNP (artist) (ConstantFn (string !artist_genre)))
+
+(rule $VP/NP (is sung by) (ConstantFn !by_artist_song))
+(rule $VP/NP (came out in) (ConstantFn song_year))
 
 (rule $EntityNP1 (ameno) (ConstantFn en.song.ameno))
 (rule $EntityNP2 (middleclass love) (ConstantFn en.song.middleclass_love))
