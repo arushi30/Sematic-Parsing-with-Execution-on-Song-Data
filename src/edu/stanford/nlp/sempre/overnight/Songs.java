@@ -53,6 +53,8 @@ public final class Songs {
     propertyToType2 = new HashMap<>();
 
     for (String line : IOUtils.readLinesHard("song_data/database/songs_data.txt")) {
+    //for (String line : IOUtils.readLinesHard("song_data/songs_data.txt")) {
+
         String[] tokens = line.split("\t");
         String pred = tokens[0];
         Value e = makeValue(tokens[1]);

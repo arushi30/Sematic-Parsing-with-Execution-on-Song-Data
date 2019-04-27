@@ -477,13 +477,13 @@ addMode('songs', 'Song shell', lambda { |e| l(
 
 	# Add training examples 
 	#o('Dataset.inPaths', 'train:song_data/song_train.examples'),
-	o('Learner.maxTrainIters', 2),
+	o('Learner.maxTrainIters', 1), # was 2
 
   # Add floating parser
   o('Builder.parser', 'FloatingParser'),
   o('FloatingParser.executeAllDerivations', 'true'),
-  o('FloatingParser.maxDepth', 11),
-  o('Parser.beamSize', 20),
+  o('FloatingParser.maxDepth', 6), # was 11
+  o('Parser.beamSize', 10), # was 20
   o('useAnchorsOnce', true),
 
   # Features
@@ -506,8 +506,10 @@ addMode('songs', 'Song shell', lambda { |e| l(
   o('DerivationPruner.pruningComputers', ['overnight.OvernightDerivationPruningComputer']),
   o('DerivationPruner.pruningStrategies', ['violateHardConstraints']),
   o('Dataset.inPaths',
+    #lambda { |e| 'train:lib/data/overnight/songs_old.paraphrases.train.examples' },
+    #lambda { |e| 'test:lib/data/overnight/songs_old.paraphrases.test.examples' }),
     lambda { |e| 'train:lib/data/overnight/songs.paraphrases.train.examples' },
-    lambda { |e| 'test:lib/data/overnight/songs.paraphrases.test.examples' }),
+    lambda { |e| 'test:lib/data/overnight/songs.paraphrases.val.examples' }),
 nil) })
 
 # Generate canonical utterances from song data 

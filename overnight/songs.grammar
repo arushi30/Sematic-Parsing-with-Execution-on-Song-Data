@@ -26,7 +26,7 @@
 
 ############################################################
 
-(rule $ROOT (create_world) (ConstantFn (call @createWorld)))
+#(rule $ROOT (create_world) (ConstantFn (call @createWorld)))
 
 ##############################
 # Song-specific grammar
@@ -57,11 +57,11 @@
 (rule $EntityNP1 (dark wave) (ConstantFn en.genre.dark_wave))
 
 # OLD
-#(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
-#(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
-#(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
-#(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
-#(rule $EntityNP1 (2016) (ConstantFn (date 2016 -1 -1)))
+(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
+(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
+(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
+(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
+(rule $EntityNP1 (2016) (ConstantFn (date 2016 -1 -1)))
 
 
 ##############################
