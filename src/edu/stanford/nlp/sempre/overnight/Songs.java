@@ -35,7 +35,7 @@ public final class Songs {
   }
 
   public static List<Value> lookupDB(Value e, String property) {
-    createWorld();
+    //createWorld();
     if (!entities.contains(e)) throw new RuntimeException("DB doesn't contain entity " + e);
     if (!properties.contains(property)) throw new RuntimeException("DB doesn't contain property " + property);
     //System.out.println(Arrays.asList(database));
@@ -45,7 +45,8 @@ public final class Songs {
   }
 
   public static Boolean createWorld() {
-
+    if (database != null) return true;
+    System.out.println("CREATE WORLD");
     entities = new HashSet<>();
     properties = new HashSet<>();
     database = new HashMap<>();
@@ -53,7 +54,6 @@ public final class Songs {
     propertyToType2 = new HashMap<>();
 
     for (String line : IOUtils.readLinesHard("song_data/database/songs_data.txt")) {
-    //for (String line : IOUtils.readLinesHard("song_data/songs_data.txt")) {
 
         String[] tokens = line.split("\t");
         String pred = tokens[0];
