@@ -488,6 +488,9 @@ addMode('songs', 'Song shell', lambda { |e| l(
   o('useAnchorsOnce', true),
   selo(1, 'maxExamples', 'train:10', 'train:MAX'),
 
+  # Add lexicon
+  o('SimpleLexicon.inPaths', 'lib/data/overnight/songs.lexicon'),
+
   # Features
   o('PPDBModel.ppdbModelPath', lambda { |e| 'lib/data/overnight/regex-ppdb.txt' }),
   o('FeatureExtractor.featureDomains', 'denotation'), # denotation features from general feature extractor
