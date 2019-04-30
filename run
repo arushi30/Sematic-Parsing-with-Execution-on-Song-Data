@@ -477,13 +477,13 @@ addMode('songs', 'Song shell', lambda { |e| l(
 
 	# Add training examples 
 	#o('Dataset.inPaths', 'train:song_data/song_train.examples'),
-	o('Learner.maxTrainIters', 2), 
+	o('Learner.maxTrainIters', 1),  # was 2
 
   # Add floating parser
   o('Builder.parser', 'FloatingParser'),
   o('FloatingParser.executeAllDerivations', 'true'),
-  o('FloatingParser.maxDepth', 11), 
-  o('Parser.beamSize', 20), 
+  o('FloatingParser.maxDepth', 10), # was 11
+  o('Parser.beamSize', 15), # was 20 
   o('useAnchorsOnce', true),
 
   # Features
@@ -500,6 +500,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
     l(o('Params.l1Reg','lazy'),o('Params.l1RegCoeff',0)),
     l(o('Params.l1Reg','lazy'),o('Params.l1RegCoeff',0.001)),
   nil),
+  o('coarsePrune'),
 
   # Add paths to training data?
   letDefault(:alignment, 1),

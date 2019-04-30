@@ -12,6 +12,8 @@ import csv
 filename = inspect.getframeinfo(inspect.currentframe()).filename
 path = os.path.dirname(os.path.abspath(filename))
 
+np.random.seed(5)
+
 # Read in the google sheet
 google_sheet = "https://docs.google.com/spreadsheets/d/1StM4qy-hG4FETenJirooV6IT8SN6Y1RAkYWGC3e8r0M/export?format=csv"
 paraphrases = pd.read_csv(google_sheet)
