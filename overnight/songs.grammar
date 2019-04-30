@@ -63,6 +63,9 @@
 (rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
 (rule $EntityNP1 (2016) (ConstantFn (date 2016 -1 -1)))
 
+# simple lexicon
+(rule $EntityNP1 ($PHRASE) (SimpleLexiconFn))
+(rule $EntityNP2 ($PHRASE) (SimpleLexiconFn))
 
 ##############################
 # Base cases

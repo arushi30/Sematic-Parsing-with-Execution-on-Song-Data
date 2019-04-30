@@ -449,7 +449,7 @@ def songFeatureDomains
     'root',
     #'alignment',
     #'lexical',
-    #'root_lexical',
+    'root_lexical',
     #'lf',
     'simpleworld',
   nil].compact
