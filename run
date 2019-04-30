@@ -472,19 +472,21 @@ addMode('songs', 'Song shell', lambda { |e| l(
   o('Main.interactive'),
   o('LanguageAnalyzer', 'corenlp.CoreNLPAnalyzer'),
   o('Grammar.inPaths', 'overnight/songs.grammar'),
-  o('Grammar.tags', 'parse', 'generate', 'general'),
+  #o('Grammar.tags', 'parse', 'generate', 'general'),
+  o('Grammar.tags', 'generate', 'general'),
   o('FeatureExtractor.featureDomains', 'rule'),
 
 	# Add training examples 
 	#o('Dataset.inPaths', 'train:song_data/song_train.examples'),
-	o('Learner.maxTrainIters', 1),  # was 2
+	o('Learner.maxTrainIters', 2),  # was 2
 
   # Add floating parser
   o('Builder.parser', 'FloatingParser'),
   o('FloatingParser.executeAllDerivations', 'true'),
-  o('FloatingParser.maxDepth', 10), # was 11
-  o('Parser.beamSize', 15), # was 20 
+  o('FloatingParser.maxDepth', 22), # was 11
+  o('Parser.beamSize', 20), # was 20 
   o('useAnchorsOnce', true),
+  selo(1, 'maxExamples', 'train:10', 'train:MAX'),
 
   # Features
   o('PPDBModel.ppdbModelPath', lambda { |e| 'lib/data/overnight/regex-ppdb.txt' }),
