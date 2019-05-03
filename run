@@ -444,7 +444,7 @@ nil) })
 def songFeatureDomains
   [
     #'match',
-    #'ppdb',
+    'ppdb',
     'skip-bigram',
     'root',
     #'alignment',
@@ -492,7 +492,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
   o('SimpleLexicon.inPaths', 'lib/data/overnight/songs.lexicon'),
 
   # Features
-  o('PPDBModel.ppdbModelPath', lambda { |e| 'lib/data/overnight/regex-ppdb.txt' }),
+  o('PPDBModel.ppdbModelPath', lambda { |e| 'lib/data/overnight/test-ppdb.txt' }),
   o('FeatureExtractor.featureDomains', 'denotation'), # denotation features from general feature extractor
   o('FeatureExtractor.featureComputers', 'overnight.OvernightFeatureComputer'), 
   o('OvernightFeatureComputer.featureDomains', *songFeatureDomains),

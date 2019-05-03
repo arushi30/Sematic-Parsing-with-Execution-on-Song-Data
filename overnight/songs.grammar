@@ -1,4 +1,3 @@
-
 ############################################################
 # General grammar
 # There are two types of grammars
@@ -22,16 +21,12 @@
 (def @filter edu.stanford.nlp.sempre.overnight.Songs.filter)
 
 (def @createWorld edu.stanford.nlp.sempre.overnight.Songs.createWorld)
-(def @aligner edu.stanford.nlp.sempre.overnight.Aligner.main)
-(def @berkeley edu.stanford.nlp.sempre.overnight.CreateBerkeleyAlignerInputFromLispTree.main)
+(def @aligner edu.stanford.nlp.sempre.Aligner.main)
 
 ############################################################
 
 #(rule $ROOT (create_world) (ConstantFn (call @createWorld)))
 
-#(rule $ROOT (berkeley) (ConstantFn (call @berkeley (string "/mnt/c/Users/derek/Desktop/NYU/Spring2019/DS1012/Project/song_sempre/sempre/lib/data/overnight/songs.paraphrases.train.examples /mnt/c/Users/derek/Desktop/NYU/Spring2019/DS1012/Project/song_sempre/sempre/lib/data/overnight/songs/"))))
-#(rule $ROOT (align) (ConstantFn (call @aligner (string "/mnt/c/Users/derek/Desktop/NYU/Spring2019/DS1012/Project/song_sempre/sempre/lib/data/overnight/songs.training.alignments /mnt/c/Users/derek/Desktop/NYU/Spring2019/DS1012/Project/song_sempre/sempre/lib/data/overnight/songs.word_alignments.berkeley berkeley 2"))))
-#(lambda r (lambda s (call @superlative (var s) (string min) (var r)))
 ##############################
 # Song-specific grammar
 ##############################
@@ -60,16 +55,17 @@
 (rule $EntityNP1 (electronica) (ConstantFn en.genre.electronica))
 (rule $EntityNP1 (dark wave) (ConstantFn en.genre.dark_wave))
 
-# OLD
-(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
-(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
-(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
-(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
-(rule $EntityNP1 (2016) (ConstantFn (date 2016 -1 -1)))
-
 # simple lexicon
 (rule $EntityNP1 ($PHRASE) (SimpleLexiconFn))
 (rule $EntityNP2 ($PHRASE) (SimpleLexiconFn))
+
+# OLD
+#(rule $EntityNP1 (fearless) (ConstantFn en.song.fearless))
+#(rule $EntityNP2 (lucky) (ConstantFn en.song.lucky))
+#(rule $EntityNP1 (taylor swift) (ConstantFn en.artist.taylor_swift))
+#(rule $EntityNP1 (britney spears) (ConstantFn en.artist.britney_spears))
+#(rule $EntityNP1 (2016) (ConstantFn (date 2016 -1 -1)))
+
 
 ##############################
 # Base cases
