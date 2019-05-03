@@ -443,14 +443,14 @@ nil) })
 
 def songFeatureDomains
   [
-    #'match',
+    'match',
     'ppdb',
     'skip-bigram',
     'root',
     #'alignment',
-    #'lexical',
+    'lexical',
     'root_lexical',
-    #'lf',
+    'lf',
     'simpleworld',
   nil].compact
 end
@@ -506,9 +506,11 @@ addMode('songs', 'Song shell', lambda { |e| l(
     l(o('Params.l1Reg','lazy'),o('Params.l1RegCoeff',0.001)),
   nil),
   o('coarsePrune'),
+  
+  # Berkely word aligner
+  o('wordAlignmentPath', lambda { |e| 'lib/data/overnight/songs.word_alignments.berkeley' }),
 
   # Add paths to training data?
-  letDefault(:alignment, 1),
   o('DerivationPruner.pruningComputers', ['overnight.OvernightDerivationPruningComputer']),
   o('DerivationPruner.pruningStrategies', ['violateHardConstraints']),
   o('Dataset.inPaths',
