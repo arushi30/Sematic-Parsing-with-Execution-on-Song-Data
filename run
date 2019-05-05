@@ -464,6 +464,14 @@ addMode('simple', 'Simple shell', lambda { |e| l(
   #o('Grammar.tags', 'parse', 'general'),
 nil) })
 
+addMode('features', 'Features shell', lambda { |e| l(
+  codalab, 'java', '-cp', 'libsempre/*:lib/*', '-ea', 'edu.stanford.nlp.sempre.Main',
+  o('Main.interactive'),
+  #o('LanguageAnalyzer', 'corenlp.CoreNLPAnalyzer'),
+  o('Grammar.inPaths', 'overnight/aligner.grammar'),
+  #o('Grammar.tags', 'parse', 'general'),
+nil) })
+
 # Ineractive mode to parse canonical utterances
 addMode('songs', 'Song shell', lambda { |e| l(
   header('core,overnight'),
@@ -476,7 +484,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
   o('Grammar.tags', 'generate', 'general'),
   o('FeatureExtractor.featureDomains', 'rule'),
 
-	# Add training examples 
+	# Add training examples
 	#o('Dataset.inPaths', 'train:song_data/song_train.examples'),
 	o('Learner.maxTrainIters', 2),  # was 2
 
@@ -484,7 +492,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
   o('Builder.parser', 'FloatingParser'),
   o('FloatingParser.executeAllDerivations', 'true'),
   o('FloatingParser.maxDepth', 22), # was 11
-  o('Parser.beamSize', 20), # was 20 
+  o('Parser.beamSize', 20), # was 20
   o('useAnchorsOnce', true),
   selo(1, 'maxExamples', 'train:10', 'train:MAX'),
 
@@ -494,7 +502,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
   # Features
   o('PPDBModel.ppdbModelPath', lambda { |e| 'lib/data/overnight/test-ppdb.txt' }),
   o('FeatureExtractor.featureDomains', 'denotation'), # denotation features from general feature extractor
-  o('FeatureExtractor.featureComputers', 'overnight.OvernightFeatureComputer'), 
+  o('FeatureExtractor.featureComputers', 'overnight.OvernightFeatureComputer'),
   o('OvernightFeatureComputer.featureDomains', *songFeatureDomains),
   #o('OvernightFeatureComputer.featureDomains', ''),
   #o('initialization', 'paraphrase :: match,1', 'paraphrase :: size,-0.1', 'paraphrase :: ppdb,0.3',
@@ -506,7 +514,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
     l(o('Params.l1Reg','lazy'),o('Params.l1RegCoeff',0.001)),
   nil),
   o('coarsePrune'),
-  
+
   # Berkely word aligner
   o('wordAlignmentPath', lambda { |e| 'lib/data/overnight/songs.word_alignments.berkeley' }),
 
@@ -520,7 +528,7 @@ addMode('songs', 'Song shell', lambda { |e| l(
     lambda { |e| 'test:lib/data/overnight/songs.paraphrases.val.examples' }),
 nil) })
 
-# Generate canonical utterances from song data 
+# Generate canonical utterances from song data
 addMode('songs_gen', 'Generating song canonical utterances', lambda { |e| l(
   header('core,overnight'),
   'edu.stanford.nlp.sempre.overnight.GenerationMain',

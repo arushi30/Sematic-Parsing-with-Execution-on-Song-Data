@@ -1,0 +1,19 @@
+############################################################
+# General grammar
+# There are two types of grammars
+# - generate: used to generate canonical utterances
+# - parse: used to actually parse
+
+(def @aligner edu.stanford.nlp.sempre.overnight.SongAligner.main)
+(def @berkeley edu.stanford.nlp.sempre.overnight.SongCreateBerkeleyAlignerInputFromLispTree.main)
+############################################################
+
+# This is the argument structure that berkeley expects
+#
+# berkeley lib/data/overnight/songs.paraphrases.train.examples
+(rule $ROOT (berkeley $PHRASE) (lambda s (call @berkeley (var s) )))
+
+# This is the argument structure that aligner expects
+# outputFileName berkeley threshold
+# align lib/data/overnight/songs.word_alignments.berkeley berkeley 2
+(rule $ROOT (align $PHRASE) (lambda s (call @aligner (var s))))
