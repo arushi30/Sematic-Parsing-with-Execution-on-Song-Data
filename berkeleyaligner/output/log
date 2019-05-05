@@ -1,0 +1,67 @@
+main() {
+  Execution directory: output
+  Preparing Training Data
+  306 training, 0 test
+  Training models: 2 stages {
+    Training stage 1: MODEL1 and MODEL1 jointly for 2 iterations {
+      Initializing forward model
+      Initializing reverse model
+      Joint Train: 306 sentences, jointly {
+        Iteration 1/2 {
+          Sentence 1/306
+          Sentence 2/306
+          Sentence 3/306
+          Log-likelihood 1 = -10359.617
+          Log-likelihood 2 = -8537.065
+          ... 303 lines omitted ...
+        }
+        Iteration 2/2 {
+          Sentence 1/306
+          Sentence 2/306
+          Sentence 3/306
+          Log-likelihood 1 = -8590.165
+          Log-likelihood 2 = -7067.100
+          ... 303 lines omitted ...
+        }
+      }
+      ... 2 lines omitted ...
+    }
+    Training stage 2: HMM and HMM jointly for 2 iterations {
+      Joint Train: 306 sentences, jointly {
+        Iteration 1/2 {
+          Sentence 1/306
+          Sentence 2/306
+          Sentence 3/306
+          Log-likelihood 1 = -8852.612
+          Log-likelihood 2 = -7413.612
+          ... 303 lines omitted ...
+        }
+        Iteration 2/2 {
+          Sentence 1/306
+          Sentence 2/306
+          Sentence 3/306
+          Log-likelihood 1 = -7898.588
+          Log-likelihood 2 = -6526.288
+          ... 303 lines omitted ...
+        }
+      }
+      saveParams(output/stage2.1.params) {
+        Text
+        Binary
+      }
+      saveParams(output/stage2.2.params) {
+        Text
+        Binary
+      }
+    }
+  }
+  Aligning training using aligner SoftUnion(HMM:normal,HMM:reversed)@0.500 {
+    Writing alignments to output/training {
+      Sentence 0
+      Sentence 1
+      Sentence 2
+      ... 303 lines omitted ...
+    }
+  }
+  Execution directory: output
+} [1.1s]

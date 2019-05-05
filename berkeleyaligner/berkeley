@@ -1,0 +1,7 @@
+#!/bin/sh
+OPTS="-server -mx200m -ea"
+shift
+
+java $OPTS -jar berkeleyaligner.jar ++example.conf --exec.overwriteExecDir
+
+python3 create_alignment.py songs.training.alignments

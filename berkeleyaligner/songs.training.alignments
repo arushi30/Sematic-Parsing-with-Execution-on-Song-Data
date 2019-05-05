@@ -1,0 +1,306 @@
+Which genre is Andromeda's genre	genre that is genre of andromeda and that is genre of andromeda	1-0 3-11 3-5 2-4 1-3 0-1 
+Show artists who have music in two genres	artist that has two genre	1-0 2-0 5-1 7-4 0-1 3-2 6-3 
+Who's songs are Ameno and Dark Wave	artist that is artist of ameno and that is artist of dark wave	0-0 4-6 6-12 3-5 5-11 0-3 2-8 2-2 
+Which songs did Andromeda released in 0	song whose year is 0 and whose artist is andromeda	1-0 2-5 3-9 5-4 6-4 0-7 0-1 4-2 
+What songs came out the same year as Ameno or after	song whose year is at least year of ameno	8-8 1-0 7-7 6-6 9-5 2-2 0-1 9-4 
+How many songs are there	number of song	0-0 1-0 4-1 2-2 
+What genres have fewer than two artists	genre that is genre of less than two artist	5-7 1-0 4-6 3-5 2-4 1-3 0-2 0-1 6-8 
+Which musicians are doing electronica and release electronica music	artist that is artist of electronica and whose genre is electronica	8-8 1-0 5-6 8-7 3-5 4-5 1-3 7-10 0-1 8-9 
+Which artists songs came out in 0	artist whose song is song that came out in 0	1-0 3-6 2-4 6-9 2-2 0-1 5-8 4-7 
+What are some songs sung by Andromeda from 0	song whose artist is andromeda and whose year is 0	2-0 3-0 6-4 5-3 7-9 0-1 8-9 1-1 
+Which songs are of genre electronica	song whose artist is artist of electronica	1-0 5-6 3-5 0-1 2-1 
+Which Andromeda songs came out in 0	song that came out in 0 and that is song of andromeda	1-11 2-0 2-9 6-5 4-3 0-1 3-2 
+Show artists with a genre in common with Andromeda	artist that is artist of genre whose artist is andromeda	1-0 6-7 6-6 4-5 2-4 3-4 1-3 0-1 8-9 
+What songs were sung by Andromeda	song whose artist is andromeda	1-0 5-4 4-3 0-1 3-2 2-1 
+Which artists have the biggest amount of songs	artist that has the most number of song	1-0 7-7 6-6 5-5 3-3 4-3 2-2 0-1 
+Show the artist with the smallest number of songs	artist that has the least number of song	2-0 8-7 7-6 6-5 5-4 4-3 0-1 3-2 
+Which songs came out in 0	song that came out in 0	1-0 5-5 4-4 3-3 2-2 0-1 
+Name the genres of electronica artists	genre whose artist is artist that is artist of electronica	5-7 2-0 4-9 1-2 3-8 0-1 
+Who is the singer of ameno and has a song called Ameno	artist that is artist of ameno and whose song is ameno	0-0 6-6 5-5 4-4 3-3 11-10 
+Which artist sings Ameno and is of electronica genre	artist whose genre is electronica and that is artist of ameno	1-0 3-10 4-5 7-4 6-3 2-1 5-2 
+What is an artist with genre dark wave and song Ameno	artist that is artist of dark wave and that is artist of ameno	8-7 7-6 10-12 6-5 4-4 9-11 3-3 0-1 
+Name songs by the artist of Ameno	song whose artist is artist whose song is ameno	1-0 0-1 6-8 
+Which songs came out in 0 and 0	song that came out in 0 and that is song of 0	1-0 6-6 5-5 7-11 4-4 3-3 2-2 0-1 
+What are the songs which genre is electronica	song that is song of artist whose genre is electronica	5-7 4-6 2-4 3-3 1-2 7-9 6-8 
+Which songs came out in the same year as Ameno	song that is song of year of ameno	1-0 2-5 3-5 9-7 8-6 6-5 1-3 7-5 5-4 0-2 0-1 
+What are genres of electronica artists	genre whose artist is artist whose genre is electronica	2-6 1-5 2-0 4-8 3-7 
+List all the artists of dark wave and electronica	artist that is artist of dark wave and that is artist of electronica	7-7 6-6 8-12 5-5 4-4 3-3 
+Which songs were sung by electronica artists	song whose artist is artist whose genre is electronica	1-0 6-4 0-1 5-8 2-1 4-7 
+What are the musicians who sing in more than two genres	artist that is artist of more than two genre	10-8 9-7 8-6 7-5 1-2 0-1 
+Name the song with the most number of artists. 	song that is song of the most number of artist	6-7 5-6 3-5 4-5 2-4 0-1 8-9 7-8 
+Which artists are dark wave	artist whose genre is dark wave and that is artist of dark wave	4-12 1-0 3-11 3-4 2-3 2-1 
+Show the artists with two genres	artist that is artist of two genre	5-6 4-5 3-4 2-3 1-2 0-1 
+Which music bands have 0 songs	artist whose song is song that is song of 0	5-7 3-5 1-3 4-9 
+What music did Andromeda put out in 0	song that is song of andromeda and that is song of 0	3-5 5-11 6-11 2-4 7-11 4-9 1-2 0-1 
+Name artists who did not sing Ameno	artist that is not artist of ameno	1-0 6-6 5-4 4-3 0-1 
+Which songs did Andromeda make in 0	song that came out in 0 and that is sung by andromeda	1-0 3-11 4-10 6-5 4-9 5-4 0-1 4-2 
+Who sang Andromeda's songs	artist whose song is song of andromeda	0-0 2-6 3-4 1-3 3-2 1-1 
+Which genre are dark wave artists	genre whose artist is artist whose genre is dark wave	1-0 4-9 3-8 2-7 1-6 
+Which songs were released after Ameno or at the same time with it	song whose year is at least year of ameno	1-0 12-8 11-7 10-6 7-4 10-5 0-1 3-2 5-8 
+List all the electronica artists	artist of electronica	3-2 1-1 2-1 
+Name songs by andromeda and andromeda. 	song whose artist is andromeda and that is song of andromeda	1-0 4-5 3-4 5-10 0-1 
+What's the genre of the artist whose song is Ameno	genre whose artist is artist that is artist of ameno	8-8 2-0 0-1 9-9 7-8 
+Which artist made songs in 0	artist that is artist of song that is song of 0	3-5 2-4 4-10 5-10 1-3 3-8 0-1 
+Give names of music bands that have the smallest number of songs	artist that is artist of the least number of song	11-9 5-1 10-8 9-7 8-6 8-5 3-2 
+Show artists who are not dark wave. 	artist that is not artist of dark wave	1-0 6-7 5-6 4-3 0-1 3-2 
+Show the genres of artists with dark wave music	genre that is genre of artist that is artist of dark wave	2-0 7-11 3-4 6-10 2-3 5-9 1-2 4-8 0-1 
+What artist sings the songs Ameno and Ameno	artist that is artist of ameno and whose song is ameno	1-0 6-6 5-5 3-4 7-10 4-8 0-1 
+Which songs came out in year 0	song whose year is 0 and that is song of 0	1-0 4-4 6-10 2-2 0-1 3-2 
+Give me dark wave songs	song whose artist is artist whose genre is dark wave	1-5 3-9 2-8 0-1 
+Who sings dark wave	artist that is artist of dark wave	0-0 3-6 2-5 0-3 0-1 
+Which songs were released before ameno	song whose year is smaller than year of ameno	1-0 4-4 0-1 3-2 5-8 2-1 
+Show the earliest songs	song that has the smallest year	3-0 3-5 2-4 1-3 0-2 0-1 
+Which artists are of genres electronica and electronica	artist that is artist of electronica and that is artist of electronica	1-0 6-6 5-5 7-11 3-4 1-3 0-1 
+List the songs that came out in 0 and whose author is Andromeda	song that came out in 0 and whose artist is andromeda	3-1 11-9 2-0 9-7 8-6 7-5 6-4 5-3 1-1 4-2 12-10 
+Name an artist of genres dark wave and electronica	artist whose genre is dark wave and whose genre is electronica	2-0 7-6 6-5 5-4 8-10 0-1 1-1 4-2 
+Who is the singer of electronica genre and has a song titled ameno	artist that is artist of electronica and whose song is ameno	0-0 7-6 5-5 11-7 4-4 3-3 12-10 
+Which artist sang Ameno or Middleclass Love	artist that is artist of ameno or middleclass love	5-7 4-6 3-5 1-3 0-1 6-8 
+Show electronica musicician who sang ameno	artist that is artist of electronica and that is artist of ameno	2-6 1-5 5-11 4-10 3-9 0-1 
+What songs were made by Andromeda and came out in 0	song that is sung by andromeda and that came out in 0	1-0 6-6 5-5 4-4 2-3 10-11 9-10 0-1 7-8 
+Which genre has more than two artists	genre that has more than two artist	1-0 6-6 5-5 4-4 3-3 0-1 2-1 
+Name songs that released in 0, 2006 or after. 	song whose year is at least 0 or 2006	1-0 4-6 7-7 8-5 0-1 3-2 5-8 6-8 
+Name a song by a electronica artist. 	song that is song of artist of electronica	5-7 6-7 4-6 0-2 0-1 
+Show the genre of electronica music bands	genre that is genre of artist that is artist of electronica	5-7 2-0 4-10 3-9 2-3 1-2 0-1 
+What songs by Andromeda came out in 0	song whose year is 0 and that is song of andromeda	1-0 3-10 1-8 6-4 7-4 0-1 4-2 5-2 
+What genres have artists which are not Andromeda	genre whose artist is not andromeda	1-0 7-5 6-4 2-2 5-3 0-1 3-2 
+Who is the artist of Ameno	artist whose song is ameno and that is artist of ameno	0-0 5-10 4-9 3-8 
+Which artist sang Ameno and makes dark wave music	artist whose song is ameno and that is artist of dark wave	1-0 4-5 7-11 3-4 6-10 2-3 5-9 
+Name all songs that are sung by two or less artists	song that has less than two artist	3-1 9-3 1-0 2-0 7-5 10-6 9-4 
+What is the genre of Ameno's artist	genre whose artist is artist of ameno	5-6 4-5 0-1 
+Name the genre with the greatest number of artists	genre that has the most number of artist	2-0 8-7 7-6 6-5 5-4 4-3 0-1 3-2 
+What are artists that have more than two genres	artist that has more than two genre	3-1 2-0 8-6 7-5 6-4 5-3 0-1 4-2 
+What is the genre of Andromeda songs	genre that is genre of andromeda	5-5 4-4 3-3 0-1 
+Name songs by electronica artists. 	song whose artist is artist that is artist of electronica	1-0 3-9 4-8 0-1 4-7 
+List artists who have at least two genres	artist that has at least two genre	0-0 1-0 2-0 7-6 6-5 5-4 4-3 3-2 
+Which artist sings songs that Andromeda sings	artist whose song is song whose artist is andromeda	1-0 3-4 3-2 5-8 2-1 
+In which genre did Andromeda sing	genre that is genre of andromeda and whose artist is andromeda	3-6 2-0 4-5 4-10 3-4 2-3 1-2 5-8 1-1 
+What songs are music by Andromeda and Andromeda	song whose artist is andromeda and whose artist is andromeda	1-0 6-5 5-4 3-3 7-9 2-1 
+What are the names of artists with more than two songs	artist that has more than two song	6-2 10-6 9-5 8-4 0-1 7-3 2-1 
+Which artists had a song in 0	artist whose song is song that is song of 0	1-0 5-9 6-9 4-8 0-1 
+Show songs by Andromeda from 0	song whose artist is andromeda and that came out in 0	1-0 3-4 5-10 2-3 0-2 4-7 
+Name the genres which have no less than two artists	genre that has at least two artist	3-1 2-0 9-6 8-5 6-4 5-3 0-1 4-2 
+Name the bands that do not play electronica	artist that is not artist of electronica	3-1 7-6 5-3 6-3 
+What Andromeda songs did Andromeda make	song that is song of andromeda and that is sung by andromeda	1-5 4-11 4-5 3-4 5-10 2-3 5-9 0-1 
+What genres are Andromeda or Sleazy Romance making music in	genre whose artist is andromeda or sleazy romance	1-0 6-7 5-6 4-5 3-4 2-3 2-1 
+What song has two artists	song that is song of two artist	1-0 4-6 3-5 2-4 1-3 0-2 0-1 
+What genre had fewer than two artists	genre that has less than two artist	1-0 6-6 5-5 4-4 3-3 2-1 
+Who's song is Dark Wave	artist of dark wave	0-0 4-3 3-2 1-1 2-1 
+Which artist has the fewest genres	artist that has the least number of genre	5-7 1-0 4-5 4-4 4-3 2-1 
+Which artists have genres dark wave and electronica	artist that is artist of dark wave and that is artist of electronica	1-0 6-7 5-6 7-12 4-5 1-3 0-2 0-1 
+Which songs are not by Andromeda	song whose artist is not andromeda	1-0 5-5 3-4 2-3 0-1 2-1 
+What are all of the songs that were sung by andromeda in 0	song that is sung by andromeda and whose year is 0	2-0 6-1 10-5 8-4 9-4 11-10 7-3 12-10 
+Who are artists with greater than two genres	artist that is artist of more than two genre	0-0 6-7 5-6 4-5 3-4 2-3 1-2 7-8 
+What is the smallest genre in terms of artists	genre that is genre of the least number of artist	6-7 3-5 6-5 4-3 0-1 8-9 7-8 
+Which genres have exactly two artists	genre that has two artist	1-0 5-4 4-3 2-2 0-1 3-2 
+Which artists do not make electronica music	artist that is not artist of electronica	1-0 2-5 5-6 1-4 3-3 4-3 0-1 
+Show songs whose artist is not Andromeda	song that is not song of andromeda	1-0 6-6 1-4 5-3 0-1 3-2 4-2 
+Name songs that were made by Andromeda and Andromeda	song that is sung by andromeda and that is sung by andromeda	1-0 7-6 6-5 8-11 5-4 3-3 2-1 
+What are genres of dark wave artists	genre that is genre of artist whose genre is dark wave	3-4 5-10 2-3 4-9 1-2 3-8 0-1 2-7 1-6 
+Which artists has made the fewest songs	artist that has the least number of song	1-0 6-7 5-5 5-4 5-3 0-1 2-1 
+Which genres have electronica artists	genre whose artist is artist of electronica	1-0 3-6 4-4 0-1 
+Songs Ameno or Middleclass Love	ameno or middleclass love	1-0 4-3 3-2 2-1 
+What songs have less than two artists	song that is song of less than two artist	5-7 1-0 4-6 3-5 2-4 1-3 0-2 0-1 6-8 
+What are some songs by the artist of Ameno	song whose artist is artist whose song is ameno	8-8 3-6 2-0 
+Which songs came out after the song Ameno	song whose year is larger than year of ameno	5-7 1-0 6-7 4-4 2-2 0-1 3-2 7-8 
+Name the electronoca artist who sang ameno	artist whose genre is electronica and whose song is ameno	1-0 2-5 2-4 1-2 6-9 0-1 5-8 
+Which songs did the artist who sang ameno sing	song whose artist is artist of ameno	1-0 7-6 5-4 0-1 
+What's the genre of the artist who sang Ameno	genre whose artist is artist of ameno	2-0 8-6 6-4 0-1 
+Which artists have the same genre as Andromeda	artist whose genre is genre whose artist is andromeda	1-0 4-1 5-4 7-8 
+What is the genre of artists of electronica genre	genre that is genre of artist whose genre is electronica	8-7 5-5 4-4 3-3 7-9 0-1 6-8 
+What songs did not come out in 0	song that is not song of 0	1-0 2-5 5-6 6-6 1-4 7-6 3-3 4-3 0-1 
+Which artist belongs to the most genres	artist that is artist of the most number of genre	2-5 5-6 3-5 1-3 6-9 4-8 0-1 
+Year 0 or 2006	0 or 2006	1-0 3-2 2-1 
+Which songs were released in 0 by Andromeda	song that is song of 0 and that is song of andromeda	1-0 3-5 4-5 5-5 7-11 1-3 0-2 6-9 0-1 
+Show me songs that are sung by Andromeda and which artist is Andromeda	song that is sung by andromeda and that is sung by andromeda	3-1 1-0 2-0 9-7 8-6 7-5 6-4 12-11 5-3 0-1 4-2 
+Which songs were released in 0	song that came out in 0	1-0 5-5 4-4 2-2 0-1 
+Which genre do dark wave musicians have	genre that is genre of artist that is artist of dark wave	1-0 4-11 3-10 2-4 1-3 0-1 
+Name the artist which has the highest number of genres	artist that is artist of the most number of genre	8-8 7-7 6-6 5-5 9-9 
+Name a song by Andromeda made in 0	song whose year is 0 and that is sung by andromeda	1-0 4-10 3-9 6-4 3-8 7-4 2-2 0-1 5-8 
+Which artists are electronica	artist whose genre is electronica	1-0 3-4 2-3 2-1 
+Which artists did not make the song Ameno	artist that is not artist of ameno	1-0 7-6 6-5 5-4 3-3 4-3 0-1 
+Which artist has genre dark wave	artist that is artist of dark wave and whose genre is dark wave	1-0 5-12 4-11 2-4 1-3 3-9 0-1 
+Which songs were released in 0	song whose year is 0	1-0 4-4 5-4 0-1 3-2 2-1 
+Which artist makes songs that Andromeda makes	artist whose song is song of andromeda	1-0 5-6 4-3 3-2 2-1 
+Which songs did Andromeda released in 0	song whose artist is andromeda and that is song of 0	1-0 2-5 4-10 3-4 5-10 6-10 2-3 0-2 0-1 
+Who is the artist of Ameno or Middleclass Love	artist that is artist of ameno or middleclass love	0-0 8-8 7-7 6-6 5-5 4-4 3-3 
+What songs were sung by andromeda	song that is sung by andromeda	1-0 5-5 3-4 4-4 2-3 0-1 
+List artists that have no more than two songs	artist that has less than two song	1-0 8-6 7-5 6-4 4-3 3-2 2-1 
+Show me the songs that came after 0 or 2006	song whose year is larger than 0 or 2006	9-8 3-0 8-7 7-6 6-4 4-3 1-1 5-2 
+What are Andromeda's songs from 0	song that is song of 0 and whose artist is andromeda	2-10 4-5 5-5 3-3 1-2 0-1 
+What genre has the greatest number of artists	genre that is genre of the most number of artist	5-7 1-0 4-6 3-5 2-4 1-3 0-2 7-9 0-1 6-8 
+Who is the artist of Ameno	artist that is artist of ameno	0-0 5-5 4-4 3-3 
+What artists have two songs	artist that is artist of two song	1-0 4-6 3-5 1-3 0-2 0-1 
+Name the genre which has at most two artists. 	genre that is genre of at most two artist	3-1 8-8 2-0 7-7 6-6 5-5 4-4 2-3 
+Who is the artist of Ameno	artist whose song is ameno	0-0 5-4 3-3 4-3 
+Which artists have no more than two genres	artist that has less than two genre	1-0 7-6 6-5 5-4 3-3 2-2 0-1 
+Show me other songs by the singer of Ameno	song whose artist is artist that is artist of ameno	6-7 3-0 8-9 1-1 2-1 7-8 
+Show me all songs by Andromeda	song whose artist is andromeda	3-0 5-4 4-3 1-1 
+Which artists have at least two songs	artist that has at least two song	1-0 6-6 5-5 4-4 3-3 2-2 0-1 
+Which songs came out in 0	song that came out in 0 and whose year is 0	1-0 5-10 2-2 0-1 
+Who is the artist of Andromeda's songs	artist whose song is song that is song of andromeda	0-0 3-6 6-7 5-9 6-4 4-8 
+Which andromeda songs came out in 0	song whose artist is andromeda and that is song of 0	1-4 4-10 0-3 5-10 6-10 0-2 2-8 0-1 
+Show the genres of artists which are dark wave	genre whose artist is artist whose genre is dark wave	2-6 2-0 4-4 8-9 7-8 
+Which artists have fewer than two songs	artist that has less than two song	1-0 6-6 5-5 4-4 3-3 2-2 0-1 
+Which songs have two or more artists	song that has at least two artist	1-0 3-5 6-6 4-4 4-3 2-2 0-1 
+Name a genre that has exactly two artists	genre that is genre of two artist	3-1 2-0 7-6 5-5 6-5 4-4 2-3 
+Are there songs sung by two different artists	song that is song of two artist	2-0 1-4 7-6 5-5 6-5 2-3 0-2 
+Name songs by Andromeda and Andromeda	song that is song of andromeda and whose artist is andromeda	1-0 4-6 3-5 5-10 1-3 0-2 0-1 
+Which songs are from 0 and were released in 0	song that is song of 0 and whose year is 0	1-0 6-7 5-6 3-5 4-5 2-4 1-3 8-10 9-10 0-1 7-8 
+What songs weren't sung by andromeda	song that not is sung by andromeda	1-0 5-6 3-5 4-5 2-4 2-2 0-1 
+What songs by Andromeda came out in 0	song that came out in 0 and whose artist is andromeda	1-0 3-10 7-5 5-3 0-1 4-2 
+Show me the artists that have at most 2 genres	artist that has at most two genre	4-1 3-0 9-6 8-5 7-4 6-3 5-2 
+Who sung Dark Wave	artist of dark wave	0-0 3-3 2-2 
+What songs by Andromeda are by Andromeda	song that is song of andromeda and that is sung by andromeda	1-0 3-5 6-11 5-10 1-3 0-2 5-9 4-8 0-1 
+What kind of artist is the artist of ameno	genre that is genre of artist that is artist of ameno	1-0 3-5 2-4 1-3 8-10 7-9 0-1 6-8 
+Which artist's song is Ameno	artist whose song is ameno and that is artist of ameno	1-5 4-10 2-9 3-9 0-1 
+Name the artist of genres both dark wave and electronica	artist whose genre is dark wave and that is artist of electronica	1-0 8-6 7-5 9-11 5-4 6-4 0-1 4-2 
+What genre is Andromeda's music	genre whose artist is andromeda and whose artist is andromeda	1-0 4-5 3-4 3-9 4-8 0-1 
+What artists released songs in 0	artist whose song is song of 0	1-0 4-6 5-6 3-4 0-1 3-2 2-1 
+Which dark wave artist is the artist of Ameno	artist whose song is ameno and that is artist of dark wave	2-11 1-10 8-4 0-1 
+Which artists are not dark wave	artist whose genre is not dark wave	1-0 5-6 4-5 3-4 2-3 2-1 
+What songs came out in 0 or 2006	song that is song of 0 or 2006	1-0 7-7 3-5 6-6 4-5 5-5 1-3 0-2 0-1 
+List all of the songs written by electronica artists	song whose artist is artist of electronica	1-0 7-6 6-3 5-2 
+Which artists sing in 2 or more genres	artist that has more than two genre	3-1 1-0 2-0 4-5 7-6 0-1 6-3 4-2 
+Which artists had songs in 0	artist that is artist of song that is song of 0	1-0 4-10 5-10 1-3 3-8 0-1 
+Name the genre of artists of electronics genre	genre whose artist is artist of electronica	2-0 6-6 5-5 4-4 0-1 
+Which artists made songs in 0	artist that is artist of song of 0	2-6 5-7 1-0 3-5 2-4 1-3 0-2 0-1 4-7 
+Which songs are sang by andromeda and made by andromeda	song whose artist is andromeda and that is sung by andromeda	1-0 6-5 5-4 9-10 8-9 2-1 
+What is the genre of electronica artists	genre that is genre of artist of electronica	5-7 4-6 6-5 4-4 3-3 0-1 
+List all the songs by Andromeda and whose artist is Andromeda	song that is song of andromeda and whose artist is andromeda	8-8 1-0 7-7 6-6 2-4 5-5 3-3 10-10 0-1 9-9 
+Name a song that came out in the year that Ameno came out in	song that is song of year of ameno	4-5 7-6 10-7 2-4 5-5 8-5 0-2 11-5 12-5 
+What songs did Andromeda make in 0	song that is song of andromeda and that came out in 0	1-0 3-5 6-11 2-4 5-10 1-3 0-2 4-8 0-1 
+What are some songs made by electronica artists	song that is song of artist that is artist of electronica	5-7 4-4 6-10 2-3 3-3 1-2 0-1 7-8 
+Which artists' genre is both electronica and dark wave	artist that is artist of electronica and that is artist of dark wave	4-6 6-6 8-12 5-5 7-11 3-4 1-3 0-1 
+Name a song by Andromeda or Sleazy Romance. 	song whose artist is andromeda or sleazy romance	1-0 2-0 7-7 6-6 5-5 4-4 0-1 
+What artists had songs that were released in 0	artist whose song is song that came out in 0	1-0 5-6 4-5 3-4 0-1 8-9 7-8 
+Which artist sang songs by Andromeda	artist whose song is song that is song of andromeda	1-0 3-4 5-9 3-2 3-7 2-1 
+What songs are from 0	song of 0	1-0 3-2 4-2 2-1 
+What genre has Andromeda and Andromeda	genre whose artist is andromeda and whose artist is andromeda	1-0 4-5 3-4 5-9 2-2 0-1 
+Which artists do both dark wave and electronica	artist that is artist of dark wave and whose genre is electronica	1-0 6-7 5-6 3-5 4-5 2-4 7-11 1-3 0-1 
+Which artists didn't sing Ameno	artist whose song is not ameno	1-0 4-5 2-4 0-2 0-1 
+Which songs are made by Andromeda	song of andromeda	3-1 1-0 5-2 
+What are Andromeda's songs from 0	song whose year is 0 and that is sung by andromeda	3-0 2-10 4-4 5-4 1-1 2-1 
+Name songs from year 0	song whose year is 0 and that is song of 0	1-0 2-5 2-4 4-10 0-1 3-2 
+ What musicians have songs from 0	artist that is artist of song of 0	5-7 1-0 3-5 1-3 0-2 0-1 4-7 
+Which artist has dark wave music and has a song Ameno	artist that is artist of dark wave and that is artist of ameno	1-0 6-7 4-6 3-5 2-4 10-12 8-11 1-3 9-11 0-1 7-8 
+Which other songs by andromeda are from 0	song that is song of andromeda and whose year is 0	5-7 2-0 4-5 6-10 2-3 7-10 5-9 1-2 0-1 6-8 
+Show the artist with the highest number of songs	artist that is artist of the most number of song	6-7 5-6 4-5 2-3 0-1 8-9 7-8 
+What is an electronica artist who also has dark wave music	artist whose genre is electronica and that is artist of dark wave	3-4 9-11 8-10 1-2 7-9 0-1 5-8 2-1 
+What other genres are there besides Andromeda's genre	genre whose artist is not andromeda	3-1 2-0 6-5 5-4 1-1 
+Name all artists who are not of electronica genre. 	artist whose genre is not electronica	1-0 4-1 2-0 3-0 7-5 5-4 8-4 0-1 6-3 
+What is an artist with genres dark wave and dark wave	artist that is artist of dark wave and whose genre is dark wave	8-7 7-6 10-12 6-5 4-4 9-11 3-3 5-9 0-1 
+Which songs came out in 0 and are by Andromeda	song that is song of 0 and that is sung by andromeda	1-0 3-5 6-6 4-5 5-5 1-3 9-11 0-2 8-10 0-1 8-9 7-8 
+Which songs are sung by exactly two artists	song that has two artist	1-0 7-4 0-1 6-3 5-2 
+What's the genre of dark wave artists	genre whose artist is artist of dark wave	5-7 2-0 4-6 3-5 0-1 
+What electronica artists are there	artist that is artist of electronica and whose genre is electronica	1-5 2-0 4-10 2-3 0-1 3-7 
+Name the genres of electronica artists	genre that is genre of artist whose genre is electronica	3-4 2-3 4-9 3-8 0-1 2-7 
+Which artist had the fewest songs	artist that is artist of the least number of song	1-0 4-6 4-5 3-4 5-9 0-1 2-1 4-7 
+Give me a song by Andromeda	song of andromeda	0-0 3-1 1-0 2-1 5-2 
+What songs did Andromeda make in 0	song that is song of 0 and that is song of andromeda	1-0 3-11 2-10 1-9 2-4 5-5 6-5 1-3 0-2 0-1 
+What is the genre of the artist of dark wave	genre that is genre of artist of dark wave	9-8 8-7 7-6 6-5 4-4 3-3 0-1 
+What are all of the songs sung by dark wave artists	song that is song of artist whose genre is dark wave	3-4 2-3 1-2 9-10 5-3 0-1 8-9 7-8 
+Which electronica artist has genre electronica	artist that is artist of electronica and that is artist of electronica	1-5 5-11 3-10 2-9 0-1 
+Name some songs that have more than two artists	song that is song of more than two artist	3-1 8-8 1-0 2-0 7-7 6-6 5-5 
+Name a song that came out in 0 and 0	song that is song of 0 and that came out in 0	2-4 8-6 9-11 0-2 4-8 3-7 
+What songs came out in 0	song whose year is 0 and whose year is 0	1-0 5-9 2-2 0-1 
+Name songs that released in 0 or after. 	song whose year is at least 0	1-0 4-6 5-6 7-5 0-1 3-2 
+Which artist has the song Ameno and genre electronica	artist that is artist of ameno and that is artist of electronica	1-0 6-6 5-5 8-11 4-4 0-1 
+Name a songs by an electronica artist. 	song whose artist is artist whose genre is electronica	1-0 2-0 4-5 3-3 0-1 5-8 6-8 
+What genres is Andromeda	genre that is genre of andromeda	1-0 3-5 2-4 1-3 0-2 0-1 
+What artists have songs from 0	artist that is artist of song that came out in 0	1-0 3-5 5-10 1-3 0-2 0-1 4-7 
+What songs did not come out in 0	song whose year is not 0	1-0 3-4 6-5 4-4 7-5 2-3 0-1 
+Which artists have less than two genres	artist that is artist of less than two genre	5-7 1-0 4-6 3-5 1-3 0-2 0-1 6-8 
+Which artists have at most two genres	artist that has at most two genre	1-0 6-6 5-5 4-4 3-3 2-2 0-1 
+Which artist is of electronica genre	artist whose genre is electronica and that is artist of electronica	1-0 4-10 3-9 4-4 2-2 0-1 
+What other songs did the musician who made Ameno sing	song that is song of artist of ameno	8-7 7-6 3-4 6-5 2-3 1-2 0-1 
+What are the musicians that sing anything apart from Dark Wave	artist whose genre is not dark wave	2-0 3-0 10-6 6-4 9-5 4-3 7-4 0-1 1-1 
+What songs came out in 0, 2006, or after	song whose year is at least 0 or 2006	1-0 4-6 7-7 2-2 0-1 3-2 5-8 6-8 
+What are the songs of Andromeda and sung by Andromeda	song that is sung by andromeda and whose artist is andromeda	3-0 6-6 5-5 7-4 9-10 8-4 4-2 7-3 
+Name songs by Andromeda that are from 0. 	song whose artist is andromeda and whose year is 0	1-0 7-7 5-6 3-4 6-9 0-1 5-8 
+Name artists with the same genre as Andromeda. 	artist whose genre is genre whose artist is andromeda	1-0 5-4 0-1 7-8 
+Which genre has two artists	genre that is genre of two artist	1-0 4-6 3-5 2-4 1-3 0-2 0-1 
+What's total number of songs	number of song	0-0 3-1 1-0 2-0 4-2 
+What's the total number of musicians	number of artist	4-1 2-0 3-0 5-2 
+What other songs came out in the same year as Ameno	song whose year is year of ameno	2-0 10-6 9-5 8-4 0-1 3-2 1-1 
+What genre is Ameno's artist	genre whose artist is artist that is artist of ameno	1-0 3-9 0-1 
+What are the genres of electronica artists	genre that is genre of artist that is artist of electronica	5-10 4-9 3-3 1-2 0-1 6-8 
+What songs have more than two artists	song that has more than two artist	1-0 6-6 5-5 4-4 3-3 2-2 0-1 
+Which artists have at least two genres	artist that has at least two genre	1-0 6-6 5-5 4-4 3-3 2-2 0-1 
+Name a song by the artists of Ameno	song that is song of artist whose song is ameno	5-5 7-9 0-1 
+What other genres do dark wave singers sing	genre whose artist is artist that is artist of dark wave	2-0 5-10 6-10 4-9 1-2 3-8 0-1 1-1 
+Which songs came out in years that were not 0	song that not came out in 0	1-0 8-2 9-6 0-1 5-2 
+What artists share a genre with Andromeda	artist that is artist of genre that is genre of andromeda	1-0 3-4 1-3 6-10 0-2 5-9 4-8 0-1 
+List other genres that electronica bands have	genre whose artist is artist that is artist of electronica	2-0 1-3 4-9 0-2 1-1 
+Name a song by an artist of dark wave genre. 	song whose artist is artist of dark wave	1-0 4-1 8-7 9-7 7-6 6-5 5-4 5-2 
+Which songs were made by Andromeda and Andromeda	song that is song of andromeda and that is song of andromeda	1-0 6-6 5-5 7-11 3-4 1-3 0-1 
+Which musicians sing in two genres	artist that is artist of two genre	1-0 5-6 4-5 0-1 
+Which artists have more than two songs	artist that is artist of more than two song	5-7 1-0 4-6 3-5 1-3 0-2 0-1 6-8 
+Name an artist of the electronica genre	artist whose genre is electronica and that is artist of electronica	1-5 5-10 3-9 1-1 
+What is the song with the most artists	song that has the most number of artist	7-7 6-4 5-3 0-1 1-1 4-2 
+Name songs by Andromeda	song that is song of andromeda and that is song of 0	1-0 3-5 1-3 0-2 0-1 
+Which artist sang Ameno and dark wave	artist that is artist of ameno and that is artist of dark wave	4-6 6-12 3-5 5-11 1-3 0-1 
+Name songs that have at least two artists	song that has at least two artist	1-0 7-6 6-5 5-4 4-3 3-2 2-1 
+What songs came out after Ameno did	song whose year is larger than year of ameno	1-0 6-7 4-4 2-2 0-1 3-2 5-8 
+Name songs by Andromeda from 0	song that is sung by andromeda and that is song of 0	1-0 4-11 3-5 5-11 2-4 2-3 0-1 
+What is the genre of Andromeda's music and Andromeda's music	genre whose artist is andromeda and that is genre of andromeda	5-10 7-5 4-9 5-4 3-8 8-4 0-1 
+Which dark wave artist sang Ameno	artist whose genre is dark wave and whose song is ameno	2-5 1-4 0-3 5-10 4-9 0-1 4-7 
+What artists do not make electronica music	artist whose genre is not electronica	1-0 5-5 3-4 4-4 0-1 
+Which artist shares the same genre as that of Andromeda	artist that is artist of genre of andromeda	9-7 2-4 5-5 8-6 1-3 0-1 
+What is the oldest song	song that has the smallest year	0-0 4-5 3-4 2-3 2-2 0-1 1-1 
+What is the name of the electronica artist whose song is Ameno	artist that is artist of ameno and whose genre is electronica	8-6 6-10 11-5 9-4 
+Name songs by Andromeda	song that is song of andromeda	1-0 3-5 1-3 0-2 0-1 
+Artists called Andromeda or Sleazy Romance	andromeda or sleazy romance	3-1 2-0 5-3 4-2 
+What songs were made in 0 and sung by Andromeda	song that is sung by andromeda and that is song of 0	1-0 4-11 5-11 6-6 3-10 9-5 7-4 8-4 0-1 
+Who sings dark wave and has a song called ameno	artist that is artist of dark wave and whose song is ameno	3-6 2-5 8-11 9-11 6-9 7-9 4-7 
+Which songs were made in 0 and came out in 0	song whose year is 0 and that came out in 0	1-0 7-7 6-5 5-4 2-2 10-10 0-1 9-9 
+Who sings Ameno and makes electronica music	artist whose genre is electronica and whose song is ameno	0-0 6-2 4-6 3-5 2-9 5-4 6-3 6-8 4-7 
+What are the genres of artists with dark wave music	genre that is genre of artist of dark wave	8-8 7-7 6-6 5-5 4-4 3-3 1-2 0-1 
+What genre is Andromeda	genre of andromeda	1-0 3-2 2-1 
+Which song has the fewest number of artists	song that is song of the least number of artist	5-7 1-0 4-6 2-4 1-3 7-9 0-1 6-8 
+Show songs that were released in 0 or 2006	song that is song of 0 or 2006	1-0 8-7 4-5 7-6 5-5 6-5 1-3 0-1 2-1 
+Which genres have at least two artists	genre that has at least two artist	1-0 6-6 5-5 4-4 3-3 2-2 0-1 
+Who has electrinica and dark wave music	artist that is artist of electronica and whose genre is dark wave	0-0 3-6 6-7 2-5 5-11 1-4 4-10 0-3 6-9 1-1 6-8 
+What songs are written by dark wave artists	song whose artist is artist that is artist of dark wave	1-0 3-4 6-10 5-9 3-2 2-1 
+Name songs by the artist who made Ameno	song that is song of artist that is artist of ameno	1-0 3-4 1-3 7-10 6-9 0-1 5-8 
+Which artists have the same genre as the genre of singer of andromeda	artist that is artist of genre that is genre of andromeda	8-8 11-9 1-0 0-1 9-9 12-10 
+Show me the artists that sing in two different genres	artist that has two genre	4-1 3-0 6-1 9-4 7-3 8-3 
+What songs came out before 0	song whose year is at most 0	1-0 5-6 4-5 0-3 4-4 2-2 0-1 3-2 
+Who sings Ameno	artist of ameno	0-0 2-2 
+What songs do Andromeda have	song that is song of andromeda and that is song of andromeda	1-0 3-11 2-10 3-5 2-4 1-3 0-2 0-1 4-7 
+Which songs did Andromeda released in 0	song that came out in 0 and that is sung by andromeda	1-0 3-11 6-5 5-4 5-3 0-1 2-1 
+What songs came out in 0 or 2006	song whose year is 0 or 2006	1-0 7-6 6-5 4-4 5-4 2-2 0-1 3-2 
+Who is the artist of Andromeda's songs	artist that is artist of song that is song of andromeda	0-0 5-10 4-9 6-8 
+Which artists make music in the electronica and dark wave genres	artist whose genre is electronica and whose genre is dark wave	1-0 10-7 7-5 3-3 6-4 9-10 5-3 0-1 8-9 
+Which songs came out before Ameno	song whose year is at most year of ameno	1-0 4-5 4-4 2-2 0-1 5-8 
+What songs came out before Ameno did	song whose year is smaller than year of ameno	1-0 6-7 4-4 2-2 0-1 3-2 5-8 
+Who sings Ameno	artist whose song is ameno	0-0 2-4 1-1 
+Which electronica artist sang Ameno	artist whose genre is electronica and that is artist of ameno	1-4 4-10 3-9 2-8 0-1 
+What Andromeda song came out in 0	song that came out in 0 and that is song of andromeda	1-11 2-0 2-10 6-5 4-3 0-1 3-2 
+Show artists of genres dark wave and dark wave	artist that is artist of dark wave and that is artist of dark wave	1-0 6-7 8-13 5-6 4-5 2-4 1-3 0-1 
+Which dark wave artist sang Ameno	artist that is artist of ameno and whose genre is dark wave	2-11 1-10 5-5 0-1 
+Who is an electronica artist who had the song Ameno	artist whose song is ameno and whose genre is electronica	0-0 2-6 6-2 2-5 3-9 1-7 9-4 2-1 
+Which genre is represented by less than 2 bands	genre that is genre of less than two artist	8-8 1-0 7-7 3-5 6-6 2-4 5-5 1-3 0-1 
+Which songs came out earlier than 0 or earlier than 2006	song whose year is smaller than 0 or 2006	1-0 7-7 10-8 6-6 5-5 4-4 9-5 2-2 8-4 0-1 3-2 
+What artist sings Ameno and is dark wave	artist whose song is ameno and whose genre is dark wave	5-7 1-0 4-5 3-4 7-10 6-9 0-1 5-8 
+Which artists sang at least two songs	artist that is artist of at least two song	5-7 1-0 4-6 3-5 2-4 1-3 0-1 6-8 
+Which artists are both dark wave and electronica	artist whose genre is dark wave and that is artist of electronica	1-0 6-6 5-5 7-11 3-4 4-4 2-3 2-1 
+What genre is not the same as the genre of Andromeda	genre that is not genre of andromeda	1-0 10-6 3-3 9-5 8-4 0-1 
+Which music bands perform in less than 2 genres	artist that is artist of less than two genre	8-8 7-7 3-5 6-6 2-4 5-5 2-3 1-2 0-1 
+What is the genre of the musician who made Ameno	genre that is genre of artist whose song is ameno	4-4 7-5 3-3 6-4 0-1 9-9 
+Name songs by andromeda and andromeda. 	song whose artist is andromeda and whose artist is andromeda	1-0 4-5 3-4 5-9 0-1 
+Who is the artist with the highest number of songs	artist that has the most number of song	0-0 9-7 8-6 7-5 6-4 5-3 1-1 4-2 
+Show me the artists that have no more than 2 songs	artist that has at most two song	4-1 3-0 10-6 9-5 6-3 9-4 5-2 
+Which artist sings Ameno and is dark wave	artist whose genre is dark wave and whose song is ameno	1-0 4-6 3-10 7-5 6-4 5-3 2-7 2-1 5-2 
+Name genre of Andromeda or Sleazy Romance. 	genre that is genre of andromeda or sleazy romance	5-7 1-0 4-6 3-5 2-4 1-3 0-2 0-1 6-8 
+List all 0 songs	song of 0	3-0 2-2 0-1 1-1 
+List all electronica musicians	artist that is artist of electronica	2-5 1-4 0-3 0-1 
+Name songs that came out in years besides 0	song whose year is not 0	1-0 8-5 6-4 7-4 0-1 3-2 4-2 
+Show me some songs made by the artist who sang Ameno	song that is song of artist whose song is ameno	9-8 4-4 8-5 3-3 0-1 10-9 
+Which songs are from 0	song whose year is 0 and that came out in 0	1-0 4-10 3-4 2-3 0-1 3-7 2-1 
+Name a song by a dark wave artist. 	song that is song of artist of dark wave	5-7 4-6 0-2 0-1 6-8 
+What is Andromeda's genre	genre whose artist is andromeda	1-0 3-0 2-4 1-3 0-1 
+What other songs are sung by the artist of Ameno	song that is song of artist that is artist of ameno	2-0 2-3 1-2 9-10 0-1 8-9 7-8 
+Name artists who sang Ameno or Middleclass love	artist whose song is ameno or middleclass love	1-0 2-0 7-7 6-6 5-5 4-4 3-3 0-1 
+Who is the dark wave artist who sang Ameno	artist whose genre is dark wave and that is artist of ameno	0-0 4-5 3-4 8-11 2-3 7-10 1-2 6-9 
+Name the artist who sang songs by Andromeda	artist whose song is song that is sung by andromeda	4-1 6-7 2-0 3-0 5-4 7-9 6-8 5-2 
+Which songs are sung by artists of genre dark wave	song that is song of artist whose genre is dark wave	1-0 7-7 5-5 1-3 6-4 9-10 2-2 0-1 8-9 

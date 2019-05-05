@@ -1,0 +1,1691 @@
+# Name: HMM:reversed
+# Reverse: true
+# Distortion probabilities
+0: <= -5	0.0
+0: = -4	0.0
+0: = -3	0.0
+0: = -2	0.0
+0: = -1	0.0
+0: = 0	0.0
+0: = 1	48.064817661524046
+0: = 2	161.78686199213195
+0: = 3	64.08694185391727
+0: = 4	29.144445626891407
+0: >= 5	2.9152253838180915
+1: <= -5	19.64670284453273
+1: = -4	41.717667212442024
+1: = -3	82.32011716761187
+1: = -2	165.40459486295694
+1: = -1	312.3483092502981
+1: = 0	536.9155168954452
+1: = 1	621.9118953260873
+1: = 2	310.81715016668
+1: = 3	203.11794240510955
+1: = 4	121.73021373600902
+1: >= 5	37.025806363680715
+2: <= -5	0.0
+2: = -4	0.0
+2: = -3	0.0
+2: = -2	0.0
+2: = -1	0.0
+2: = 0	0.0
+2: = 1	1104.1799417501086
+2: = 2	614.05027807958
+2: = 3	387.0740688641781
+2: = 4	252.16747705941702
+2: >= 5	307.8701425584143
+3: <= -5	0.0
+3: = -4	0.0
+3: = -3	0.0
+3: = -2	0.0
+3: = -1	0.0
+3: = 0	0.0
+3: = 1	0.0
+3: = 2	0.0
+3: = 3	0.0
+3: = 4	0.0
+3: >= 5	0.0
+# Translation probabilities
+play	entropy 0.266	nTrans 6	sum 1.000000
+  not: 0.927342
+  electronica: 0.071773
+  artist: 0.000733
+  of: 0.000152
+  that: 0.000000
+  is: 0.000000
+romance	entropy 0.620	nTrans 8	sum 1.000000
+  romance: 0.688839
+  sleazy: 0.311137
+  or: 0.000024
+electronics	entropy 0.069	nTrans 6	sum 1.000000
+  electronica: 0.988424
+  whose: 0.009680
+  artist: 0.001808
+  of: 0.000087
+  is: 0.000001
+  genre: 0.000000
+called	entropy 0.758	nTrans 14	sum 1.000000
+  ameno: 0.795262
+  sleazy: 0.110948
+  romance: 0.045426
+  and: 0.025855
+  whose: 0.017972
+  is: 0.004499
+  or: 0.000035
+  song: 0.000002
+  artist: 0.000001
+  wave: 0.000000
+  dark: 0.000000
+  that: 0.000000
+  of: 0.000000
+year	entropy 0.119	nTrans 13	sum 1.000000
+  year: 0.978308
+  0: 0.017313
+  of: 0.003364
+  2006: 0.000769
+  or: 0.000155
+  and: 0.000036
+  song: 0.000035
+  is: 0.000018
+  ameno: 0.000001
+  that: 0.000001
+  whose: 0.000000
+  least: 0.000000
+  at: 0.000000
+release	entropy 0.156	nTrans 8	sum 1.000000
+  electronica: 0.966199
+  and: 0.032156
+  whose: 0.000856
+  genre: 0.000471
+  is: 0.000317
+  of: 0.000000
+  artist: 0.000000
+  that: 0.000000
+what's	entropy 1.075	nTrans 11	sum 1.000000
+  whose: 0.554176
+  number: 0.220424
+  artist: 0.206499
+  of: 0.009493
+  genre: 0.009208
+  is: 0.000200
+  ameno: 0.000000
+  dark: 0.000000
+  wave: 0.000000
+put	entropy 1.167	nTrans 7	sum 1.000000
+  song: 0.559907
+  of: 0.207862
+  and: 0.127475
+  that: 0.101684
+  0: 0.001565
+  is: 0.001215
+  andromeda: 0.000291
+years	entropy 0.523	nTrans 10	sum 1.000000
+  not: 0.872387
+  in: 0.045066
+  came: 0.042872
+  out: 0.039409
+  0: 0.000252
+  year: 0.000013
+  whose: 0.000000
+  is: 0.000000
+electronica	entropy 0.013	nTrans 13	sum 1.000000
+  electronica: 0.998507
+  artist: 0.000897
+  is: 0.000365
+  whose: 0.000101
+  of: 0.000093
+  genre: 0.000029
+  that: 0.000005
+  and: 0.000003
+number	entropy 0.189	nTrans 11	sum 1.000000
+  number: 0.954342
+  the: 0.044952
+  most: 0.000702
+  of: 0.000004
+  least: 0.000000
+  has: 0.000000
+music	entropy 1.493	nTrans 25	sum 1.000000
+  is: 0.510685
+  whose: 0.169600
+  artist: 0.120172
+  genre: 0.075463
+  and: 0.065805
+  of: 0.031850
+  that: 0.022452
+  electronica: 0.002947
+  wave: 0.000888
+  andromeda: 0.000071
+  dark: 0.000063
+  song: 0.000003
+  has: 0.000000
+  not: 0.000000
+  two: 0.000000
+  romance: 0.000000
+terms	entropy 0.875	nTrans 8	sum 1.000000
+  the: 0.643764
+  least: 0.241886
+  number: 0.114347
+  of: 0.000003
+  genre: 0.000000
+ameno's	entropy 0.801	nTrans 7	sum 1.000000
+  ameno: 0.571456
+  artist: 0.397452
+  whose: 0.029666
+  is: 0.001199
+  of: 0.000209
+  genre: 0.000018
+  that: 0.000000
+represented	entropy 0.022	nTrans 8	sum 1.000000
+  less: 0.996800
+  than: 0.003098
+  genre: 0.000101
+  two: 0.000001
+  of: 0.000000
+  that: 0.000000
+  is: 0.000000
+greater	entropy 0.011	nTrans 8	sum 1.000000
+  more: 0.998553
+  than: 0.001447
+  two: 0.000000
+  of: 0.000000
+released	entropy 1.075	nTrans 22	sum 1.000000
+  year: 0.622335
+  0: 0.265038
+  whose: 0.033736
+  came: 0.027997
+  out: 0.020890
+  in: 0.017531
+  song: 0.009925
+  is: 0.002366
+  and: 0.000105
+  of: 0.000039
+  smaller: 0.000033
+  that: 0.000002
+  at: 0.000001
+  least: 0.000000
+  than: 0.000000
+  2006: 0.000000
+  sung: 0.000000
+  or: 0.000000
+  andromeda: 0.000000
+  by: 0.000000
+  artist: 0.000000
+andromeda	entropy 0.146	nTrans 20	sum 1.000000
+  andromeda: 0.976157
+  by: 0.008254
+  and: 0.008112
+  sung: 0.005389
+  that: 0.000728
+  is: 0.000703
+  song: 0.000480
+  whose: 0.000125
+  of: 0.000052
+  came: 0.000001
+  out: 0.000000
+  in: 0.000000
+  0: 0.000000
+  artist: 0.000000
+song	entropy 1.000	nTrans 33	sum 1.000000
+  of: 0.578368
+  song: 0.340804
+  that: 0.039058
+  is: 0.016188
+  year: 0.014928
+  artist: 0.006325
+  the: 0.001707
+  ameno: 0.001656
+  and: 0.000721
+  whose: 0.000243
+  smallest: 0.000001
+  has: 0.000001
+  number: 0.000000
+  dark: 0.000000
+  wave: 0.000000
+  came: 0.000000
+  larger: 0.000000
+  out: 0.000000
+  andromeda: 0.000000
+  in: 0.000000
+  0: 0.000000
+  electronica: 0.000000
+  sung: 0.000000
+  most: 0.000000
+give	entropy 1.079	nTrans 13	sum 1.000000
+  song: 0.472747
+  whose: 0.424845
+  artist: 0.041090
+  of: 0.032023
+  is: 0.022850
+  andromeda: 0.006312
+  genre: 0.000126
+  the: 0.000003
+  dark: 0.000002
+  wave: 0.000001
+  least: 0.000000
+  number: 0.000000
+in	entropy 1.364	nTrans 34	sum 1.000000
+  0: 0.609983
+  in: 0.106105
+  out: 0.085550
+  that: 0.084208
+  came: 0.050176
+  is: 0.036507
+  of: 0.010232
+  year: 0.009097
+  and: 0.005780
+  whose: 0.001781
+  song: 0.000579
+  artist: 0.000000
+  sung: 0.000000
+  genre: 0.000000
+  has: 0.000000
+  two: 0.000000
+  by: 0.000000
+  andromeda: 0.000000
+  or: 0.000000
+  2006: 0.000000
+  more: 0.000000
+made	entropy 1.283	nTrans 22	sum 1.000000
+  of: 0.572963
+  sung: 0.132382
+  that: 0.131979
+  by: 0.082579
+  song: 0.074424
+  is: 0.005619
+  andromeda: 0.000027
+  artist: 0.000023
+  0: 0.000003
+  and: 0.000001
+  has: 0.000000
+  ameno: 0.000000
+  the: 0.000000
+  came: 0.000000
+  whose: 0.000000
+  least: 0.000000
+  number: 0.000000
+  out: 0.000000
+  year: 0.000000
+is	entropy 1.650	nTrans 33	sum 1.000000
+  genre: 0.323947
+  is: 0.212306
+  of: 0.196329
+  that: 0.151855
+  artist: 0.075564
+  whose: 0.030246
+  and: 0.008800
+  andromeda: 0.000439
+  ameno: 0.000438
+  song: 0.000071
+  the: 0.000005
+  has: 0.000002
+  electronica: 0.000000
+  dark: 0.000000
+  wave: 0.000000
+  smallest: 0.000000
+come	entropy 0.044	nTrans 8	sum 1.000000
+  not: 0.993291
+  0: 0.004935
+  year: 0.001760
+  song: 0.000013
+  whose: 0.000001
+  is: 0.000000
+  of: 0.000000
+  that: 0.000000
+it	entropy 1.126	nTrans 8	sum 1.000000
+  year: 0.412902
+  least: 0.391185
+  at: 0.171110
+  ameno: 0.024803
+  of: 0.000000
+an	entropy 0.998	nTrans 12	sum 1.000000
+  whose: 0.704072
+  and: 0.137960
+  artist: 0.074369
+  electronica: 0.053004
+  is: 0.023136
+  genre: 0.005060
+  dark: 0.002169
+  wave: 0.000229
+  of: 0.000000
+  that: 0.000000
+whose	entropy 1.779	nTrans 16	sum 1.000000
+  and: 0.295717
+  is: 0.264758
+  whose: 0.168006
+  that: 0.127828
+  not: 0.049227
+  artist: 0.030554
+  of: 0.024688
+  andromeda: 0.024192
+  song: 0.013927
+  ameno: 0.000559
+  in: 0.000243
+  out: 0.000242
+  came: 0.000058
+  genre: 0.000000
+  electronica: 0.000000
+weren't	entropy 0.717	nTrans 7	sum 1.000000
+  sung: 0.759898
+  not: 0.130262
+  by: 0.109839
+  that: 0.000000
+  andromeda: 0.000000
+0	entropy 0.258	nTrans 24	sum 1.000000
+  0: 0.947422
+  in: 0.030249
+  out: 0.015773
+  came: 0.005837
+  and: 0.000523
+  song: 0.000064
+  is: 0.000041
+  that: 0.000035
+  year: 0.000034
+  of: 0.000019
+  sung: 0.000002
+  by: 0.000002
+  whose: 0.000001
+  andromeda: 0.000000
+  2006: 0.000000
+as	entropy 1.458	nTrans 13	sum 1.000000
+  genre: 0.381666
+  of: 0.265947
+  year: 0.222446
+  is: 0.063981
+  whose: 0.039601
+  andromeda: 0.025746
+  least: 0.000198
+  artist: 0.000176
+  at: 0.000129
+  ameno: 0.000092
+  that: 0.000018
+  not: 0.000000
+  song: 0.000000
+2	entropy 1.124	nTrans 13	sum 1.000000
+  two: 0.591301
+  most: 0.179314
+  than: 0.151788
+  has: 0.072635
+  at: 0.004362
+  more: 0.000563
+  less: 0.000035
+  genre: 0.000002
+  that: 0.000000
+  artist: 0.000000
+at	entropy 0.066	nTrans 14	sum 1.000000
+  at: 0.988402
+  least: 0.010728
+  has: 0.000853
+  two: 0.000016
+  most: 0.000000
+  that: 0.000000
+highest	entropy 0.518	nTrans 10	sum 1.000000
+  most: 0.804097
+  the: 0.190848
+  number: 0.005055
+  has: 0.000001
+  of: 0.000000
+fewest	entropy 0.985	nTrans 10	sum 1.000000
+  least: 0.509248
+  the: 0.352086
+  number: 0.138636
+  has: 0.000030
+  of: 0.000000
+2006,	entropy 0.321	nTrans 9	sum 1.000000
+  2006: 0.929816
+  or: 0.032393
+  least: 0.030375
+  at: 0.007416
+  0: 0.000000
+love	entropy 0.520	nTrans 10	sum 1.000000
+  love: 0.785586
+  middleclass: 0.214411
+  or: 0.000003
+sings	entropy 1.210	nTrans 13	sum 1.000000
+  whose: 0.505926
+  artist: 0.237398
+  ameno: 0.188472
+  is: 0.061368
+  of: 0.005330
+  song: 0.001494
+  and: 0.000006
+  dark: 0.000004
+  wave: 0.000001
+  that: 0.000001
+  andromeda: 0.000000
+  genre: 0.000000
+other	entropy 1.271	nTrans 16	sum 1.000000
+  is: 0.454079
+  whose: 0.316381
+  artist: 0.160460
+  that: 0.035948
+  of: 0.024511
+  song: 0.007511
+  year: 0.001104
+  genre: 0.000005
+  ameno: 0.000000
+  not: 0.000000
+  andromeda: 0.000000
+  and: 0.000000
+singer	entropy 1.074	nTrans 11	sum 1.000000
+  artist: 0.653317
+  that: 0.134195
+  is: 0.131759
+  ameno: 0.041648
+  of: 0.039006
+  whose: 0.000048
+  and: 0.000027
+  song: 0.000000
+  genre: 0.000000
+  andromeda: 0.000000
+  electronica: 0.000000
+artist	entropy 1.220	nTrans 25	sum 1.000000
+  artist: 0.564650
+  is: 0.269147
+  of: 0.055916
+  whose: 0.047354
+  that: 0.037772
+  and: 0.014733
+  ameno: 0.008731
+  song: 0.001668
+  genre: 0.000027
+  the: 0.000001
+  dark: 0.000000
+  wave: 0.000000
+  electronica: 0.000000
+  number: 0.000000
+  has: 0.000000
+least	entropy 0.299	nTrans 10	sum 1.000000
+  least: 0.912641
+  at: 0.086875
+  has: 0.000457
+  two: 0.000027
+  that: 0.000000
+romance.	entropy 0.504	nTrans 11	sum 1.000000
+  romance: 0.797200
+  sleazy: 0.202793
+  or: 0.000007
+bands	entropy 1.196	nTrans 16	sum 1.000000
+  artist: 0.528374
+  of: 0.229443
+  that: 0.134854
+  is: 0.105363
+  electronica: 0.001638
+  song: 0.000174
+  less: 0.000131
+  whose: 0.000021
+  than: 0.000002
+  genre: 0.000000
+  two: 0.000000
+  0: 0.000000
+  the: 0.000000
+  not: 0.000000
+two	entropy 0.089	nTrans 14	sum 1.000000
+  two: 0.982607
+  has: 0.017138
+  than: 0.000231
+  at: 0.000010
+  least: 0.000007
+  that: 0.000005
+  less: 0.000001
+  artist: 0.000001
+  more: 0.000001
+  genre: 0.000000
+  of: 0.000000
+  song: 0.000000
+out	entropy 1.186	nTrans 25	sum 1.000000
+  year: 0.617408
+  out: 0.125875
+  came: 0.105196
+  in: 0.101947
+  0: 0.047889
+  song: 0.001160
+  is: 0.000135
+  whose: 0.000130
+  and: 0.000126
+  of: 0.000101
+  that: 0.000029
+  at: 0.000003
+  than: 0.000000
+  larger: 0.000000
+  smaller: 0.000000
+  most: 0.000000
+  2006: 0.000000
+  or: 0.000000
+shares	entropy 0.295	nTrans 6	sum 1.000000
+  of: 0.920517
+  artist: 0.075643
+  that: 0.003300
+  andromeda: 0.000312
+  genre: 0.000219
+  is: 0.000009
+how	entropy 4.76e-04	nTrans 3	sum 1.000000
+  number: 0.999957
+  of: 0.000043
+  song: 0.000000
+same	entropy 1.463	nTrans 13	sum 1.000000
+  year: 0.345600
+  genre: 0.332014
+  whose: 0.155969
+  of: 0.092371
+  is: 0.068404
+  least: 0.002335
+  at: 0.001912
+  andromeda: 0.001187
+  ameno: 0.000143
+  artist: 0.000041
+  that: 0.000023
+  not: 0.000000
+  song: 0.000000
+middleclass	entropy 0.639	nTrans 10	sum 1.000000
+  middleclass: 0.663401
+  love: 0.336575
+  or: 0.000024
+artists'	entropy 1.193	nTrans 8	sum 1.000000
+  artist: 0.462234
+  that: 0.337053
+  of: 0.154232
+  electronica: 0.024636
+  and: 0.019910
+  is: 0.001903
+  dark: 0.000031
+  wave: 0.000000
+artists	entropy 0.425	nTrans 33	sum 1.000000
+  artist: 0.917189
+  that: 0.024137
+  genre: 0.015920
+  of: 0.015461
+  has: 0.013869
+  is: 0.010796
+  whose: 0.001913
+  two: 0.000551
+  electronica: 0.000157
+  song: 0.000004
+  least: 0.000001
+  than: 0.000001
+  wave: 0.000000
+  dark: 0.000000
+  at: 0.000000
+  more: 0.000000
+  not: 0.000000
+  andromeda: 0.000000
+  less: 0.000000
+  sleazy: 0.000000
+  romance: 0.000000
+  or: 0.000000
+  the: 0.000000
+  number: 0.000000
+are	entropy 1.235	nTrans 30	sum 1.000000
+  whose: 0.495554
+  is: 0.344626
+  artist: 0.064701
+  of: 0.046504
+  that: 0.029043
+  song: 0.013374
+  and: 0.002469
+  genre: 0.002276
+  sung: 0.000866
+  by: 0.000562
+  andromeda: 0.000018
+  electronica: 0.000003
+  not: 0.000001
+  dark: 0.000001
+  year: 0.000001
+  0: 0.000001
+  wave: 0.000000
+  has: 0.000000
+  more: 0.000000
+  than: 0.000000
+by	entropy 1.841	nTrans 28	sum 1.000000
+  song: 0.255048
+  is: 0.205088
+  by: 0.200747
+  sung: 0.145392
+  andromeda: 0.083214
+  whose: 0.065185
+  that: 0.029922
+  of: 0.011202
+  artist: 0.003538
+  and: 0.000663
+  0: 0.000000
+  year: 0.000000
+genre	entropy 0.179	nTrans 27	sum 1.000000
+  genre: 0.967432
+  of: 0.020340
+  is: 0.006824
+  artist: 0.003298
+  whose: 0.001209
+  that: 0.000768
+  andromeda: 0.000107
+  electronica: 0.000019
+  and: 0.000002
+have	entropy 0.938	nTrans 27	sum 1.000000
+  has: 0.684855
+  that: 0.204226
+  artist: 0.075396
+  of: 0.019191
+  two: 0.011302
+  at: 0.002934
+  least: 0.001083
+  is: 0.000670
+  genre: 0.000129
+  than: 0.000087
+  song: 0.000068
+  less: 0.000055
+  more: 0.000002
+  whose: 0.000001
+  most: 0.000000
+  andromeda: 0.000000
+  came: 0.000000
+dark	entropy 0.637	nTrans 13	sum 1.000000
+  dark: 0.667438
+  wave: 0.332480
+  is: 0.000027
+  of: 0.000020
+  artist: 0.000018
+  genre: 0.000010
+  whose: 0.000005
+  and: 0.000002
+  that: 0.000000
+came	entropy 0.920	nTrans 25	sum 1.000000
+  year: 0.702823
+  came: 0.172556
+  out: 0.076344
+  in: 0.040448
+  0: 0.006526
+  song: 0.000853
+  whose: 0.000265
+  and: 0.000060
+  is: 0.000057
+  of: 0.000033
+  that: 0.000023
+  larger: 0.000008
+  at: 0.000002
+  than: 0.000001
+  smaller: 0.000000
+  2006: 0.000000
+  or: 0.000000
+  most: 0.000000
+  ameno: 0.000000
+share	entropy 1.075	nTrans 6	sum 1.000000
+  that: 0.520223
+  genre: 0.322156
+  of: 0.135867
+  is: 0.010932
+  artist: 0.010734
+  andromeda: 0.000088
+after	entropy 0.248	nTrans 13	sum 1.000000
+  larger: 0.953552
+  year: 0.017964
+  least: 0.013686
+  at: 0.011504
+  than: 0.002831
+  2006: 0.000463
+  or: 0.000001
+  ameno: 0.000000
+  whose: 0.000000
+musician	entropy 0.952	nTrans 8	sum 1.000000
+  ameno: 0.521269
+  of: 0.385299
+  song: 0.087976
+  is: 0.004833
+  that: 0.000359
+  genre: 0.000165
+  whose: 0.000080
+  artist: 0.000018
+apart	entropy 0.086	nTrans 7	sum 1.000000
+  not: 0.984230
+  dark: 0.014381
+  wave: 0.001388
+  whose: 0.000001
+  genre: 0.000001
+  is: 0.000000
+a	entropy 1.017	nTrans 24	sum 1.000000
+  of: 0.503045
+  song: 0.404768
+  is: 0.064549
+  that: 0.013788
+  artist: 0.007357
+  whose: 0.006492
+  year: 0.000001
+  genre: 0.000000
+  and: 0.000000
+  andromeda: 0.000000
+  dark: 0.000000
+  ameno: 0.000000
+  wave: 0.000000
+  electronica: 0.000000
+  0: 0.000000
+  sung: 0.000000
+  by: 0.000000
+more	entropy 0.348	nTrans 14	sum 1.000000
+  more: 0.917910
+  than: 0.053315
+  has: 0.025442
+  two: 0.003295
+  at: 0.000039
+  least: 0.000000
+  less: 0.000000
+  that: 0.000000
+  artist: 0.000000
+  most: 0.000000
+makes	entropy 0.903	nTrans 13	sum 1.000000
+  whose: 0.676905
+  song: 0.223495
+  of: 0.075645
+  andromeda: 0.012168
+  is: 0.011046
+  artist: 0.000661
+  and: 0.000080
+  ameno: 0.000000
+  dark: 0.000000
+  electronica: 0.000000
+  wave: 0.000000
+  genre: 0.000000
+artists.	entropy 1.092	nTrans 13	sum 1.000000
+  artist: 0.533826
+  most: 0.302920
+  of: 0.126656
+  electronica: 0.033584
+  that: 0.001870
+  is: 0.001127
+  the: 0.000012
+  at: 0.000004
+  number: 0.000001
+  whose: 0.000000
+  two: 0.000000
+  song: 0.000000
+many	entropy 4.94e-04	nTrans 3	sum 1.000000
+  number: 0.999955
+  of: 0.000045
+  song: 0.000000
+the	entropy 1.667	nTrans 36	sum 1.000000
+  of: 0.367815
+  artist: 0.228525
+  that: 0.136304
+  is: 0.121136
+  the: 0.091743
+  genre: 0.028510
+  whose: 0.019792
+  has: 0.004812
+  number: 0.000614
+  song: 0.000475
+  ameno: 0.000257
+  most: 0.000014
+  least: 0.000002
+  electronica: 0.000000
+  year: 0.000000
+  and: 0.000000
+  at: 0.000000
+  smallest: 0.000000
+names	entropy 0.828	nTrans 12	sum 1.000000
+  more: 0.713015
+  has: 0.179385
+  the: 0.098306
+  least: 0.007178
+  artist: 0.001080
+  that: 0.000478
+  than: 0.000391
+  number: 0.000167
+  of: 0.000000
+  two: 0.000000
+oldest	entropy 0.005	nTrans 6	sum 1.000000
+  smallest: 0.999509
+  has: 0.000240
+  the: 0.000238
+  year: 0.000014
+songs	entropy 0.211	nTrans 38	sum 1.000000
+  song: 0.964427
+  is: 0.011157
+  of: 0.006720
+  whose: 0.006500
+  that: 0.006176
+  year: 0.004827
+  0: 0.000075
+  artist: 0.000045
+  andromeda: 0.000026
+  sung: 0.000014
+  came: 0.000014
+  and: 0.000012
+  by: 0.000003
+  out: 0.000002
+  in: 0.000001
+  than: 0.000000
+  ameno: 0.000000
+  or: 0.000000
+  at: 0.000000
+  has: 0.000000
+  least: 0.000000
+to	entropy 0.960	nTrans 8	sum 1.000000
+  the: 0.572376
+  number: 0.278665
+  most: 0.148873
+  of: 0.000086
+  artist: 0.000000
+  genre: 0.000000
+  that: 0.000000
+artist's	entropy 0.666	nTrans 8	sum 1.000000
+  ameno: 0.642942
+  and: 0.355122
+  whose: 0.001070
+  is: 0.000510
+  artist: 0.000350
+  that: 0.000004
+  song: 0.000001
+  of: 0.000000
+did	entropy 1.662	nTrans 21	sum 1.000000
+  of: 0.407202
+  and: 0.168421
+  is: 0.167587
+  that: 0.149872
+  song: 0.058335
+  sung: 0.012564
+  year: 0.009654
+  by: 0.008844
+  whose: 0.004790
+  andromeda: 0.003697
+  came: 0.002631
+  ameno: 0.002078
+  than: 0.001606
+  not: 0.001539
+  out: 0.000517
+  in: 0.000335
+  0: 0.000238
+  artist: 0.000048
+  smaller: 0.000037
+  larger: 0.000005
+electrinica	entropy 0.061	nTrans 10	sum 1.000000
+  electronica: 0.990332
+  and: 0.008017
+  is: 0.000976
+  dark: 0.000270
+  whose: 0.000241
+  artist: 0.000095
+  of: 0.000030
+  genre: 0.000027
+  wave: 0.000013
+  that: 0.000001
+before	entropy 1.058	nTrans 11	sum 1.000000
+  smaller: 0.518080
+  most: 0.307707
+  at: 0.161238
+  year: 0.011552
+  than: 0.001423
+  whose: 0.000000
+  ameno: 0.000000
+fewer	entropy 0.028	nTrans 10	sum 1.000000
+  less: 0.995685
+  than: 0.004167
+  has: 0.000148
+  two: 0.000000
+  that: 0.000000
+had	entropy 1.120	nTrans 21	sum 1.000000
+  song: 0.470589
+  that: 0.410414
+  is: 0.054774
+  of: 0.033399
+  artist: 0.025357
+  whose: 0.003549
+  less: 0.000945
+  has: 0.000563
+  the: 0.000275
+  least: 0.000062
+  number: 0.000033
+  0: 0.000025
+  came: 0.000012
+  than: 0.000004
+  out: 0.000000
+  in: 0.000000
+  genre: 0.000000
+  and: 0.000000
+after.	entropy 0.627	nTrans 9	sum 1.000000
+  least: 0.681257
+  at: 0.318662
+  2006: 0.000073
+  0: 0.000008
+  year: 0.000001
+  or: 0.000000
+do	entropy 1.324	nTrans 13	sum 1.000000
+  of: 0.467951
+  that: 0.235254
+  is: 0.189076
+  not: 0.079194
+  artist: 0.026022
+  electronica: 0.001555
+  and: 0.000713
+  genre: 0.000176
+  dark: 0.000035
+  wave: 0.000013
+  whose: 0.000006
+  andromeda: 0.000001
+  song: 0.000000
+genre.	entropy 0.871	nTrans 10	sum 1.000000
+  not: 0.605719
+  wave: 0.338750
+  dark: 0.031759
+  electronica: 0.023307
+  whose: 0.000332
+  artist: 0.000094
+  is: 0.000033
+  genre: 0.000005
+  of: 0.000000
+that	entropy 1.520	nTrans 34	sum 1.000000
+  that: 0.534581
+  is: 0.160964
+  song: 0.086734
+  has: 0.086467
+  whose: 0.062029
+  year: 0.034399
+  of: 0.013662
+  artist: 0.006376
+  came: 0.004690
+  at: 0.004112
+  sung: 0.002101
+  out: 0.001181
+  in: 0.001043
+  than: 0.000966
+  by: 0.000410
+  two: 0.000195
+  least: 0.000031
+  0: 0.000022
+  andromeda: 0.000019
+  genre: 0.000010
+  not: 0.000007
+  more: 0.000001
+  less: 0.000000
+  and: 0.000000
+  larger: 0.000000
+  most: 0.000000
+  or: 0.000000
+  2006: 0.000000
+biggest	entropy 0.960	nTrans 8	sum 1.000000
+  the: 0.498703
+  most: 0.412903
+  number: 0.077241
+  has: 0.011153
+  that: 0.000000
+  of: 0.000000
+earlier	entropy 5.71e-04	nTrans 9	sum 1.000000
+  smaller: 0.999949
+  2006: 0.000046
+  or: 0.000004
+  than: 0.000000
+  year: 0.000000
+than	entropy 0.085	nTrans 20	sum 1.000000
+  than: 0.986764
+  two: 0.006200
+  less: 0.003492
+  more: 0.003321
+  has: 0.000224
+  at: 0.000000
+  that: 0.000000
+  artist: 0.000000
+  least: 0.000000
+me	entropy 1.069	nTrans 24	sum 1.000000
+  whose: 0.522252
+  song: 0.344353
+  artist: 0.107606
+  is: 0.012838
+  has: 0.008400
+  andromeda: 0.004092
+  larger: 0.000224
+  that: 0.000129
+  genre: 0.000049
+  most: 0.000026
+  sung: 0.000012
+  at: 0.000011
+  of: 0.000007
+  two: 0.000000
+  by: 0.000000
+  than: 0.000000
+besides	entropy 2.25e-05	nTrans 9	sum 1.000000
+  not: 0.999998
+  whose: 0.000001
+  is: 0.000000
+  andromeda: 0.000000
+  year: 0.000000
+  0: 0.000000
+from	entropy 0.776	nTrans 19	sum 1.000000
+  0: 0.812917
+  came: 0.054467
+  and: 0.048995
+  year: 0.037450
+  out: 0.031327
+  in: 0.013067
+  is: 0.001203
+  whose: 0.000238
+  of: 0.000206
+  sung: 0.000049
+  song: 0.000032
+  that: 0.000028
+  by: 0.000021
+  andromeda: 0.000000
+  artist: 0.000000
+has	entropy 1.332	nTrans 22	sum 1.000000
+  of: 0.418922
+  that: 0.353340
+  artist: 0.140607
+  is: 0.036158
+  and: 0.032293
+  the: 0.012235
+  genre: 0.004157
+  has: 0.001322
+  two: 0.000557
+  number: 0.000340
+  whose: 0.000033
+  least: 0.000031
+  dark: 0.000003
+  wave: 0.000002
+  song: 0.000000
+  electronica: 0.000000
+  most: 0.000000
+  ameno: 0.000000
+  more: 0.000000
+written	entropy 0.436	nTrans 9	sum 1.000000
+  artist: 0.852637
+  whose: 0.143911
+  is: 0.002977
+  of: 0.000373
+  electronica: 0.000081
+  song: 0.000016
+  dark: 0.000005
+  wave: 0.000001
+  that: 0.000000
+andromeda's	entropy 0.214	nTrans 14	sum 1.000000
+  andromeda: 0.956056
+  whose: 0.031623
+  is: 0.009560
+  and: 0.002379
+  song: 0.000280
+  of: 0.000070
+  that: 0.000020
+  artist: 0.000010
+  genre: 0.000001
+  sung: 0.000000
+  by: 0.000000
+different	entropy 0.135	nTrans 8	sum 1.000000
+  two: 0.969940
+  has: 0.030055
+  that: 0.000005
+  artist: 0.000000
+  of: 0.000000
+  song: 0.000000
+  genre: 0.000000
+artist.	entropy 0.401	nTrans 10	sum 1.000000
+  electronica: 0.882415
+  of: 0.109361
+  artist: 0.004422
+  wave: 0.002669
+  is: 0.000872
+  dark: 0.000139
+  song: 0.000091
+  whose: 0.000025
+  genre: 0.000006
+  that: 0.000000
+electronoca	entropy 0.991	nTrans 8	sum 1.000000
+  electronica: 0.575454
+  and: 0.212889
+  whose: 0.208888
+  genre: 0.002672
+  is: 0.000080
+  ameno: 0.000017
+  song: 0.000000
+  artist: 0.000000
+which	entropy 1.357	nTrans 37	sum 1.000000
+  that: 0.431263
+  is: 0.208695
+  whose: 0.189834
+  artist: 0.158665
+  song: 0.008823
+  genre: 0.001771
+  of: 0.000828
+  has: 0.000049
+  came: 0.000032
+  and: 0.000032
+  out: 0.000005
+  year: 0.000002
+  least: 0.000000
+  at: 0.000000
+  in: 0.000000
+  than: 0.000000
+  andromeda: 0.000000
+  0: 0.000000
+  two: 0.000000
+  electronica: 0.000000
+  not: 0.000000
+all	entropy 1.236	nTrans 21	sum 1.000000
+  of: 0.435175
+  song: 0.335675
+  artist: 0.178866
+  electronica: 0.032502
+  is: 0.009482
+  whose: 0.007085
+  that: 0.000756
+  0: 0.000456
+  andromeda: 0.000001
+  less: 0.000000
+  and: 0.000000
+  has: 0.000000
+  sung: 0.000000
+singers	entropy 0.578	nTrans 8	sum 1.000000
+  wave: 0.754366
+  dark: 0.241970
+  artist: 0.003425
+  is: 0.000191
+  of: 0.000046
+  whose: 0.000002
+  that: 0.000001
+making	entropy 0.691	nTrans 8	sum 1.000000
+  sleazy: 0.540099
+  romance: 0.459763
+  or: 0.000138
+author	entropy 0.676	nTrans 11	sum 1.000000
+  in: 0.740775
+  out: 0.223646
+  came: 0.035575
+  and: 0.000003
+  whose: 0.000001
+  0: 0.000000
+  andromeda: 0.000000
+  artist: 0.000000
+kind	entropy 0.429	nTrans 6	sum 1.000000
+  genre: 0.863525
+  that: 0.128964
+  of: 0.007100
+  is: 0.000382
+  artist: 0.000030
+  ameno: 0.000000
+didn't	entropy 0.005	nTrans 6	sum 1.000000
+  not: 0.999429
+  whose: 0.000489
+  ameno: 0.000053
+  song: 0.000028
+  is: 0.000000
+  artist: 0.000000
+less	entropy 0.243	nTrans 12	sum 1.000000
+  less: 0.949525
+  than: 0.032388
+  least: 0.013885
+  two: 0.004144
+  at: 0.000053
+  has: 0.000005
+  that: 0.000000
+  artist: 0.000000
+  of: 0.000000
+list	entropy 0.913	nTrans 22	sum 1.000000
+  artist: 0.664009
+  of: 0.241450
+  that: 0.070238
+  electronica: 0.013306
+  song: 0.010062
+  is: 0.000597
+  0: 0.000318
+  whose: 0.000010
+  has: 0.000010
+  less: 0.000000
+  came: 0.000000
+  at: 0.000000
+  out: 0.000000
+  genre: 0.000000
+sung	entropy 1.247	nTrans 22	sum 1.000000
+  by: 0.460581
+  sung: 0.386345
+  song: 0.054622
+  artist: 0.045816
+  whose: 0.021088
+  is: 0.016530
+  that: 0.012246
+  of: 0.001877
+  has: 0.000544
+  dark: 0.000170
+  andromeda: 0.000150
+  wave: 0.000029
+  two: 0.000001
+  and: 0.000000
+  less: 0.000000
+  year: 0.000000
+  genre: 0.000000
+  than: 0.000000
+both	entropy 1.096	nTrans 10	sum 1.000000
+  dark: 0.544895
+  and: 0.292763
+  wave: 0.127686
+  electronica: 0.027071
+  is: 0.005200
+  artist: 0.001112
+  of: 0.000608
+  that: 0.000564
+  whose: 0.000072
+  genre: 0.000030
+most	entropy 0.004	nTrans 12	sum 1.000000
+  most: 0.999531
+  the: 0.000245
+  number: 0.000209
+  at: 0.000011
+  has: 0.000005
+  two: 0.000000
+  of: 0.000000
+sang	entropy 1.573	nTrans 21	sum 1.000000
+  is: 0.381686
+  whose: 0.298608
+  artist: 0.092709
+  of: 0.087934
+  ameno: 0.084134
+  and: 0.029435
+  song: 0.024328
+  that: 0.001156
+  sung: 0.000007
+  genre: 0.000002
+  by: 0.000001
+  middleclass: 0.000000
+  andromeda: 0.000000
+  love: 0.000000
+  wave: 0.000000
+  dark: 0.000000
+  electronica: 0.000000
+ameno	entropy 0.006	nTrans 23	sum 1.000000
+  ameno: 0.999375
+  whose: 0.000232
+  is: 0.000213
+  of: 0.000156
+  artist: 0.000016
+  and: 0.000006
+  song: 0.000001
+  that: 0.000000
+  year: 0.000000
+  than: 0.000000
+andromeda.	entropy 0.261	nTrans 9	sum 1.000000
+  andromeda: 0.932288
+  whose: 0.065113
+  is: 0.001646
+  artist: 0.000512
+  and: 0.000441
+  song: 0.000000
+  genre: 0.000000
+  of: 0.000000
+  that: 0.000000
+were	entropy 2.032	nTrans 25	sum 1.000000
+  sung: 0.258669
+  year: 0.152318
+  whose: 0.147327
+  song: 0.143975
+  by: 0.089899
+  came: 0.087603
+  is: 0.043628
+  out: 0.041511
+  in: 0.030200
+  0: 0.002767
+  that: 0.001923
+  smaller: 0.000085
+  and: 0.000063
+  andromeda: 0.000021
+  of: 0.000012
+  than: 0.000000
+  artist: 0.000000
+belongs	entropy 0.648	nTrans 8	sum 1.000000
+  the: 0.793418
+  most: 0.128370
+  number: 0.078054
+  of: 0.000158
+  artist: 0.000000
+  that: 0.000000
+  genre: 0.000000
+  is: 0.000000
+name	entropy 1.357	nTrans 37	sum 1.000000
+  is: 0.362026
+  whose: 0.310807
+  that: 0.204148
+  song: 0.109929
+  artist: 0.012722
+  genre: 0.000283
+  of: 0.000076
+  sung: 0.000004
+  year: 0.000003
+  and: 0.000003
+  electronica: 0.000000
+  at: 0.000000
+  has: 0.000000
+  by: 0.000000
+  andromeda: 0.000000
+  0: 0.000000
+  least: 0.000000
+  not: 0.000000
+sing	entropy 0.956	nTrans 17	sum 1.000000
+  artist: 0.765415
+  of: 0.073006
+  not: 0.057329
+  is: 0.046816
+  ameno: 0.025407
+  that: 0.012272
+  whose: 0.006043
+  more: 0.005745
+  genre: 0.005642
+  two: 0.001396
+  has: 0.000927
+  than: 0.000002
+  song: 0.000001
+  andromeda: 0.000000
+  and: 0.000000
+  wave: 0.000000
+  dark: 0.000000
+who	entropy 0.635	nTrans 28	sum 1.000000
+  artist: 0.858234
+  of: 0.043176
+  is: 0.035280
+  whose: 0.025079
+  ameno: 0.023905
+  that: 0.011435
+  song: 0.002890
+  and: 0.000001
+  genre: 0.000000
+  has: 0.000000
+  dark: 0.000000
+  wave: 0.000000
+  electronica: 0.000000
+some	entropy 0.498	nTrans 15	sum 1.000000
+  song: 0.868703
+  whose: 0.069133
+  is: 0.057511
+  artist: 0.004228
+  that: 0.000262
+  of: 0.000136
+  year: 0.000017
+  more: 0.000011
+  and: 0.000000
+  ameno: 0.000000
+  than: 0.000000
+no	entropy 1.104	nTrans 11	sum 1.000000
+  has: 0.379109
+  less: 0.377957
+  at: 0.238224
+  least: 0.004241
+  two: 0.000368
+  than: 0.000052
+  most: 0.000048
+  that: 0.000000
+doing	entropy 0.082	nTrans 8	sum 1.000000
+  electronica: 0.984449
+  and: 0.015173
+  is: 0.000155
+  genre: 0.000123
+  whose: 0.000067
+  artist: 0.000015
+  of: 0.000014
+  that: 0.000004
+smallest	entropy 0.680	nTrans 10	sum 1.000000
+  least: 0.675552
+  the: 0.312780
+  number: 0.011668
+  has: 0.000000
+  of: 0.000000
+  that: 0.000000
+show	entropy 0.860	nTrans 33	sum 1.000000
+  that: 0.715884
+  artist: 0.184973
+  has: 0.059706
+  is: 0.036627
+  whose: 0.001442
+  song: 0.001318
+  the: 0.000026
+  genre: 0.000018
+  of: 0.000007
+  two: 0.000000
+  not: 0.000000
+  smallest: 0.000000
+  andromeda: 0.000000
+  year: 0.000000
+  larger: 0.000000
+musicians	entropy 0.688	nTrans 17	sum 1.000000
+  artist: 0.706462
+  of: 0.273523
+  that: 0.016346
+  is: 0.003638
+  genre: 0.000027
+  electronica: 0.000003
+  two: 0.000000
+  dark: 0.000000
+  wave: 0.000000
+  more: 0.000000
+  number: 0.000000
+wave	entropy 0.615	nTrans 13	sum 1.000000
+  wave: 0.695292
+  dark: 0.304683
+  is: 0.000008
+  genre: 0.000005
+  and: 0.000004
+  of: 0.000003
+  whose: 0.000002
+  artist: 0.000002
+  that: 0.000000
+anything	entropy 0.017	nTrans 7	sum 1.000000
+  not: 0.997808
+  dark: 0.001791
+  wave: 0.000397
+  whose: 0.000003
+  genre: 0.000001
+  is: 0.000000
+not	entropy 3.38e-07	nTrans 18	sum 1.000000
+  not: 1.000000
+  is: 0.000000
+  artist: 0.000000
+  whose: 0.000000
+  of: 0.000000
+  that: 0.000000
+total	entropy 2.06e-05	nTrans 4	sum 1.000000
+  number: 0.999999
+  of: 0.000001
+2006	entropy 0.072	nTrans 14	sum 1.000000
+  2006: 0.986480
+  or: 0.013520
+  0: 0.000000
+common	entropy 0.885	nTrans 7	sum 1.000000
+  artist: 0.638217
+  whose: 0.279892
+  is: 0.070830
+  andromeda: 0.009792
+  genre: 0.001220
+  of: 0.000045
+  that: 0.000004
+genres	entropy 0.050	nTrans 25	sum 1.000000
+  genre: 0.993101
+  artist: 0.003659
+  that: 0.001704
+  of: 0.000717
+  is: 0.000314
+  has: 0.000310
+  two: 0.000183
+  whose: 0.000013
+  electronica: 0.000000
+  dark: 0.000000
+  than: 0.000000
+  wave: 0.000000
+  least: 0.000000
+  at: 0.000000
+  more: 0.000000
+and	entropy 0.043	nTrans 20	sum 1.000000
+  and: 0.993903
+  is: 0.003875
+  that: 0.001582
+  whose: 0.000562
+  artist: 0.000033
+  of: 0.000021
+  by: 0.000012
+  sung: 0.000009
+  andromeda: 0.000002
+  wave: 0.000001
+  dark: 0.000001
+  electronica: 0.000000
+  in: 0.000000
+  out: 0.000000
+  song: 0.000000
+  ameno: 0.000000
+  came: 0.000000
+  genre: 0.000000
+who's	entropy 0.668	nTrans 8	sum 1.000000
+  artist: 0.795664
+  dark: 0.146806
+  wave: 0.040004
+  of: 0.016219
+  that: 0.001307
+  is: 0.000000
+  and: 0.000000
+  ameno: 0.000000
+of	entropy 1.011	nTrans 31	sum 1.000000
+  of: 0.694372
+  is: 0.141743
+  artist: 0.096431
+  genre: 0.028776
+  that: 0.022073
+  whose: 0.016440
+  electronica: 0.000074
+  song: 0.000047
+  number: 0.000037
+  ameno: 0.000006
+  the: 0.000001
+  and: 0.000000
+  dark: 0.000000
+  most: 0.000000
+  wave: 0.000000
+  has: 0.000000
+make	entropy 1.984	nTrans 20	sum 1.000000
+  not: 0.232739
+  sung: 0.199666
+  by: 0.181201
+  that: 0.106403
+  and: 0.091089
+  came: 0.089246
+  out: 0.057445
+  is: 0.024779
+  in: 0.012098
+  of: 0.002896
+  electronica: 0.002331
+  artist: 0.000039
+  andromeda: 0.000033
+  whose: 0.000029
+  song: 0.000004
+  genre: 0.000001
+  0: 0.000000
+greatest	entropy 0.549	nTrans 9	sum 1.000000
+  most: 0.781629
+  the: 0.213297
+  number: 0.005045
+  has: 0.000029
+  of: 0.000000
+  genre: 0.000000
+amount	entropy 1.075	nTrans 8	sum 1.000000
+  most: 0.466049
+  number: 0.274231
+  the: 0.257238
+  has: 0.002482
+  of: 0.000000
+or	entropy 0.427	nTrans 26	sum 1.000000
+  or: 0.892761
+  least: 0.071157
+  at: 0.031541
+  2006: 0.002612
+  than: 0.001248
+  has: 0.000676
+  middleclass: 0.000003
+  sleazy: 0.000001
+  love: 0.000001
+  two: 0.000000
+  more: 0.000000
+  romance: 0.000000
+  year: 0.000000
+  less: 0.000000
+  0: 0.000000
+  that: 0.000000
+perform	entropy 0.012	nTrans 8	sum 1.000000
+  less: 0.998430
+  than: 0.001569
+  artist: 0.000001
+  two: 0.000000
+  of: 0.000000
+  that: 0.000000
+sleazy	entropy 0.655	nTrans 11	sum 1.000000
+  sleazy: 0.638512
+  romance: 0.361425
+  or: 0.000063
+also	entropy 1.032	nTrans 10	sum 1.000000
+  and: 0.514527
+  dark: 0.351135
+  wave: 0.118194
+  electronica: 0.015453
+  is: 0.000498
+  artist: 0.000072
+  of: 0.000068
+  that: 0.000049
+  genre: 0.000004
+  whose: 0.000001
+exactly	entropy 0.671	nTrans 8	sum 1.000000
+  has: 0.605962
+  two: 0.393976
+  that: 0.000047
+  genre: 0.000015
+  artist: 0.000000
+earliest	entropy 0.002	nTrans 6	sum 1.000000
+  smallest: 0.999762
+  the: 0.000230
+  year: 0.000007
+  has: 0.000001
+(NULL)	entropy 2.923	nTrans 40	sum 1.000000
+  of: 0.126596
+  is: 0.110683
+  whose: 0.086055
+  that: 0.081925
+  and: 0.077445
+  genre: 0.069750
+  artist: 0.067001
+  than: 0.062174
+  year: 0.051612
+  song: 0.045330
+  has: 0.028870
+  by: 0.025518
+  sung: 0.022902
+  0: 0.020660
+  least: 0.012567
+  in: 0.011504
+  came: 0.011461
+  out: 0.011430
+  andromeda: 0.009606
+  at: 0.008573
+  ameno: 0.008297
+  number: 0.007110
+  electronica: 0.007045
+  the: 0.006097
+  dark: 0.005412
+  wave: 0.005301
+  two: 0.004745
+  not: 0.003684
+  most: 0.002985
+  or: 0.001640
+  less: 0.001408
+  more: 0.001223
+  2006: 0.000707
+  larger: 0.000508
+  smaller: 0.000479
+  sleazy: 0.000402
+  middleclass: 0.000401
+  romance: 0.000371
+  love: 0.000362
+  smallest: 0.000159
+wave.	entropy 0.459	nTrans 7	sum 1.000000
+  wave: 0.851012
+  dark: 0.138303
+  not: 0.010677
+  of: 0.000007
+  artist: 0.000001
+  that: 0.000000
+musicician	entropy 0.751	nTrans 7	sum 1.000000
+  and: 0.783208
+  that: 0.136448
+  of: 0.043176
+  electronica: 0.021643
+  artist: 0.014426
+  is: 0.001074
+  ameno: 0.000026
+with	entropy 1.446	nTrans 22	sum 1.000000
+  of: 0.513612
+  the: 0.168802
+  has: 0.142274
+  artist: 0.089264
+  that: 0.0526
