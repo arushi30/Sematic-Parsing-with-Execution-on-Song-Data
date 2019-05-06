@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Takes in train, val, and test files, and converts user_id and track_id to strings
+
+import sys
+from pyspark.sql import SparkSession
+from pyspark.ml.feature import StringIndexer
+
+def main(spark, train_path, val_path, test_path, train_output_path, val_output_path, test_output_path):
+	''' Input Parameters:
+	train_path, val_path, test_path = file paths to train, val, and test data
+	train_output_path, val_output_path, test_output_path = file paths to where train, val, and test data with numeric ids should be saved
+	'''
+	
+	# Load the data
+	train = spark.read.parquet(train_path)
+	val = spark.read.parquet(val_path)
+	test = spark.read.parquet(test_path)
+
+	# Create a string indexers on the training data
+	user_indexer = StringIndexer(inputCol="user_id", outputCol="user_num")setHandleInvalid("keep")
+	user_indexer.fit(train)
+	track_indexer = StringIndexer(inputCol="track_id", outputCol="track_num").setHandleInvalid("keep")
+	track_indexer.fit(train)
+
+	# Transform all files using the same indexer
+	train_output = user_indexer.transform(train)
+	train_output = track_indexer.transform(train_output)
+	val_output = user_indexer.transform(val)
+	val_output = track_indexer.transform(val_output)
+	test_output = user_indexer.transform(test)
+	test_output = track_indexer.transform(test_output)
+
+	# Save the results
+	train_output.write.parquet(train_output_path)
+	val_output.write.parquet(val_output_path)
+	test_output.write.parquet(test_output_path)
+
+	pass
+
+
+if __name__ == "__main__":
+
+    # Create the spark session object
+    spark = SparkSession.builder.appName('supervised_train').getOrCreate()
+
+    # Get args 
+    train_path = sys.argv[1]
+    val_path = sys.argv[2]
+    test_path = sys.argv[3]
+    train_output_path = sys.argv[4]
+    val_output_path = sys.argv[5]
+    test_output_path = sys.argv[6]
+
+    # Run
+    main(spark, train_path, val_path, test_path, train_output_path, val_output_path, test_output_path)
+
+
+
+
+
+spark-submit create_numeric_ids.py "hdfs:/user/bm106/pub/project/cf_train.parquet" "hdfs:/user/bm106/pub/project/cf_validation.parquet" "hdfs:/user/bm106/pub/project/cf_test.parquet" "hdfs:/user/bs3743/cf_train.parquet" "hdfs:/user/bs3743/cf_validation.parquet" "hdfs:/user/bs3743/cf_test.parquet"
+
+
+
+from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
+
+	# Create parameter grid
+    paramGrid = ParamGridBuilder().addGrid(MODEL_NAME.regParam, [1, 0.1, 0.01, 0.001]).addGrid(MODEL_NAME.rank, [1, 5, 10]).addGrid(MODEL_NAME.alpha, [0, 1, 10, 20]).build()
+
+    # Create cross validator
+    crossval = CrossValidator(estimator=PIPELINE?, estimatorParamMaps=paramGrid, evaluator=RegressionEvaluator(predictionCol="COLUMN NAME"), numFolds=5)
+
+    # Fit on the data
+    model = crossval.fit(DATA)
+
+    model.bestModel.save(model_file)
