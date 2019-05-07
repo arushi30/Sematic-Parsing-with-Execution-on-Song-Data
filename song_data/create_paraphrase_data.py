@@ -8,6 +8,8 @@ import os
 import pandas as pd
 import csv
 from sklearn.model_selection import GroupShuffleSplit
+import numpy as np 
+np.random.seed=5
 
 filename = inspect.getframeinfo(inspect.currentframe()).filename
 path = os.path.dirname(os.path.abspath(filename))
@@ -18,9 +20,14 @@ paraphrases = pd.read_csv(google_sheet)
 paraphrases.dropna(inplace=True)
 paraphrases.reset_index(inplace=True)
 
+
 # Create a single column with the format we need to write out
 paraphrases["final"] = "(example\n  (utterance \"" + paraphrases["paraphrase"] + "\")\n  (original \"" + paraphrases["canonical_utterance"]+"\")\n  (targetFormula \n    " + paraphrases["do_not_edit"] + "\n  )\n)"
 paraphrases=paraphrases.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+
+###################################
+# Main train/val/test split
+###################################
 
 # Split into train and test
 train_inds, test_inds = next(GroupShuffleSplit(test_size=.20, n_splits=2, random_state = 7).split(paraphrases, groups=paraphrases['canonical_utterance']))
@@ -29,7 +36,6 @@ train, test = paraphrases.loc[train_inds, :], paraphrases.loc[test_inds, 'final'
 # Split training data into train and validation
 train_inds, val_inds = next(GroupShuffleSplit(test_size=.25, n_splits=2, random_state = 7).split(train, groups=train['canonical_utterance']))
 train, val = paraphrases.loc[train_inds, 'final'], paraphrases.loc[val_inds, 'final']
-
     
 # Write to appropriate files
 pd.set_option("display.max_colwidth", 10000)
@@ -40,3 +46,18 @@ for name, data in datasets:
     textfile.write(to_write)
     textfile.close()
     
+###################################
+# Boostrapped samples for changing sample sizes
+###################################
+
+full_training = paraphrases.loc[train_inds, ].reset_index()
+utterances = full_training.canonical_utterance.unique()
+
+for i in [50, 100, 150]:
+    for j in range(0, 5):
+        utterances_to_use = np.random.choice(utterances, i, replace=False)
+        train = full_training.loc[full_training.canonical_utterance.isin(utterances_to_use), "final"]
+        to_write=train.str.cat(sep="\n").replace('\\n', '\n')
+        textfile = open(path+"/../lib/data/overnight/songs.paraphrases.train_size_"+str(i)+"_v"+str(j)+".examples", 'w')
+        textfile.write(to_write)
+        textfile.close()
