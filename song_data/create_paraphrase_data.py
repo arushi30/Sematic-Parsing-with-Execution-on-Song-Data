@@ -61,3 +61,25 @@ for i in [50, 100, 150]:
         textfile = open(path+"/../lib/data/overnight/songs.paraphrases.train_size_"+str(i)+"_v"+str(j)+".examples", 'w')
         textfile.write(to_write)
         textfile.close()
+
+
+###################################
+# Boostrapped samples for changing number of utterances
+###################################
+
+replace = False
+
+for size in [1,2,3]:
+    fn = lambda obj: obj.loc[np.random.choice(obj.index, size, replace),:]
+    train = full_training.groupby(full_training.canonical_utterance).apply(fn)
+    train = train['final']
+    to_write=train.str.cat(sep="\n").replace('\\n', '\n')
+    textfile = open(path+"/../lib/data/overnight/songs.paraphrases.train_"+str(size)+"_utterance.examples", 'w')
+    textfile.write(to_write)
+    textfile.close()
+
+
+
+
+
+
