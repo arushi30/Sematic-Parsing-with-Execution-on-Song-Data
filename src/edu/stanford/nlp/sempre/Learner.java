@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.io.*;
 
 /**
  * The main learning loop.  Goes over a dataset multiple times, calling the
@@ -309,6 +310,33 @@ public class Learner {
   // Print summary over all examples
   private void logEvaluationStats(Evaluation evaluation, String prefix) {
     LogInfo.logs("Stats for %s: %s", prefix, evaluation.summary());
+    if (prefix.substring(prefix.length() - 6).equals("2.test")) {
+        String stats = evaluation.summary();
+        String[] array_stats = stats.split(" ");
+        String correct = array_stats[0].substring(array_stats[0].length() - 5);
+        String oracle = array_stats[1].substring(array_stats[1].length() - 5);
+        BufferedWriter out = null;
+        try {
+            FileWriter fstream = new FileWriter("results.txt", true); //true tells to append data.
+            out = new BufferedWriter(fstream);
+            out.write(correct + "," + oracle);
+            out.newLine();
+        }
+        catch (IOException e) {
+            System.err.println("Error: " + e.getMessage());
+        }
+        finally {
+            try {
+                if(out != null) {
+                    out.close();
+                }
+            }
+            catch (IOException e) {
+                System.err.println("Error: " + e.getMessage());
+            }
+        }
+    }
+
     // evaluation.add(LexiconFn.lexEval);
     evaluation.logStats(prefix);
     evaluation.putOutput(prefix);
