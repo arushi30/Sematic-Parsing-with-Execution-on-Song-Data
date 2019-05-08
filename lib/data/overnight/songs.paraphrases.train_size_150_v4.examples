@@ -167,6 +167,27 @@
   )
 )
 (example
+  (utterance "Show me the artists that have less than 2 genres.")
+  (original "artist that has less than two genre")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.countComparative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string <) (number 2)))
+  )
+)
+(example
+  (utterance "Which artists have no more than two genres?")
+  (original "artist that has less than two genre")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.countComparative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string <) (number 2)))
+  )
+)
+(example
+  (utterance "Name artists with less than two genres.")
+  (original "artist that has less than two genre")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.countComparative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string <) (number 2)))
+  )
+)
+(example
   (utterance "Which artists sing in 2 or more genres?")
   (original "artist that has more than two genre")
   (targetFormula 
@@ -797,27 +818,6 @@
   )
 )
 (example
-  (utterance "List the artists with less than two songs.")
-  (original "artist that is artist of less than two song")
-  (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.countComparative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string !by_artist_song)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.song) (string !type))))
-  )
-)
-(example
-  (utterance "What artists have fewer than two songs?")
-  (original "artist that is artist of less than two song")
-  (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.countComparative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string !by_artist_song)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.song) (string !type))))
-  )
-)
-(example
-  (utterance "Which music bands have fewer than 2 songs?")
-  (original "artist that is artist of less than two song")
-  (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.countComparative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string !by_artist_song)) (string <) (number 2) (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.song) (string !type))))
-  )
-)
-(example
   (utterance "What are the musicians who sing in more than two genres?")
   (original "artist that is artist of more than two genre")
   (targetFormula 
@@ -1238,24 +1238,24 @@
   )
 )
 (example
-  (utterance "What is an electronica artist who also has dark wave music?")
-  (original "artist whose genre is electronica and that is artist of dark wave")
+  (utterance "Name an artist of the electronica genre.")
+  (original "artist whose genre is electronica")
   (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string =) en.genre.electronica) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string !artist_genre)) (string =) en.genre.dark_wave))
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string =) en.genre.electronica))
   )
 )
 (example
-  (utterance "Name an artist of electronica genre who made dark wave songs.")
-  (original "artist whose genre is electronica and that is artist of dark wave")
+  (utterance "Which artists are electronica?")
+  (original "artist whose genre is electronica")
   (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string =) en.genre.electronica) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string !artist_genre)) (string =) en.genre.dark_wave))
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string =) en.genre.electronica))
   )
 )
 (example
-  (utterance "Name electronica artists who do dark wave too.")
-  (original "artist whose genre is electronica and that is artist of dark wave")
+  (utterance "Show some electronica artists.")
+  (original "artist whose genre is electronica")
   (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string =) en.genre.electronica) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string !artist_genre)) (string =) en.genre.dark_wave))
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.artist) (string !type)) (string artist_genre) (string =) en.genre.electronica))
   )
 )
 (example
@@ -1805,27 +1805,6 @@
   )
 )
 (example
-  (utterance "Name genre of Andromeda or Sleazy Romance. ")
-  (original "genre that is genre of andromeda or sleazy romance")
-  (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string artist_genre)) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.concat en.artist.andromeda en.artist.sleazy_romance)))
-  )
-)
-(example
-  (utterance "What is the genre of the songs Andromeda or Sleazy Romance?")
-  (original "genre that is genre of andromeda or sleazy romance")
-  (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string artist_genre)) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.concat en.artist.andromeda en.artist.sleazy_romance)))
-  )
-)
-(example
-  (utterance "What is the genre of bands Andromeda or Sleazy Romance?")
-  (original "genre that is genre of andromeda or sleazy romance")
-  (targetFormula 
-    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (string artist_genre)) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.concat en.artist.andromeda en.artist.sleazy_romance)))
-  )
-)
-(example
   (utterance "What genre is the artist who sings Ameno?")
   (original "genre that is genre of artist of ameno")
   (targetFormula 
@@ -2180,6 +2159,27 @@
   (original "genre whose artist is andromeda or sleazy romance")
   (targetFormula 
     (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (string !artist_genre) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.concat en.artist.andromeda en.artist.sleazy_romance)))
+  )
+)
+(example
+  (utterance "Which genres have electronica artists?")
+  (original "genre whose artist is artist of electronica")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (string !artist_genre) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.getProperty en.genre.electronica (string !artist_genre))))
+  )
+)
+(example
+  (utterance "Name the genre of artists of electronica genre.")
+  (original "genre whose artist is artist of electronica")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (string !artist_genre) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.getProperty en.genre.electronica (string !artist_genre))))
+  )
+)
+(example
+  (utterance "What genre is the genre of electronica artists?")
+  (original "genre whose artist is artist of electronica")
+  (targetFormula 
+    (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.filter (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.genre) (string !type)) (string !artist_genre) (string =) (call edu.stanford.nlp.sempre.overnight.Songs.getProperty en.genre.electronica (string !artist_genre))))
   )
 )
 (example

@@ -17,7 +17,7 @@ def main(train_path, ppdb_path):
 
     # Get a list of words to use from the training canonical utterances and paraphrases
     song_words = set([])
-    train_path = "lib/data/overnight/"+train_path
+    #train_path = "lib/data/overnight/"+train_path
     fp = open(train_path)
     for i, line in enumerate(fp):
         if ("utterance" in line) or ("original" in line):
@@ -41,7 +41,7 @@ def main(train_path, ppdb_path):
     fp.close()
     
     # Write the relevant ppdp 
-    ppdb_path = "lib/data/overnight/"+ppdb_path
+    #ppdb_path = "lib/data/overnight/"+ppdb_path
     with open(ppdb_path, 'w') as the_file:
         for line in lines_to_use:
             the_file.write(line)

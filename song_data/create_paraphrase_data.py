@@ -53,8 +53,8 @@ for name, data in datasets:
 full_training = paraphrases.loc[train_inds, ].reset_index()
 utterances = full_training.canonical_utterance.unique()
 
-for i in [50, 100, 150]:
-    for j in range(0, 5):
+for i in [50, 75, 100, 125, 150]:
+    for j in range(0, 10):
         utterances_to_use = np.random.choice(utterances, i, replace=False)
         train = full_training.loc[full_training.canonical_utterance.isin(utterances_to_use), "final"]
         to_write=train.str.cat(sep="\n").replace('\\n', '\n')
