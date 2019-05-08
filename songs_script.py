@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 # Check that interactive mode is off.
-# the features specified in ./run.
+# Specify the features in ./run.
+# Make sure there are ppdb files.
 
 import subprocess
 
@@ -15,8 +16,8 @@ def execute_command(command, stdout, cwd=None):
     return 0
 
 
-for num in [50, 100, 150]:
-    for version in range(0, 5):
+for num in [50, 75, 100, 125, 150]:
+    for version in range(0, 10):
         # paths to train, test
         train_examples = "lib/data/overnight/songs.paraphrases.train_size_"+str(num)+"_v"+str(version)+".examples"
         test_examples = 'lib/data/overnight/songs.paraphrases.test.examples'
@@ -48,6 +49,7 @@ for num in [50, 100, 150]:
                 'ppdb_path': ppdb,
             }
             command = './run @mode={mode} -Dataset.inPaths {Dataset} -PPDBModel.ppdbModelPath {ppdb_path}'.format(**params_dict)
+            print('\n' + command + '\n')
             execute_command(command, f)
 
 print('end')
