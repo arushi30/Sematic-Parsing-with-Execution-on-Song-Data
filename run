@@ -464,12 +464,16 @@ addMode('simple', 'Simple shell', lambda { |e| l(
   #o('Grammar.tags', 'parse', 'general'),
 nil) })
 
-addMode('features', 'Features shell', lambda { |e| l(
-  codalab, 'java', '-cp', 'libsempre/*:lib/*', '-ea', 'edu.stanford.nlp.sempre.Main',
-  o('Main.interactive'),
-  #o('LanguageAnalyzer', 'corenlp.CoreNLPAnalyzer'),
-  o('Grammar.inPaths', 'overnight/aligner.grammar'),
-  #o('Grammar.tags', 'parse', 'general'),
+addMode('berkeley', 'Berkeley shell', lambda { |e| l(
+  codalab, 'java', '-cp', 'libsempre/*:lib/*', '-ea', 'edu.stanford.nlp.sempre.overnight.BerkeleyInputMain',
+  o('BerkeleyInputMain.input',''),
+
+nil) })
+
+addMode('aligner', 'Aligner shell', lambda { |e| l(
+  codalab, 'java', '-cp', 'libsempre/*:lib/*', '-ea', 'edu.stanford.nlp.sempre.overnight.AlignerMain',
+  o('AlignerMain.input',''),
+
 nil) })
 
 # Ineractive mode to parse canonical utterances
