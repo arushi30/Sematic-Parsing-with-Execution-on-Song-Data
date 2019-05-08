@@ -14,11 +14,9 @@ import java.util.Iterator;
  * and creates the input for the berkley aligner
  */
 public final class SongCreateBerkeleyAlignerInputFromLispTree {
-  private SongCreateBerkeleyAlignerInputFromLispTree() { }
-
   //args[0]: lisp tree file
   //args[1] output directory
-  public static boolean main(String string_args) {
+  public static void main(String string_args) {
     string_args = string_args + " berkeleyaligner/songs/";
   	String[] args = string_args.split(" ");
 
@@ -55,6 +53,5 @@ public final class SongCreateBerkeleyAlignerInputFromLispTree {
     } catch (IOException e) {
       e.printStackTrace();
     }
-    return true;
   }
 }

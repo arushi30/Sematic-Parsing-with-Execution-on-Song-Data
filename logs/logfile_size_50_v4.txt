@@ -1,0 +1,95 @@
+main() {
+  output directory=berkeleyaligner/songs/
+  Numebr of trees=150
+}
+main() {
+  Execution directory: output
+  Preparing Training Data
+  150 training, 0 test
+  Training models: 2 stages {
+    Training stage 1: MODEL1 and MODEL1 jointly for 2 iterations {
+      Initializing forward model
+      Initializing reverse model
+      Joint Train: 150 sentences, jointly {
+        Iteration 1/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -4663.566
+          Log-likelihood 2 = -3758.580
+          ... 147 lines omitted ...
+        }
+        Iteration 2/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -4003.738
+          Log-likelihood 2 = -3290.810
+          ... 147 lines omitted ...
+        }
+      }
+      ... 2 lines omitted ...
+    }
+    Training stage 2: HMM and HMM jointly for 2 iterations {
+      Joint Train: 150 sentences, jointly {
+        Iteration 1/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -4172.193
+          Log-likelihood 2 = -3492.014
+          ... 147 lines omitted ...
+        }
+        Iteration 2/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -3680.916
+          Log-likelihood 2 = -3050.564
+          ... 147 lines omitted ...
+        }
+      }
+      saveParams(output/stage2.1.params) {
+        Text
+        Binary
+      }
+      saveParams(output/stage2.2.params) {
+        Text
+        Binary
+      }
+    }
+  }
+  Aligning training using aligner SoftUnion(HMM:normal,HMM:reversed)@0.500 {
+    Writing alignments to output/training {
+      Sentence 0
+      Sentence 1
+      Sentence 2
+      ... 147 lines omitted ...
+    }
+  }
+  Execution directory: output
+}
+main()Successfully created berkeley word_alignment files
+ 
+Execution directory: state/execs/54.exec
+java -ea -Dmodules=core,overnight -Xms8G -Xmx10G -cp libsempre/*:lib/* edu.stanford.nlp.sempre.Main -execDir state/execs/54.exec -overwriteExecDir -addToView 0 -Main.interactive -LanguageAnalyzer corenlp.CoreNLPAnalyzer -Grammar.inPaths overnight/songs.grammar -Grammar.tags generate general -FeatureExtractor.featureDomains rule -Learner.maxTrainIters 2 -Builder.parser FloatingParser -FloatingParser.executeAllDerivations true -FloatingParser.maxDepth 22 -Parser.beamSize 20 -useAnchorsOnce true -maxExamples train:MAX -SimpleLexicon.inPaths lib/data/overnight/songs.lexicon -PPDBModel.ppdbModelPath lib/data/overnight/test-ppdb.txt -FeatureExtractor.featureDomains denotation -FeatureExtractor.featureComputers overnight.OvernightFeatureComputer -OvernightFeatureComputer.featureDomains match ppdb skip-bigram root lexical root_lexical lf simpleworld -Params.l1Reg lazy -Params.l1RegCoeff 0.001 -coarsePrune -wordAlignmentPath lib/data/overnight/songs.word_alignments.berkeley -DerivationPruner.pruningComputers overnight.OvernightDerivationPruningComputer -DerivationPruner.pruningStrategies violateHardConstraints -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train.examples test:lib/data/overnight/songs.paraphrases.val.examples -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train_size_50_v4.examples test:lib/data/overnight/songs.paraphrases.test.examples -PPDBModel.ppdbModelPath lib/data/overnight/train_size_50_v4_ppdb.txt
+main() {
+  Execution directory: state/execs/54.exec
+  Grammar.read {
+    SimpleLexicon.read(lib/data/overnight/songs.lexicon) {
+      Read 257 lines, generated 255 entries (now 255 total)
+    }
+    WARNING: Category not defined in the grammar: $VP; used in rule: $Intermediate8 -> that $VP (SelectFn 0)
+    WARNING: Category not defined in the grammar: $Rel0NP; used in rule: $Intermediate253 -> $Rel0NP (JoinFn betaReduce forward (arg0 (lambda r0 (lambda e (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (var e) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (var r0)))))))
+    WARNING: Category not defined in the grammar: $Rel0NP; used in rule: $Intermediate258 -> $Rel0NP (JoinFn betaReduce forward (arg0 (lambda r (lambda cp (call edu.stanford.nlp.sempre.overnight.Songs.getProperty ((var cp) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.domain (var r))) (var r))))))
+    WARNING: Category not defined in the grammar: $Rel0NP; used in rule: $Intermediate259 -> $Rel0NP (JoinFn betaReduce forward (arg0 (lambda r (lambda cp (call edu.stanford.nlp.sempre.overnight.Songs.getProperty ((var cp) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.domain (var r))) (var r))))))
+    WARNING: Category not defined in the grammar: $BinaryOp; used in rule: $BinaryOpRight -> $BinaryOp $EntityNP2 (JoinFn betaReduce forward)
+    Valid tags: [general, generate, geo440, geo880, parse, regex]
+    Used tags: [general, generate]
+    364 rules
+  }
+  FloatingParser: 74 catUnaryRules (sorted), 290 nonCatUnaryRules (in trie)
+  Dataset.read {
+    Reading lib/data/overnight/songs.paraphrases.train_size_50_v4.examplesProcessManager: interrupted
+Command failed: fig/bin/qcreate java -ea -Dmodules=core,overnight -Xms8G -Xmx10G -cp libsempre/*:lib/* edu.stanford.nlp.sempre.Main -execDir _OUTPATH_ -overwriteExecDir -addToView 0 -Main.interactive -LanguageAnalyzer corenlp.CoreNLPAnalyzer -Grammar.inPaths overnight/songs.grammar -Grammar.tags generate general -FeatureExtractor.featureDomains rule -Learner.maxTrainIters 2 -Builder.parser FloatingParser -FloatingParser.executeAllDerivations true -FloatingParser.maxDepth 22 -Parser.beamSize 20 -useAnchorsOnce true -maxExamples train:MAX -SimpleLexicon.inPaths lib/data/overnight/songs.lexicon -PPDBModel.ppdbModelPath lib/data/overnight/test-ppdb.txt -FeatureExtractor.featureDomains denotation -FeatureExtractor.featureComputers overnight.OvernightFeatureComputer -OvernightFeatureComputer.featureDomains match ppdb skip-bigram root lexical root_lexical lf simpleworld -Params.l1Reg lazy -Params.l1RegCoeff 0.001 -coarsePrune -wordAlignmentPath lib/data/overnight/songs.word_alignments.berkeley -DerivationPruner.pruningComputers overnight.OvernightDerivationPruningComputer -DerivationPruner.pruningStrategies violateHardConstraints -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train.examples test:lib/data/overnight/songs.paraphrases.val.examples -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train_size_50_v4.examples test:lib/data/overnight/songs.paraphrases.test.examples -PPDBModel.ppdbModelPath lib/data/overnight/train_size_50_v4_ppdb.txt
+ProcessManager: killing child processes to avoid orphaning: 20137

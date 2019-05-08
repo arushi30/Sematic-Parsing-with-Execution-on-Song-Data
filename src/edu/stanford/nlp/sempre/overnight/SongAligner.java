@@ -133,20 +133,19 @@ public class SongAligner {
   //args[1] - output file
   //args[2] - heuristic or berkeley
   //args[3] - threshold
-  public static boolean main(String string_args) {
+  public static void main(String string_args) {
     string_args = "berkeleyaligner/songs.training.alignments " + string_args;
 	String[] args = string_args.split(" ");
     //System.out.println("Working Directory = " + System.getProperty("user.dir"));
     SongAligner aligner = new SongAligner();
     int threshold = Integer.parseInt(args[3]);
-    System.out.println("Before IF");
 
     if (args[2].equals("heuristic"))
       aligner.heuristicAlign(args[0], threshold);
-    else if (args[2].equals("berkeley"))
-      aligner.berkeleyAlign(args[0], threshold);
-    else throw new RuntimeException("bad alignment mode: " + args[2]);
-    System.out.println("After IF");
+    else if (args[2].equals("berkeley")) {
+        aligner.berkeleyAlign(args[0], threshold);
+        System.out.println("Successfully created berkeley word_alignment files");
+    } else throw new RuntimeException("bad alignment mode: " + args[2]);
 
     try {
       aligner.saveModel(args[1]);
@@ -154,8 +153,5 @@ public class SongAligner {
       e.printStackTrace();
       throw new RuntimeException(e);
     }
-    return true;
   }
-
-
 }
