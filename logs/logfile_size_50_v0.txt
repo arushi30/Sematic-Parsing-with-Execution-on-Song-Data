@@ -1,0 +1,485 @@
+main() {
+  output directory=berkeleyaligner/songs/
+  Numebr of trees=150
+}
+main() {
+  Execution directory: output
+  Preparing Training Data
+  150 training, 0 test
+  Training models: 2 stages {
+    Training stage 1: MODEL1 and MODEL1 jointly for 2 iterations {
+      Initializing forward model
+      Initializing reverse model
+      Joint Train: 150 sentences, jointly {
+        Iteration 1/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -4885.145
+          Log-likelihood 2 = -3816.056
+          ... 147 lines omitted ...
+        }
+        Iteration 2/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -4190.773
+          Log-likelihood 2 = -3344.975
+          ... 147 lines omitted ...
+        }
+      }
+      ... 2 lines omitted ...
+    }
+    Training stage 2: HMM and HMM jointly for 2 iterations {
+      Joint Train: 150 sentences, jointly {
+        Iteration 1/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -4324.702
+          Log-likelihood 2 = -3496.153
+          ... 147 lines omitted ...
+        }
+        Iteration 2/2 {
+          Sentence 1/150
+          Sentence 2/150
+          Sentence 3/150
+          Log-likelihood 1 = -3861.555
+          Log-likelihood 2 = -3015.803
+          ... 147 lines omitted ...
+        }
+      }
+      saveParams(output/stage2.1.params) {
+        Text
+        Binary
+      }
+      saveParams(output/stage2.2.params) {
+        Text
+        Binary
+      }
+    }
+  }
+  Aligning training using aligner SoftUnion(HMM:normal,HMM:reversed)@0.500 {
+    Writing alignments to output/training {
+      Sentence 0
+      Sentence 1
+      Sentence 2
+      ... 147 lines omitted ...
+    }
+  }
+  Execution directory: output
+}
+main()Successfully created berkeley word_alignment files
+ 
+Execution directory: state/execs/50.exec
+java -ea -Dmodules=core,overnight -Xms8G -Xmx10G -cp libsempre/*:lib/* edu.stanford.nlp.sempre.Main -execDir state/execs/50.exec -overwriteExecDir -addToView 0 -Main.interactive -LanguageAnalyzer corenlp.CoreNLPAnalyzer -Grammar.inPaths overnight/songs.grammar -Grammar.tags generate general -FeatureExtractor.featureDomains rule -Learner.maxTrainIters 2 -Builder.parser FloatingParser -FloatingParser.executeAllDerivations true -FloatingParser.maxDepth 22 -Parser.beamSize 20 -useAnchorsOnce true -maxExamples train:MAX -SimpleLexicon.inPaths lib/data/overnight/songs.lexicon -PPDBModel.ppdbModelPath lib/data/overnight/test-ppdb.txt -FeatureExtractor.featureDomains denotation -FeatureExtractor.featureComputers overnight.OvernightFeatureComputer -OvernightFeatureComputer.featureDomains match ppdb skip-bigram root lexical root_lexical lf simpleworld -Params.l1Reg lazy -Params.l1RegCoeff 0.001 -coarsePrune -wordAlignmentPath lib/data/overnight/songs.word_alignments.berkeley -DerivationPruner.pruningComputers overnight.OvernightDerivationPruningComputer -DerivationPruner.pruningStrategies violateHardConstraints -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train.examples test:lib/data/overnight/songs.paraphrases.val.examples -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train_size_50_v0.examples test:lib/data/overnight/songs.paraphrases.test.examples -PPDBModel.ppdbModelPath lib/data/overnight/train_size_50_v0_ppdb.txt
+main() {
+  Execution directory: state/execs/50.exec
+  Grammar.read {
+    SimpleLexicon.read(lib/data/overnight/songs.lexicon) {
+      Read 257 lines, generated 255 entries (now 255 total)
+    }
+    WARNING: Category not defined in the grammar: $VP; used in rule: $Intermediate8 -> that $VP (SelectFn 0)
+    WARNING: Category not defined in the grammar: $Rel0NP; used in rule: $Intermediate253 -> $Rel0NP (JoinFn betaReduce forward (arg0 (lambda r0 (lambda e (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (var e) (call edu.stanford.nlp.sempre.overnight.Songs.reverse (var r0)))))))
+    WARNING: Category not defined in the grammar: $Rel0NP; used in rule: $Intermediate258 -> $Rel0NP (JoinFn betaReduce forward (arg0 (lambda r (lambda cp (call edu.stanford.nlp.sempre.overnight.Songs.getProperty ((var cp) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.domain (var r))) (var r))))))
+    WARNING: Category not defined in the grammar: $Rel0NP; used in rule: $Intermediate259 -> $Rel0NP (JoinFn betaReduce forward (arg0 (lambda r (lambda cp (call edu.stanford.nlp.sempre.overnight.Songs.getProperty ((var cp) (call edu.stanford.nlp.sempre.overnight.SimpleWorld.domain (var r))) (var r))))))
+    WARNING: Category not defined in the grammar: $BinaryOp; used in rule: $BinaryOpRight -> $BinaryOp $EntityNP2 (JoinFn betaReduce forward)
+    Valid tags: [general, generate, geo440, geo880, parse, regex]
+    Used tags: [general, generate]
+    364 rules
+  }
+  FloatingParser: 74 catUnaryRules (sorted), 290 nonCatUnaryRules (in trie)
+  Dataset.read {
+    Reading lib/data/overnight/songs.paraphrases.train_size_50_v0.examples {
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:0 (0): [songs, ameno, or, middleclass, love] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:1 (1): [songs, whose, name, is, ameno, or, song, whose, name, is, middleclass, love] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:2 (2): [what, songs, are, ameno, or, middleclass, love, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:3 (3): [who, sung, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:4 (4): [who, 's, song, is, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:5 (5): [which, artists, make, dark, wave, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:6 (6): [show, me, the, artists, that, have, less, than, 2, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:7 (7): [which, artists, have, no, more, than, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:8 (8): [name, artists, with, less, than, two, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:9 (9): [which, artists, have, the, smallest, number, of, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:10 (10): [which, artist, has, the, fewest, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:11 (11): [name, the, artist, with, the, least, number, of, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:12 (12): [show, artists, that, have, the, biggest, number, of, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:13 (13): [what, artist, has, the, greatest, number, of, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:14 (14): [name, the, artist, with, the, highest, number, of, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:15 (15): [which, artists, have, exactly, two, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:16 (16): [who, are, artists, that, have, two, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:17 (17): [list, the, artists, who, sing, only, two, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:18 (18): [which, artist, sang, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:19 (19): [who, is, the, artist, of, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:20 (20): [who, is, the, singer, of, ameno, and, the, artist, of, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:21 (21): [show, me, electronica, music, band, that, has, song, ameno, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:22 (22): [what, is, the, name, of, the, electronica, artist, whose, song, is, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:23 (23): [name, the, artist, who, sings, ameno, and, has, genre, electronica, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:24 (24): [which, artists, have, at, most, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:25 (25): [who, has, two, or, less, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:26 (26): [which, artists, have, no, more, than, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:27 (27): [what, is, an, artist, with, genres, dark, wave, and, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:28 (28): [which, artist, has, genre, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:29 (29): [which, artists, 's, genre, is, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:30 (30): [which, artists, have, the, same, genre, as, the, genre, of, singer, of, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:31 (31): [what, artists, share, a, genre, with, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:32 (32): [name, an, artist, that, has, the, same, genre, as, the, artist, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:33 (33): [which, music, bands, perform, in, less, than, 2, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:34 (34): [which, artists, have, less, than, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:35 (35): [which, artists, make, music, in, fewer, than, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:36 (36): [what, artists, have, songs, from, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:37 (37): [who, were, the, artists, of, songs, that, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:38 (38): [name, artists, with, songs, that, released, in, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:39 (39): [who, is, the, artist, of, andromeda, 's, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:40 (40): [which, musician, has, a, song, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:41 (41): [which, artist, performed, andromeda, 's, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:42 (42): [which, artist, had, the, fewest, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:43 (43): [give, names, of, music, bands, that, have, the, smallest, number, of, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:44 (44): [who, has, the, least, number, of, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:45 (45): [show, the, artist, with, the, highest, number, of, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:46 (46): [which, artist, has, the, greatest, number, of, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:47 (47): [name, the, singer, with, the, greatest, number, of, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:48 (48): [show, artists, who, are, not, dark, wave, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:49 (49): [which, not, dark, wave, artists, are, there, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:50 (50): [what, are, some, artists, of, any, genre, except, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:51 (51): [which, dark, wave, bands, are, there, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:52 (52): [name, dark, wave, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:53 (53): [show, me, all, the, dark, wave, singers, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:54 (54): [who, is, the, dark, wave, artist, who, sang, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:55 (55): [who, sings, dark, wave, and, has, a, song, titled, `, ameno, ', ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:56 (56): [name, the, dark, wave, artist, who, made, ameno, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:57 (57): [list, the, bands, that, sing, both, dark, wave, and, electronica, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:58 (58): [name, an, artist, of, genres, dark, wave, and, electronica, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:59 (59): [name, artists, of, electronica, genre, who, made, dark, wave, songs, as, well, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:60 (60): [what, is, an, electronica, artist, who, also, has, dark, wave, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:61 (61): [name, an, artist, of, electronica, genre, who, made, dark, wave, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:62 (62): [name, electronica, artists, who, do, dark, wave, too, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:63 (63): [name, artists, who, sang, ameno, or, middleclass, love, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:64 (64): [who, are, the, artists, of, ameno, or, middleclass, love, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:65 (65): [name, the, artist, of, songs, ameno, or, middleclass, love, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:66 (66): [who, is, the, artist, of, andromeda, 's, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:67 (67): [which, artist, sang, songs, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:68 (68): [list, the, artists, that, have, songs, by, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:69 (69): [which, genre, had, the, fewest, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:70 (70): [what, is, the, genre, that, is, represented, by, the, fewest, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:71 (71): [which, genre, do, the, fewest, artists, work, in, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:72 (72): [show, the, most, popular, among, artists, genre, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:73 (73): [name, the, genre, with, the, greatest, number, of, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:74 (74): [which, genre, has, the, highest, number, of, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:75 (75): [which, genre, has, songs, of, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:76 (76): [which, genres, have, exactly, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:77 (77): [name, a, genre, with, only, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:78 (78): [in, which, genre, did, andromeda, sing, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:79 (79): [what, genre, is, andromeda, 's, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:80 (80): [what, genre, would, you, call, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:81 (81): [what, is, the, genre, of, electronica, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:82 (82): [name, the, genre, of, artists, of, electronica, genre, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:83 (83): [what, genres, do, electronica, artists, have, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:84 (84): [what, kind, of, artist, is, the, artist, of, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:85 (85): [what, are, the, genres, of, ameno, 's, artist, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:86 (86): [what, type, of, music, does, ameno, 's, artist, make, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:87 (87): [what, are, the, genres, of, electronica, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:88 (88): [show, the, genre, of, electronica, music, bands, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:89 (89): [what, is, the, genre, of, artists, of, electronica, genre, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:90 (90): [what, are, genres, of, dark, wave, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:91 (91): [name, the, genre, of, artist, of, genre, dark, wave, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:92 (92): [what, are, some, genres, of, artists, who, make, dark, wave, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:93 (93): [what, are, the, genres, that, have, at, least, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:94 (94): [what, genre, has, two, or, more, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:95 (95): [which, genres, do, multiple, artists, work, in, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:96 (96): [what, is, the, smallest, genre, in, terms, of, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:97 (97): [which, genre, has, the, least, number, of, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:98 (98): [name, the, genre, with, the, fewest, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:99 (99): [name, a, genre, that, has, exactly, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:100 (100): [which, genre, has, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:101 (101): [what, genres, have, exactly, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:102 (102): [what, genre, is, andromeda, 's, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:103 (103): [what, genre, has, andromeda, and, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:104 (104): [what, 's, andromeda, 's, genre, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:105 (105): [what, is, the, genre, of, the, music, made, by, andromeda, or, sleazy, romance, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:106 (106): [what, genres, are, andromeda, or, sleazy, romance, making, music, in, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:107 (107): [what, is, the, genre, of, andromeda, or, sleazy, romance, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:108 (108): [which, genres, have, electronica, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:109 (109): [name, the, genre, of, artists, of, electronica, genre, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:110 (110): [what, genre, is, the, genre, of, electronica, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:111 (111): [show, the, genres, of, artists, which, are, dark, wave, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:112 (112): [which, genre, are, dark, wave, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:113 (113): [what, genre, is, the, genre, of, dark, wave, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:114 (114): [how, many, artists, are, there, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:115 (115): [what, 's, the, total, number, of, musicians, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:116 (116): [tell, me, the, count, of, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:117 (117): [how, many, songs, are, there, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:118 (118): [what, 's, total, number, of, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:119 (119): [what, is, the, number, of, songs, overall, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:120 (120): [list, all, 0, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:121 (121): [what, songs, are, from, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:122 (122): [name, songs, from, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:123 (123): [which, songs, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:124 (124): [what, are, the, songs, from, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:125 (125): [find, a, song, from, 0, and, which, year, is, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:126 (126): [name, songs, that, have, at, least, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:127 (127): [which, songs, have, two, or, more, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:128 (128): [name, songs, which, have, at, least, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:129 (129): [what, is, the, song, with, the, fewest, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:130 (130): [which, song, has, the, smallest, number, of, singers, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:131 (131): [name, songs, with, the, least, number, of, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:132 (132): [which, song, has, the, maximum, number, of, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:133 (133): [what, is, the, song, with, the, most, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:134 (134): [which, track, was, made, by, the, most, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:135 (135): [what, is, the, oldest, song, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:136 (136): [show, the, earliest, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:137 (137): [which, song, came, out, the, earliest, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:138 (138): [which, songs, came, out, in, 0, and, are, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:139 (139): [which, songs, are, by, andromeda, and, were, released, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:140 (140): [which, songs, of, 0, are, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:141 (141): [list, all, the, songs, by, andromeda, and, whose, artist, is, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:142 (142): [name, songs, by, andromeda, and, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:143 (143): [what, songs, were, made, by, andromeda, and, also, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:144 (144): [which, other, songs, by, andromeda, are, from, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:145 (145): [what, songs, were, sung, by, andromeda, and, released, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:146 (146): [what, are, the, songs, by, andromeda, that, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:147 (147): [name, some, songs, that, have, more, than, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:148 (148): [what, songs, are, by, more, than, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:149 (149): [name, songs, made, by, greater, than, two, artists, .] => null
+    } [12s, cum. 12s]
+    Reading lib/data/overnight/songs.paraphrases.test.examples {
+      Example lib/data/overnight/songs.paraphrases.test.examples:0 (0): [artists, called, andromeda, or, sleazy, romance] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:1 (1): [by, andromeda, or, sleazy, romance] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:2 (2): [artist, whose, name, is, andromeda, or, sleazy, romance] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:3 (3): [who, is, the, artist, of, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:4 (4): [who, sings, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:5 (5): [the, singer, of, ameno] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:6 (6): [list, artists, who, have, at, least, two, songs] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:7 (7): [which, artists, have, at, least, two, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:8 (8): [name, artists, who, have, sung, two, or, more, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:9 (9): [which, artists, have, at, most, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:10 (10): [show, me, the, artists, that, have, at, most, 2, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:11 (11): [name, artists, who, have, no, more, than, two, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:12 (12): [which, artists, have, fewer, than, two, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:13 (13): [list, artists, that, have, no, more, than, two, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:14 (14): [show, singers, that, have, less, than, 2, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:15 (15): [who, 's, dark, wave, song, is, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:16 (16): [which, artist, sang, ameno, and, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:17 (17): [which, artist, made, the, dark, wave, song, called, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:18 (18): [which, artist, has, the, song, ameno, and, genre, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:19 (19): [which, dark, wave, artist, sang, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:20 (20): [which, dark, wave, artist, has, a, song, called, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:21 (21): [which, artist, sang, ameno, or, middleclass, love, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:22 (22): [who, is, the, artist, of, ameno, or, middleclass, love, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:23 (23): [who, is, the, singer, of, ameno, or, middleclass, love, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:24 (24): [list, the, artists, with, less, than, two, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:25 (25): [what, artists, have, fewer, than, two, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:26 (26): [which, music, bands, have, fewer, than, 2, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:27 (27): [which, artists, have, more, than, two, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:28 (28): [show, artists, with, number, of, songs, greater, than, 2, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:29 (29): [list, artists, which, have, greater, than, 2, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:30 (30): [who, is, the, artist, of, andromeda, 's, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:31 (31): [name, the, artist, of, songs, by, andromeda] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:32 (32): [what, musician, has, song, that, is, sung, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:33 (33): [name, the, artist, whose, songs, are, from, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:34 (34): [which, artists, had, songs, that, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:35 (35): [which, artists, released, songs, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:36 (36): [which, artist, had, the, fewest, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:37 (37): [give, names, of, music, bands, that, have, the, smallest, number, of, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:38 (38): [who, has, the, least, number, of, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:39 (39): [show, the, artists, with, two, genres, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:40 (40): [which, musicians, sing, in, two, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:41 (41): [which, artists, work, in, 2, genres, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:42 (42): [which, dark, wave, bands, are, there, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:43 (43): [name, dark, wave, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:44 (44): [show, me, all, the, dark, wave, singers, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:45 (45): [name, the, artist, of, genres, dark, wave, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:46 (46): [which, artists, are, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:47 (47): [show, dark, wave, artists, whose, genre, is, dark, wave, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:48 (48): [which, artist, sings, ameno, and, is, of, electronica, genre, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:49 (49): [which, electronica, artist, sang, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:50 (50): [list, electronica, singer, that, is, the, artist, of, ameno, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:51 (51): [name, an, artist, of, the, electronica, genre, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:52 (52): [which, artist, is, of, electronica, genre, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:53 (53): [which, electronica, artists, also, make, electronica, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:54 (54): [what, musicians, are, in, the, same, genre, as, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:55 (55): [who, sing, in, the, same, genre, as, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:56 (56): [name, artist, who, sings, songs, of, the, same, genre, as, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:57 (57): [name, all, artists, who, are, not, of, electronica, genre, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:58 (58): [what, artists, do, not, make, electronica, music, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:59 (59): [show, a, non, electronica, artist, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:60 (60): [who, is, the, artist, of, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:61 (61): [which, artist, 's, song, is, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:62 (62): [who, 's, song, is, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:63 (63): [who, is, an, electronica, artist, who, had, the, song, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:64 (64): [which, electronica, artist, sang, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:65 (65): [which, electronica, artist, performed, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:66 (66): [name, artists, who, sang, ameno, or, middleclass, love, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:67 (67): [who, are, the, artists, of, ameno, or, middleclass, love, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:68 (68): [name, the, artist, of, songs, ameno, or, middleclass, love, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:69 (69): [which, artists, did, made, songs, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:70 (70): [what, artists, released, songs, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:71 (71): [show, me, the, artists, that, put, out, songs, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:72 (72): [which, artist, makes, songs, that, andromeda, makes, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:73 (73): [who, sang, andromeda, 's, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:74 (74): [name, the, artist, of, andromeda, 's, songs, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:75 (75): [name, the, genre, which, has, less, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:76 (76): [what, genre, had, fewer, than, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:77 (77): [which, genres, have, smaller, than, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:78 (78): [which, genre, had, the, fewest, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:79 (79): [what, is, the, genre, that, is, represented, by, the, fewest, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:80 (80): [which, genre, do, the, fewest, artists, work, in, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:81 (81): [what, is, the, genre, of, electronica, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:82 (82): [name, the, genre, of, artists, of, electronica, genre, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:83 (83): [what, genres, do, electronica, artists, have, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:84 (84): [show, the, genres, of, artists, with, dark, wave, music, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:85 (85): [which, genre, do, dark, wave, musicians, have, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:86 (86): [what, is, the, genre, of, singers, that, perform, dark, wave, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:87 (87): [name, the, genre, of, the, artist, of, ameno, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:88 (88): [what, is, the, genre, of, the, musician, who, made, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:89 (89): [which, genre, does, the, singer, of, ameno, have, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:90 (90): [what, 's, the, most, popular, genre, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:91 (91): [what, genre, has, the, greatest, number, of, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:92 (92): [which, genre, is, represented, by, the, largest, number, of, singers, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:93 (93): [name, a, genre, that, has, exactly, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:94 (94): [which, genre, has, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:95 (95): [what, genres, have, exactly, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:96 (96): [give, me, a, song, by, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:97 (97): [which, songs, are, made, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:98 (98): [list, all, songs, by, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:99 (99): [which, songs, were, released, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:100 (100): [which, songs, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:101 (101): [name, songs, from, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:102 (102): [what, andromeda, song, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:103 (103): [which, andromeda, songs, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:104 (104): [which, songs, did, andromeda, release, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:105 (105): [which, songs, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:106 (106): [what, are, the, songs, from, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:107 (107): [find, a, song, from, 0, and, which, year, is, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:108 (108): [which, songs, are, sung, by, exactly, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:109 (109): [which, songs, have, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:110 (110): [name, songs, made, by, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:111 (111): [what, songs, came, out, in, 0, or, 2006, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:112 (112): [show, songs, that, were, released, in, 0, or, 2006, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:113 (113): [what, music, is, from, 0, or, 2006, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:114 (114): [name, songs, made, by, andromeda, or, sleazy, romance, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:115 (115): [what, songs, are, by, andromeda, or, sleazy, romance, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:116 (116): [what, are, andromeda, 's, songs, or, sleazy, romance, 's, songs, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:117 (117): [name, some, songs, that, have, more, than, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:118 (118): [what, songs, are, by, more, than, two, artists, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:119 (119): [name, songs, made, by, greater, than, two, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:120 (120): [which, songs, came, out, in, the, same, year, as, ameno] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:121 (121): [name, a, song, that, came, out, in, the, year, that, ameno, came, out, in, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:122 (122): [list, songs, that, came, out, when, ameno, did, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:123 (123): [show, me, songs, that, are, sung, by, andromeda, and, which, artist, is, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:124 (124): [name, songs, that, were, made, by, andromeda, and, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:125 (125): [name, songs, by, andromeda, and, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:126 (126): [which, andromeda, songs, were, released, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:127 (127): [show, songs, by, andromeda, from, 0, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:128 (128): [what, songs, did, andromeda, make, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:129 (129): [which, andromeda, songs, came, out, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:130 (130): [which, songs, did, andromeda, released, in, 0, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:131 (131): [what, are, some, songs, from, 0, which, were, sung, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:132 (132): [what, songs, are, music, by, andromeda, and, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:133 (133): [name, songs, by, andromeda, and, andromeda, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:134 (134): [what, are, some, andromeda, songs, by, andromeda, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:135 (135): [which, songs, were, sung, by, andromeda, or, sleazy, romance, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:136 (136): [name, a, song, by, andromeda, or, sleazy, romance, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:137 (137): [which, songs, by, andromeda, or, sleazy, romance, are, there, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:138 (138): [which, songs, did, the, artist, who, sang, ameno, sing, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:139 (139): [what, are, other, songs, by, singer, of, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:140 (140): [what, are, some, songs, by, the, guys, who, sang, ameno, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:141 (141): [list, all, of, the, songs, written, by, electronica, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:142 (142): [which, songs, are, of, genre, electronica, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:143 (143): [name, songs, which, were, sung, by, electronica, artists, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:144 (144): [name, songs, that, released, in, 0, ,, 2006, or, after, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:145 (145): [what, songs, came, out, in, 0, ,, 2006, ,, or, after, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:146 (146): [list, the, songs, that, came, out, in, at, least, 0, or, 2006, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:147 (147): [show, me, the, songs, that, came, after, 0, or, 2006, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:148 (148): [name, songs, that, came, out, after, 0, or, after, 2006, .] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:149 (149): [which, songs, were, released, after, 0, or, after, 2006, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:150 (150): [when, did, ameno, come, out, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:151 (151): [when, was, ameno, released, ?] => null
+      Example lib/data/overnight/songs.paraphrases.test.examples:152 (152): [what, is, the, year, of, ameno, ?] => null
+    } [3.8s, cum. 16s]
+  } [16s, cum. 16s]
+  Learner.learn() {
+    Iteration 0/2 {
+      Processing iter=0.train: 150 examples {
+        Examples {
+          iter=0.train: example 0/150: lib/data/overnight/songs.paraphrases.train_size_50_v0.examples:135 {
+            Example: What is the oldest song? {
+              Tokens: [what, is, the, oldest, song, ?]
+              Lemmatized tokens: [what, be, the, oldest, song, ?]
+              POS tags: [WP, VBD-AUX, DT, JJS, NN, .]
+              NER tags: [O, O, O, O, O, O]
+              NER values: [null, null, null, null, null, null]
+              targetFormula: (call edu.stanford.nlp.sempre.overnight.Songs.listValue (call edu.stanford.nlp.sempre.overnight.Songs.superlative (call edu.stanford.nlp.sempre.overnight.Songs.getProperty (call edu.stanford.nlp.sempre.overnight.Songs.singleton en.song) (string !type)) (string min) (call edu.stanford.nlp.sempre.overnight.Songs.ensureNumericProperty (string song_year))))
+              Dependency children: [[cop->1, nsubj->4, punct->5], [], [], [], [det->2, amod->3], []]
+            }
+            Parser.parse: parse {
+              WARNING: Currently CatSizeBound is usable only when useSizeInsteadOfDepth = true.
+              FloatingParser.infer() {
+                Loading ppdb model {
+                  ERROR: java.lang.RuntimeException: java.io.FileNotFoundException: lib/data/overnight/train_size_50_v0_ppdb.txt (No such file or directory):
+fig.basic.IOUtils.readLinesHard(IOUtils.java:490)
+edu.stanford.nlp.sempre.overnight.PPDBModel.loadPPDBModel(PPDBModel.java:52)
+edu.stanford.nlp.sempre.overnight.PPDBModel.<init>(PPDBModel.java:43)
+edu.stanford.nlp.sempre.overnight.PPDBModel.getSingleton(PPDBModel.java:37)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.computeParaphrase(OvernightFeatureComputer.java:592)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.buildLexicalAlignmentMatrix(OvernightFeatureComputer.java:447)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.extractLexicalFeatures(OvernightFeatureComputer.java:333)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.extractLocal(OvernightFeatureComputer.java:83)
+edu.stanford.nlp.sempre.FeatureExtractor.extractLocal(FeatureExtractor.java:71)
+edu.stanford.nlp.sempre.ParserState.featurizeAndScoreDerivation(ParserState.java:74)
+edu.stanford.nlp.sempre.FloatingParserState.addToChart(FloatingParser.java:208)
+edu.stanford.nlp.sempre.FloatingParserState.applyRuleActual(FloatingParser.java:266)
+edu.stanford.nlp.sempre.FloatingParserState.applyRule(FloatingParser.java:222)
+edu.stanford.nlp.sempre.FloatingParserState.applyFloatingRule(FloatingParser.java:277)
+edu.stanford.nlp.sempre.FloatingParserState.buildFloating(FloatingParser.java:383)
+edu.stanford.nlp.sempre.FloatingParserState.access$500(FloatingParser.java:170)
+edu.stanford.nlp.sempre.FloatingParserState$DerivationBuilder.run(FloatingParser.java:507)
+edu.stanford.nlp.sempre.FloatingParserState.buildDerivations(FloatingParser.java:543)
+edu.stanford.nlp.sempre.FloatingParserState.infer(FloatingParser.java:572)
+edu.stanford.nlp.sempre.Parser.parse(Parser.java:170)
+edu.stanford.nlp.sempre.Learner.parseExample(Learner.java:289)
+edu.stanford.nlp.sempre.Learner.processExamples(Learner.java:200)
+edu.stanford.nlp.sempre.Learner.learn(Learner.java:126)
+edu.stanford.nlp.sempre.Learner.learn(Learner.java:91)
+edu.stanford.nlp.sempre.Main.run(Main.java:27)
+fig.exec.Execution.runWithObjArray(Execution.java:337)
+fig.exec.Execution.run(Execution.java:325)
+edu.stanford.nlp.sempre.Main.main(Main.java:50)
+                  ERROR: Caused by java.io.FileNotFoundException: lib/data/overnight/train_size_50_v0_ppdb.txt (No such file or directory):
+java.io.FileInputStream.open0(Native Method)
+java.io.FileInputStream.open(FileInputStream.java:195)
+java.io.FileInputStream.<init>(FileInputStream.java:138)
+fig.basic.IOUtils.openIn(IOUtils.java:132)
+fig.basic.IOUtils.openIn(IOUtils.java:128)
+fig.basic.IOUtils.readLines(IOUtils.java:409)
+fig.basic.IOUtils.readLinesHard(IOUtils.java:489)
+edu.stanford.nlp.sempre.overnight.PPDBModel.loadPPDBModel(PPDBModel.java:52)
+edu.stanford.nlp.sempre.overnight.PPDBModel.<init>(PPDBModel.java:43)
+edu.stanford.nlp.sempre.overnight.PPDBModel.getSingleton(PPDBModel.java:37)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.computeParaphrase(OvernightFeatureComputer.java:592)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.buildLexicalAlignmentMatrix(OvernightFeatureComputer.java:447)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.extractLexicalFeatures(OvernightFeatureComputer.java:333)
+edu.stanford.nlp.sempre.overnight.OvernightFeatureComputer.extractLocal(OvernightFeatureComputer.java:83)
+edu.stanford.nlp.sempre.FeatureExtractor.extractLocal(FeatureExtractor.java:71)
+edu.stanford.nlp.sempre.ParserState.featurizeAndScoreDerivation(ParserState.java:74)
+edu.stanford.nlp.sempre.FloatingParserState.addToChart(FloatingParser.java:208)
+edu.stanford.nlp.sempre.FloatingParserState.applyRuleActual(FloatingParser.java:266)
+edu.stanford.nlp.sempre.FloatingParserState.applyRule(FloatingParser.java:222)
+edu.stanford.nlp.sempre.FloatingParserState.applyFloatingRule(FloatingParser.java:277)
+edu.stanford.nlp.sempre.FloatingParserState.buildFloating(FloatingParser.java:383)
+edu.stanford.nlp.sempre.FloatingParserState.access$500(FloatingParser.java:170)
+edu.stanford.nlp.sempre.FloatingParserState$DerivationBuilder.run(FloatingParser.java:507)
+edu.stanford.nlp.sempre.FloatingParserState.buildDerivations(FloatingParser.java:543)
+edu.stanford.nlp.sempre.FloatingParserState.infer(FloatingParser.java:572)
+edu.stanford.nlp.sempre.Parser.parse(Parser.java:170)
+edu.stanford.nlp.sempre.Learner.parseExample(Learner.java:289)
+edu.stanford.nlp.sempre.Learner.processExamples(Learner.java:200)
+edu.stanford.nlp.sempre.Learner.learn(Learner.java:126)
+edu.stanford.nlp.sempre.Learner.learn(Learner.java:91)
+edu.stanford.nlp.sempre.Main.run(Main.java:27)
+fig.exec.Execution.runWithObjArray(Execution.java:337)
+fig.exec.Execution.run(Execution.java:325)
+edu.stanford.nlp.sempre.Main.main(Main.java:50)
+                  Execution directory: state/execs/50.exec
+                }
+Command failed: fig/bin/qcreate java -ea -Dmodules=core,overnight -Xms8G -Xmx10G -cp libsempre/*:lib/* edu.stanford.nlp.sempre.Main -execDir _OUTPATH_ -overwriteExecDir -addToView 0 -Main.interactive -LanguageAnalyzer corenlp.CoreNLPAnalyzer -Grammar.inPaths overnight/songs.grammar -Grammar.tags generate general -FeatureExtractor.featureDomains rule -Learner.maxTrainIters 2 -Builder.parser FloatingParser -FloatingParser.executeAllDerivations true -FloatingParser.maxDepth 22 -Parser.beamSize 20 -useAnchorsOnce true -maxExamples train:MAX -SimpleLexicon.inPaths lib/data/overnight/songs.lexicon -PPDBModel.ppdbModelPath lib/data/overnight/test-ppdb.txt -FeatureExtractor.featureDomains denotation -FeatureExtractor.featureComputers overnight.OvernightFeatureComputer -OvernightFeatureComputer.featureDomains match ppdb skip-bigram root lexical root_lexical lf simpleworld -Params.l1Reg lazy -Params.l1RegCoeff 0.001 -coarsePrune -wordAlignmentPath lib/data/overnight/songs.word_alignments.berkeley -DerivationPruner.pruningComputers overnight.OvernightDerivationPruningComputer -DerivationPruner.pruningStrategies violateHardConstraints -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train.examples test:lib/data/overnight/songs.paraphrases.val.examples -Dataset.inPaths train:lib/data/overnight/songs.paraphrases.train_size_50_v0.examples test:lib/data/overnight/songs.paraphrases.test.examples -PPDBModel.ppdbModelPath lib/data/overnight/train_size_50_v0_ppdb.txt
