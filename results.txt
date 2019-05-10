@@ -1,0 +1,5 @@
+One Paraphrase, All features : 0.647,0.758
+Two Paraphrase, All features : 0.647,0.758
+0.647,0.758
+0.647,0.758
+0.647,0.758
